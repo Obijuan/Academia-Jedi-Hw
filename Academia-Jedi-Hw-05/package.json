@@ -1,0 +1,18 @@
+{
+  "name": "Academia-Jedi-Hw",
+  "version": "0.1",
+  "description": "Coleccion para la Academia Jedi de Harware",
+  "keywords": "Tutorial, coleccion",
+  "license": "GPL-2.0",
+  "authors" : [
+    {
+      "name": "Juan González-Gómez (Obijuan)",
+      "email": "obijuan.cube@gmail.com",
+      "url": "https://github.com/Obijuan"
+    },
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Obijuan/Academia-Jedi-Hw"
+  }
+}
