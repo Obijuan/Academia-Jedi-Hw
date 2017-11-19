@@ -36,7 +36,7 @@ Colección para la Academia Jedi de Hardware.
     * Ejemplo-01-LED7-on
     * Ejemplo-02-LED0-on
     * Ejemplo-03-LED7-LED0-on
-* *3-Ejercicios*
+* *2-Ejercicios*
   * Ejercicio-6-1
   * Ejercicio-6-2
   * Ejercicio-6-3

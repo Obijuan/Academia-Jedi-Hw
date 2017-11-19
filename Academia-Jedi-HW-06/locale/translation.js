@@ -23,7 +23,7 @@ gettext('Corazon_5Hz');
 gettext('Corazon_7Hz');
 gettext('0-Soluciones-Tutorial-5');
 gettext('1-Ejemplos');
-gettext('3-Ejercicios');
+gettext('2-Ejercicios');
 gettext('Solucion-ejercicio-5-1');
 gettext('<B>Ejercicio 5.1</B> (Solución)\n\nCircuito que enciendo los LEDs 3 y 4 de\nla tarjeta Icezum Alhambra\n\n<B>Obijuan</B>');
 gettext('Solucion-ejercicio-5-2');
