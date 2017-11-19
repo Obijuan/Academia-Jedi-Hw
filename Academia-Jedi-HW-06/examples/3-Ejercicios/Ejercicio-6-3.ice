@@ -15,16 +15,16 @@
           "id": "c14fa047-7394-4cfd-8c1e-b806af0993d1",
           "type": "basic.info",
           "data": {
-            "info": "<B>Ejercicio 6.1</B>: (3 Bitpoints) Hacer un circuito digital que haga parpadear los\nLEDs 0 y 7 a la vez, a la velocidad de un parpadeo por segundo\n  \n  ",
+            "info": "<B>Ejercicio 6.3</B>: (3 Bitpoints) Hacer un circuito digital en el que los 4 LEDs pares \nde la icezum alhambra parpadeen cada uno a una velocidad, según esta table:\n\n* LED 6: 10Hz\n* LED 4: 7Hz\n* LED 2: 4Hz\n* LED 0: 1hZ\n  \n  ",
             "readonly": true
           },
           "position": {
             "x": 40,
-            "y": 32
+            "y": 1.5631940186722204e-13
           },
           "size": {
-            "width": 720,
-            "height": 64
+            "width": 768,
+            "height": 128
           }
         },
         {
