@@ -213,7 +213,7 @@
           "id": "4610e575-33eb-46cf-8b86-1871a2ac2b3e",
           "type": "basic.info",
           "data": {
-            "info": "LED 0",
+            "info": "LED 7",
             "readonly": true
           },
           "position": {
@@ -229,7 +229,7 @@
           "id": "087010b4-4910-4dab-b710-6adb9f66b7a6",
           "type": "basic.info",
           "data": {
-            "info": "LED 1",
+            "info": "LED 0",
             "readonly": true
           },
           "position": {
@@ -308,10 +308,10 @@
     },
     "state": {
       "pan": {
-        "x": 73.2224,
-        "y": -16.0948
+        "x": 7.7724,
+        "y": 70.0047
       },
-      "zoom": 0.8031
+      "zoom": 0.5656
     }
   },
   "dependencies": {
