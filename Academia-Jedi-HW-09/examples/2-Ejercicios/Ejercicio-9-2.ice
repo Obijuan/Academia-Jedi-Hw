@@ -15,7 +15,7 @@
           "id": "c14fa047-7394-4cfd-8c1e-b806af0993d1",
           "type": "basic.info",
           "data": {
-            "info": "<B>Ejercicio 9.2</B>: (3 Bitpoints) Hacer un circuito digital con dos pulsadores de entrada.\nAl apretar SW1 se enciende el LED5 y se apaga el LED7, y al soltarlo se enciende LED7 y se \napaga el LED5. Al apretar SW2 se enciende LED2 y se apaga LED0, y al soltarlo se enciende \nLED0 y se apaga LED3\n\n  ",
+            "info": "<B>Ejercicio 9.2</B>: (3 Bitpoints) Hacer un circuito digital con dos pulsadores de entrada.\nAl apretar SW1 se enciende el LED5 y se apaga el LED7, y al soltarlo se enciende LED7 y se \napaga el LED5. Al apretar SW2 se enciende LED2 y se apaga LED0, y al soltarlo se enciende \nLED0 y se apaga LED2\n\n  ",
             "readonly": true
           },
           "position": {
@@ -64,7 +64,7 @@
     },
     "state": {
       "pan": {
-        "x": 42,
+        "x": 34,
         "y": 59.5
       },
       "zoom": 1
