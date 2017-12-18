@@ -1,0 +1,18 @@
+{
+  "name": "Academia-Jedi-HW-Futuro",
+  "version": "0.1.0",
+  "description": "Componentes que se incluran en la colección de la academia Jedi de Hardware",
+  "keywords": "Tutorial,Jedi Academy",
+  "license": "GPL-2.0",
+  "authors": [{
+    "name": "Juan González-Gómez (Obijuan)",
+    "email": "obijuan.cube@gmail.com",
+    "url": "https://github.com/Obijuan"
+  }],
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "branch": "master",
+    "url": "https://github.com/Obijuan/Academia-Jedi-Hw"
+  }
+}
