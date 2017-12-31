@@ -1,0 +1,100 @@
+// Translation document for the collection
+// =======================================
+// This file contains the texts
+// annotated for translation
+//
+// Instructions:
+// 1. Open the PO file with Poedit
+// 2. Press "Update" to update from sources
+
+gettext('Bits');
+gettext('Puertas');
+gettext('Varios');
+gettext('0');
+gettext('Un bit constante a 0');
+gettext('1');
+gettext('Un bit constante a 1');
+gettext('not');
+gettext('Puerta NOT');
+gettext('Bombeo');
+gettext('Servos');
+gettext('Corazon_10Hz');
+gettext('Bombear 1 bit por segundo');
+gettext('Corazon_1Hz');
+gettext('Corazon_2Hz');
+gettext('Corazon_3Hz');
+gettext('Corazon_4Hz');
+gettext('Corazon_5Hz');
+gettext('Corazon_7Hz');
+gettext('Emax-ES08A');
+gettext('Futaba-3003');
+gettext('ServoBit-90');
+gettext('ServoBit para microservos EMAX ES08A. Controlador de 1 bit para mover el servo a 2 posiciones. El ángulo entre una posición y otra es de 90 grados');
+gettext('Valor constante para bus de 8 bits');
+gettext('Mux 2:1. Bus de 7 bits. ');
+gettext('Mux 2:1. Bus de 4 bits. ');
+gettext('Agregador de 4 cables a bus de 4bits');
+gettext('Separador de bus de 4bits en 4 cables (1 + 1 + 1 + 1)');
+gettext('Multiplexor 2:1 de 1-bit');
+gettext('Puerta OR');
+gettext('NAND logic gate');
+gettext('Transistor');
+gettext('Transistor cmos hecho a partir de semiconductores');
+gettext('Cristal de Siicio');
+gettext('Atomos de silicio');
+gettext('Puerta AND');
+gettext('Separador de bus de 8bits en 2 (4 + 4)');
+gettext('Agregador de 2 buses de 4 a bus de 8bits');
+gettext('Controlador PWM para posicionar servos de 20ms. Las unidades de pos son de 10usec');
+gettext('Posición 0');
+gettext('Posición 1');
+gettext('Mux 2:1 with logic gates');
+gettext('Entrada 1');
+gettext('Entrada 0');
+gettext('Selección');
+gettext('Implementación en Verilog');
+gettext('Las puertas están construidas a\npartir de transistores');
+gettext('Pincha en algún transistor para\nbajar de nivel');
+gettext('Nivel 3: Semiconductores');
+gettext('Los transistores se crean a \npartir de uniones entre \nsemiconductores, de tipo P y N\nEstán integrados en los dados de\nsilicio en los circuitos integrados');
+gettext('Pincha en el bloque para bajar de nivel');
+gettext('Nivel 2: MATERIALES');
+gettext('Cristal de silicio');
+gettext('Los semiconductores se crean a partir de cristales\nde Silicio (Si) que se dopans con impurezas\npara darle las propiedades de semiconductores');
+gettext('Pincha en los bloques para bajar de nivel');
+gettext('Átomos de Silicio');
+gettext('Nivel 1: ATOMOS');
+gettext('Los cristales de silicio se forman a \npartir del enlace covalente entre los\nátomos de silicio. Cada uno de ellos \nestá rodeado por 4 átomos de silicio\nformando un tetraedro');
+gettext('<B>Posicion del servo</B>\n\nSe especifica en unidades de 10micro-segundos\nEj. pos = 100 --> Pulso de achura 1ms');
+gettext('<B>Generación de una señal PWM para posicionamiento de Servos</B>\nEl periodo es de 20ms\nEl ancho del pulso varía entre 0 - 255 (0 - 2.5ms)');
+gettext('Servobit-90');
+gettext('ServoBit para Futaba 3003. Controlador de 1 bit para mover un servo a 2 posiciones. El ángulo entre una posición y otra es de 90 grados');
+gettext('0-Soluciones-Tutorial-9');
+gettext('1-Ejemplos');
+gettext('2-Ejercicios');
+gettext('Sol-9-1');
+gettext('Sol-9-2');
+gettext('Sol-9-3');
+gettext('01-Servo-pulsador');
+gettext('<B>Circuito para mover un servo Futaba 3003 entre dos\nposiciones con el pulsador SW1</B>');
+gettext('02-Emax-ES08A');
+gettext('03-Leds-alternantes-con-pulsador');
+gettext('<B>Circuito para hacer que los LEDs 7 y 0 parpadee\nalternativamente con el pulsador</B>');
+gettext('Entrada');
+gettext('Salidas');
+gettext('04-Superposicion-ej1-y-ej2');
+gettext('<B>Superposición de los ejemplos 1 y 2</B>');
+gettext('Salida');
+gettext('Ejercicio-8-1');
+gettext('<B>Ejercicio 8.1</B>: (3 Bitpoints) Hacer un circuito digital que haga parpadear\nalternativamente dos LEDs externos, conectados en una protoboard, a la velocidad de 2Hz\n\n  ');
+gettext('Entregar:\n\n  -1 Foto del montaje de los leds (1 Bitpoint)\n  -1 Vídeo del funcionamiento (1 Bitpoint)\n  \n  Enviarlos por redes sociales (Twitter, G+) con mención \n  a @Obijuan_cube. El vídeo puede estar en youtube o directamente en el tuit/post');
+gettext('GITHUB:\n\n  1 Bitpoint adicional si lo entregáis por Github (sólo pantallazo, el vídeo\n  no hace falta, para que no ocupe tanto espacio)');
+gettext('Ejercicio-8-2');
+gettext('<B>Ejercicio 8.2</B>: (4 Bitpoints) Hacer un circuito digital para que los dos ojos de Franky \nparpadeen a la vez, a la velocidad de 4Hz. Es necesario construir a Franky\n\n  ');
+gettext('Entregar:\n\n  -1 pantallazo del montaje de Franky (2 Bitpoint)\n  -1 Vídeo del funcionamiento (1 Bitpoint)\n  \n  Enviarlos por redes sociales (Twitter, G+) con mención \n  a @Obijuan_cube. El vídeo puede estar en youtube o directamente en el tuit/post');
+gettext('Ejercicio-8-3');
+gettext('<B>Ejercicio 8.3</B>: (8 Bitpoints) Montar al menos una PCBprint con un led y conectarlo a la\nIcezum Alhambra. Hacer que parpadee a la frecuencia de 1Hz. Se concecerán bitpoints extras por\nmontar y poner más de un PCBprint (hasta un máximo de 5 PCBprints). Si has puesto más de 1 LED, \ndividirlos en dos grupos y hacer que parpadeen alternativamente a 1Hz');
+gettext('Entregar:\n\n  -1 pantallazo del montaje con las PCBprints (2 Bitpoints + 1 por cada PCBprint adicional)\n  -1 Vídeo del funcionamiento (1 Bitpoint)\n  \n  Enviarlos por redes sociales (Twitter, G+) con mención \n  a @Obijuan_cube. El vídeo puede estar en youtube o directamente en el tuit/post');
+gettext('Ejercicio-8-4');
+gettext('<B>Ejercicio 8.4</B>: (3 Bitpoints) Ejercicio Libre, para fomento de la creatividad \n');
+gettext('Entregar:\n\n  Bien pantallazos, enlaces, vídeos, etc... por redes\n  sociales o github. Como se quiera');
