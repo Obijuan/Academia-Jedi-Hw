@@ -26,10 +26,14 @@ Colección para la Academia Jedi de Hardware.
     * Corazon_4Hz
     * Corazon_5Hz
     * Corazon_7Hz
+  * *Retardo*
+    * Tortuga-2
   * *Servos*
     * *Emax-ES08A*
       * ServoBit-90
     * *Futaba-3003*
+      * Servobit-90
+    * *TowerPro-SG90*
       * Servobit-90
 
 ## Examples
@@ -39,9 +43,9 @@ Colección para la Academia Jedi de Hardware.
   * Sol-9-3
 * *1-Ejemplos*
   * 01-Servo-pulsador
-  * 02-Emax-ES08A
-  * 03-Leds-alternantes-con-pulsador
-  * 04-Superposicion-ej1-y-ej2
+  * 02-Servo-corazon
+  * 03-servo-tortuga
+  * servos-test
 * *2-Ejercicios*
   * Ejercicio-8-1
   * Ejercicio-8-2
