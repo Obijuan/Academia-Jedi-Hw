@@ -15,7 +15,7 @@
           "id": "c14fa047-7394-4cfd-8c1e-b806af0993d1",
           "type": "basic.info",
           "data": {
-            "info": "<B>Ejercicio 8.3</B>: (8 Bitpoints) Montar al menos una PCBprint con un led y conectarlo a la\nIcezum Alhambra. Hacer que parpadee a la frecuencia de 1Hz. Se concecerán bitpoints extras por\nmontar y poner más de un PCBprint (hasta un máximo de 5 PCBprints). Si has puesto más de 1 LED, \ndividirlos en dos grupos y hacer que parpadeen alternativamente a 1Hz",
+            "info": "<B>Ejercicio 10.3</B>: (5 Bitpoints) Hacer un circuito digital para controlar dos servos con\ndos pulsadores, y montar un mini-pinball\n\nDemo: https://www.youtube.com/watch?v=vmIwpy2r_V8",
             "readonly": true
           },
           "position": {
@@ -31,7 +31,7 @@
           "id": "08b55ee3-890d-403c-9792-da4254a88da4",
           "type": "basic.info",
           "data": {
-            "info": "Entregar:\n\n  -1 pantallazo del montaje con las PCBprints (2 Bitpoints + 1 por cada PCBprint adicional)\n  -1 Vídeo del funcionamiento (1 Bitpoint)\n  \n  Enviarlos por redes sociales (Twitter, G+) con mención \n  a @Obijuan_cube. El vídeo puede estar en youtube o directamente en el tuit/post",
+            "info": "Entregar:\n\n  -1 pantallazo del circuito (1 Bitpoint)\n  -1 Vídeo del funcionamiento (3 Bitpoints)\n  \n  Enviarlos por redes sociales (Twitter, G+) con mención \n  a @Obijuan_cube. El vídeo puede estar en youtube o directamente en el tuit/post",
             "readonly": true
           },
           "position": {
@@ -64,10 +64,10 @@
     },
     "state": {
       "pan": {
-        "x": 383.9965,
-        "y": 160.704
+        "x": 38,
+        "y": 43.5
       },
-      "zoom": 1.1173
+      "zoom": 1
     }
   },
   "dependencies": {}

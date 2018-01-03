@@ -15,7 +15,7 @@
           "id": "c14fa047-7394-4cfd-8c1e-b806af0993d1",
           "type": "basic.info",
           "data": {
-            "info": "<B>Ejercicio 8.4</B>: (3 Bitpoints) Ejercicio Libre, para fomento de la creatividad \n",
+            "info": "<B>Ejercicio 10.4</B>: (3 Bitpoints) Ejercicio Libre, para fomento de la creatividad \n",
             "readonly": true
           },
           "position": {

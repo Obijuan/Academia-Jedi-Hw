@@ -15,7 +15,7 @@
           "id": "c14fa047-7394-4cfd-8c1e-b806af0993d1",
           "type": "basic.info",
           "data": {
-            "info": "<B>Ejercicio 8.2</B>: (4 Bitpoints) Hacer un circuito digital para que los dos ojos de Franky \nparpadeen a la vez, a la velocidad de 4Hz. Es necesario construir a Franky\n\n  ",
+            "info": "<B>Ejercicio 10.2</B>: (3 Bitpoints) Hacer una barrera de acceso a un recinto, con un servo\ny cartón. Al apretar un pulsador se levanta, y al sortarlo se cierra\n\nVideo Demo: https://www.youtube.com/watch?v=74imZ80poBk",
             "readonly": true
           },
           "position": {
@@ -31,7 +31,7 @@
           "id": "08b55ee3-890d-403c-9792-da4254a88da4",
           "type": "basic.info",
           "data": {
-            "info": "Entregar:\n\n  -1 pantallazo del montaje de Franky (2 Bitpoint)\n  -1 Vídeo del funcionamiento (1 Bitpoint)\n  \n  Enviarlos por redes sociales (Twitter, G+) con mención \n  a @Obijuan_cube. El vídeo puede estar en youtube o directamente en el tuit/post",
+            "info": "Entregar:\n\n  -1 pantallazo del Circuito (1 Bitpoint)\n  -1 Vídeo del funcionamiento (1 Bitpoint)\n  \n  Enviarlos por redes sociales (Twitter, G+) con mención \n  a @Obijuan_cube. El vídeo puede estar en youtube o directamente en el tuit/post",
             "readonly": true
           },
           "position": {

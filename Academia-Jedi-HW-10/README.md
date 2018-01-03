@@ -1,4 +1,4 @@
-# Academia-Jedi-HW-09 Collection
+# Academia-Jedi-HW-10 Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
 ![Version](https://img.shields.io/badge/version-v0.1.0-orange.svg)
@@ -42,15 +42,21 @@ Colección para la Academia Jedi de Hardware.
   * Sol-9-2
   * Sol-9-3
 * *1-Ejemplos*
-  * 01-Servo-pulsador
+  * 01-1-Servol-pulsador
+  * 01-2-Servol-pulsador-LED
   * 02-Servo-corazon
-  * 03-servo-tortuga
+  * 03-1-servo-tortuga
+  * 03-2-servo-tortuga
+  * 04-1-Dos-servos-en-fase
+  * 04-2-Dos-servos-dos-controladores-en-fase
+  * 04-3-Dos-servos-posiciones-contrarias
+  * 04-4-Dos-servos-independientes
   * servos-test
 * *2-Ejercicios*
-  * Ejercicio-8-1
-  * Ejercicio-8-2
-  * Ejercicio-8-3
-  * Ejercicio-8-4
+  * Ejercicio-10-1
+  * Ejercicio-10-2
+  * Ejercicio-10-3
+  * Ejercicio-10-4
 
 
 ## Authors

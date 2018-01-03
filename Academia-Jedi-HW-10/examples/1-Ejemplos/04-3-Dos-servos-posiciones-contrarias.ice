@@ -12,26 +12,26 @@
     "graph": {
       "blocks": [
         {
-          "id": "6f859f96-e42a-4d07-bfb6-90036439bca5",
+          "id": "a07a781a-4330-4f23-8ad5-647a98ddd851",
           "type": "basic.output",
           "data": {
             "name": "SERVO",
             "pins": [
               {
                 "index": "0",
-                "name": "GP0",
-                "value": "37"
+                "name": "D0",
+                "value": "119"
               }
             ],
             "virtual": false
           },
           "position": {
-            "x": 512,
-            "y": -16
+            "x": 456,
+            "y": 240
           }
         },
         {
-          "id": "27d7a1e1-adcc-4b5e-b87e-b69d1eb68c1f",
+          "id": "2e7bd2cf-d736-441f-9836-f1678aa710c6",
           "type": "basic.input",
           "data": {
             "name": "Pulsador",
@@ -46,54 +46,35 @@
             "clock": false
           },
           "position": {
-            "x": 112,
-            "y": 0
+            "x": -32,
+            "y": 256
           }
         },
         {
-          "id": "204a1f02-3112-4cca-9ee7-48e8b3645872",
+          "id": "b198f157-ca50-4da7-ac28-b493bdd88a45",
           "type": "basic.output",
           "data": {
             "name": "SERVO",
             "pins": [
               {
                 "index": "0",
-                "name": "D0",
-                "value": "119"
+                "name": "GP0",
+                "value": "37"
               }
             ],
             "virtual": false
           },
           "position": {
-            "x": 512,
-            "y": 104
+            "x": 456,
+            "y": 328
           }
         },
         {
-          "id": "c5935a26-f4cb-4b5e-b869-eeac801c716d",
-          "type": "basic.output",
-          "data": {
-            "name": "SERVO",
-            "pins": [
-              {
-                "index": "0",
-                "name": "D12",
-                "value": "143"
-              }
-            ],
-            "virtual": false
-          },
+          "id": "7c8b7aa8-1c0b-4b9e-823e-0d40f032ac83",
+          "type": "e82d82021ffbdc36623093a58a658e950fbbd3ed",
           "position": {
-            "x": 512,
-            "y": 208
-          }
-        },
-        {
-          "id": "a3c0bce5-1784-4ec8-9f86-5b5bb2e5b4e0",
-          "type": "f3981a2330741e5a2bc6cdfcf8c307d66d1579ce",
-          "position": {
-            "x": 352,
-            "y": 104
+            "x": 304,
+            "y": 240
           },
           "size": {
             "width": 96,
@@ -101,11 +82,11 @@
           }
         },
         {
-          "id": "a929c5e2-3823-4053-a0f0-df9403c62058",
-          "type": "282e9cbc0427ccc374cfc643b2c5726ea64ec624",
+          "id": "01e90144-0fa6-4805-adcd-c5223b039940",
+          "type": "e82d82021ffbdc36623093a58a658e950fbbd3ed",
           "position": {
-            "x": 352,
-            "y": -16
+            "x": 304,
+            "y": 328
           },
           "size": {
             "width": 96,
@@ -113,125 +94,103 @@
           }
         },
         {
-          "id": "2447b38f-4bd3-49c9-b620-c787b1fa20be",
-          "type": "7c60ce80e41e469a07765586576dd1b098d69ba9",
-          "position": {
-            "x": 352,
-            "y": 208
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
-          "id": "9cb296eb-429f-431f-a88a-881c7f2935dd",
+          "id": "c3ec05c0-8591-429b-8cec-944d9d1d8b9d",
           "type": "basic.info",
           "data": {
-            "info": "Test: Probando los 3 tipos de servos a la vez\n\n* Futaba 3003\n* Emax ES08A\n* Tower-Pro SG90",
+            "info": "<B>Movimiento de dos servos</B>, en posiciones contrarias\nAl apretar el pulsador, los servos cambian de posición,\npero empieza en las posiciones diferentes",
             "readonly": true
           },
           "position": {
-            "x": 80,
-            "y": -160
+            "x": 24,
+            "y": 128
           },
           "size": {
-            "width": 368,
-            "height": 112
+            "width": 480,
+            "height": 80
+          }
+        },
+        {
+          "id": "244ebbcf-dcfc-4f5c-af99-c5e8df44fab9",
+          "type": "7f3e9f0a05c929c3761852e259027fbe8e977795",
+          "position": {
+            "x": 144,
+            "y": 344
+          },
+          "size": {
+            "width": 96,
+            "height": 64
           }
         }
       ],
       "wires": [
         {
           "source": {
-            "block": "a3c0bce5-1784-4ec8-9f86-5b5bb2e5b4e0",
+            "block": "7c8b7aa8-1c0b-4b9e-823e-0d40f032ac83",
             "port": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc"
           },
           "target": {
-            "block": "204a1f02-3112-4cca-9ee7-48e8b3645872",
+            "block": "a07a781a-4330-4f23-8ad5-647a98ddd851",
             "port": "in"
           }
         },
         {
           "source": {
-            "block": "27d7a1e1-adcc-4b5e-b87e-b69d1eb68c1f",
+            "block": "2e7bd2cf-d736-441f-9836-f1678aa710c6",
             "port": "out"
           },
           "target": {
-            "block": "a3c0bce5-1784-4ec8-9f86-5b5bb2e5b4e0",
+            "block": "7c8b7aa8-1c0b-4b9e-823e-0d40f032ac83",
             "port": "41328a7d-0a4d-4fd6-84c7-e20091fc73ce"
-          },
-          "vertices": [
-            {
-              "x": 264,
-              "y": 64
-            }
-          ]
+          }
         },
         {
           "source": {
-            "block": "a929c5e2-3823-4053-a0f0-df9403c62058",
+            "block": "01e90144-0fa6-4805-adcd-c5223b039940",
             "port": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc"
           },
           "target": {
-            "block": "6f859f96-e42a-4d07-bfb6-90036439bca5",
+            "block": "b198f157-ca50-4da7-ac28-b493bdd88a45",
             "port": "in"
           }
         },
         {
           "source": {
-            "block": "27d7a1e1-adcc-4b5e-b87e-b69d1eb68c1f",
-            "port": "out"
+            "block": "244ebbcf-dcfc-4f5c-af99-c5e8df44fab9",
+            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
           },
           "target": {
-            "block": "a929c5e2-3823-4053-a0f0-df9403c62058",
+            "block": "01e90144-0fa6-4805-adcd-c5223b039940",
             "port": "41328a7d-0a4d-4fd6-84c7-e20091fc73ce"
           }
         },
         {
           "source": {
-            "block": "2447b38f-4bd3-49c9-b620-c787b1fa20be",
-            "port": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc"
-          },
-          "target": {
-            "block": "c5935a26-f4cb-4b5e-b869-eeac801c716d",
-            "port": "in"
-          }
-        },
-        {
-          "source": {
-            "block": "27d7a1e1-adcc-4b5e-b87e-b69d1eb68c1f",
+            "block": "2e7bd2cf-d736-441f-9836-f1678aa710c6",
             "port": "out"
           },
           "target": {
-            "block": "2447b38f-4bd3-49c9-b620-c787b1fa20be",
-            "port": "41328a7d-0a4d-4fd6-84c7-e20091fc73ce"
-          },
-          "vertices": [
-            {
-              "x": 264,
-              "y": 64
-            }
-          ]
+            "block": "244ebbcf-dcfc-4f5c-af99-c5e8df44fab9",
+            "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+          }
         }
       ]
     },
     "state": {
       "pan": {
-        "x": 54,
-        "y": 197.5
+        "x": 105,
+        "y": -34.5
       },
       "zoom": 1
     }
   },
   "dependencies": {
-    "f3981a2330741e5a2bc6cdfcf8c307d66d1579ce": {
+    "e82d82021ffbdc36623093a58a658e950fbbd3ed": {
       "package": {
         "name": "ServoBit-90-EMAX-ES08A",
         "version": "0.1",
         "description": "ServoBit para microservos EMAX ES08A. Controlador de 1 bit para mover el servo a 2 posiciones. El ángulo entre una posición y otra es de 90 grados",
         "author": "Juan Gonzalez-Gomez y Jesus Arroyo",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20278.16016%20175.19108%22%20width=%22278.16%22%20height=%22175.191%22%3E%3Cdefs%3E%3Cmarker%20id=%22a%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22b%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M-218.782%20540.66v-1.407h-28.955a2.482%202.412%200%200%201-2.482-2.412v-67.936a2.482%202.412%200%200%201%202.482-2.412h28.955v-1.407a2.482%202.412%200%200%201%202.482-2.412h161.738a2.482%202.412%200%200%201%202.482%202.412v1.407h28.955a2.482%202.412%200%200%201%202.482%202.412v67.936a2.482%202.412%200%200%201-2.482%202.412H-52.08v1.407a2.482%202.412%200%200%201-2.482%202.412H-216.3a2.482%202.412%200%200%201-2.482-2.412%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cg%20transform=%22matrix(4.13652%200%200%20-4.0199%20-135.431%20502.873)%22%20stroke-width=%221.184%22%3E%3Ccircle%20cx=%229.45%22%20r=%227.079%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%22.873%22/%3E%3Ctitle%3EFusion009002001_cs001%3C/title%3E%3C/g%3E%3Cpath%20d=%22M-75.467%20483.966c-7.283-7.66-17.99-10.953-28.034-8.622-10.044%202.331-17.874%209.926-20.503%2019.887-2.629%209.96.35%2020.75%207.8%2028.248l81.49%2039.287z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-75.343%20519.74c-7.283%207.66-17.99%2010.952-28.033%208.621-10.044-2.33-17.875-9.926-20.503-19.887-2.629-9.96.35-20.749%207.8-28.247l80.462-43.908z%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-dasharray=%223.56129469,7.1225893%22/%3E%3Cpath%20d=%22M-.062%20548.435a66.685%2073.886%200%200%201-24.216-52.98%2066.685%2073.886%200%200%201%2018.799-55.613%22%20transform=%22scale(-1%201)%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-start=%22url(#a)%22%20marker-end=%22url(#b)%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-34.05%22%20y=%22427.331%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-34.05%22%20y=%22427.331%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.576%22%20y=%22576.091%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.576%22%20y=%22576.091%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22499.501%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22499.501%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EEMAX%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22522.333%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22522.333%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EES08A%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-179.795%22%20y=%22446.06%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-179.795%22%20y=%22446.06%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E90%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-130.514%22%20y=%22426.301%22%20font-weight=%22400%22%20font-size=%2240.128%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-130.514%22%20y=%22426.301%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2222.93%22%3E0%3C/tspan%3E%3C/text%3E%3C/svg%3E"
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20278.16016%20171.38856%22%20width=%22278.16%22%20height=%22171.389%22%3E%3Cdefs%3E%3Cmarker%20id=%22a%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22b%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M-218.782%20540.578v-1.407h-28.955a2.482%202.412%200%200%201-2.482-2.412v-67.936a2.482%202.412%200%200%201%202.482-2.412h28.955v-1.407a2.482%202.412%200%200%201%202.482-2.412h161.738a2.482%202.412%200%200%201%202.482%202.412v1.407h28.955a2.482%202.412%200%200%201%202.482%202.412v67.936a2.482%202.412%200%200%201-2.482%202.412H-52.08v1.407a2.482%202.412%200%200%201-2.482%202.412H-216.3a2.482%202.412%200%200%201-2.482-2.412%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.491%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.091%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.491%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.091%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cg%20transform=%22matrix(4.13652%200%200%20-4.0199%20-135.431%20502.791)%22%20stroke-width=%221.184%22%3E%3Ccircle%20cx=%229.45%22%20r=%227.079%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%22.873%22/%3E%3Ctitle%3EFusion009002001_cs001%3C/title%3E%3C/g%3E%3Cpath%20d=%22M-75.467%20483.884c-7.283-7.66-17.99-10.953-28.034-8.622-10.044%202.331-17.874%209.927-20.503%2019.887-2.629%209.96.35%2020.75%207.8%2028.248l81.49%2039.287z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-75.343%20519.658c-7.283%207.66-17.99%2010.953-28.033%208.622-10.044-2.332-17.875-9.927-20.503-19.888-2.629-9.96.35-20.749%207.8-28.247l80.462-43.908z%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-dasharray=%223.56129469,7.1225893%22/%3E%3Cpath%20d=%22M-.062%20548.353a66.685%2073.886%200%200%201-24.216-52.98%2066.685%2073.886%200%200%201%2018.799-55.612%22%20transform=%22scale(-1%201)%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-start=%22url(#a)%22%20marker-end=%22url(#b)%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-30.206%22%20y=%22571.784%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-30.206%22%20y=%22571.784%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.576%22%20y=%22426.862%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.576%22%20y=%22426.862%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22499.419%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22499.419%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EEMAX%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22522.251%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22522.251%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EES08A%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-179.795%22%20y=%22445.979%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-179.795%22%20y=%22445.979%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E90%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-130.514%22%20y=%22426.22%22%20font-weight=%22400%22%20font-size=%2240.128%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-130.514%22%20y=%22426.22%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2222.93%22%3E0%3C/tspan%3E%3C/text%3E%3C/svg%3E"
       },
       "design": {
         "graph": {
@@ -3338,555 +3297,95 @@
         }
       }
     },
-    "282e9cbc0427ccc374cfc643b2c5726ea64ec624": {
+    "7f3e9f0a05c929c3761852e259027fbe8e977795": {
       "package": {
-        "name": "ServoBit-90-Futaba3003",
-        "version": "0.1",
-        "description": "ServoBit para Futaba 3003. Controlador de 1 bit para mover un servo a 2 posiciones. El ángulo entre una posición y otra es de 90 grados",
-        "author": "Juan Gonzalez-Gomez y Jesus Arroyo",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20278.16016%20175.19108%22%20width=%22278.16%22%20height=%22175.191%22%3E%3Cdefs%3E%3Cmarker%20id=%22a%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22b%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M-218.782%20540.66v-1.407h-28.955a2.482%202.412%200%200%201-2.482-2.412v-67.936a2.482%202.412%200%200%201%202.482-2.412h28.955v-1.407a2.482%202.412%200%200%201%202.482-2.412h161.738a2.482%202.412%200%200%201%202.482%202.412v1.407h28.955a2.482%202.412%200%200%201%202.482%202.412v67.936a2.482%202.412%200%200%201-2.482%202.412H-52.08v1.407a2.482%202.412%200%200%201-2.482%202.412H-216.3a2.482%202.412%200%200%201-2.482-2.412%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cg%20transform=%22matrix(4.13652%200%200%20-4.0199%20-135.431%20502.873)%22%20stroke-width=%221.184%22%3E%3Ccircle%20cx=%229.45%22%20r=%227.079%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%22.873%22/%3E%3Ctitle%3EFusion009002001_cs001%3C/title%3E%3C/g%3E%3Cpath%20d=%22M-75.467%20483.966c-7.283-7.66-17.99-10.953-28.034-8.622-10.044%202.331-17.874%209.926-20.503%2019.887-2.629%209.96.35%2020.75%207.8%2028.248l81.49%2039.287z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-75.343%20519.74c-7.283%207.66-17.99%2010.952-28.033%208.621-10.044-2.33-17.875-9.926-20.503-19.887-2.629-9.96.35-20.749%207.8-28.247l80.462-43.908z%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-dasharray=%223.56129469,7.1225893%22/%3E%3Cpath%20d=%22M-.062%20548.435a66.685%2073.886%200%200%201-24.216-52.98%2066.685%2073.886%200%200%201%2018.799-55.613%22%20transform=%22scale(-1%201)%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-start=%22url(#a)%22%20marker-end=%22url(#b)%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-34.05%22%20y=%22427.331%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-34.05%22%20y=%22427.331%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.576%22%20y=%22576.091%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.576%22%20y=%22576.091%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22499.501%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22499.501%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EFutaba%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22522.333%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22522.333%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3E3003%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-179.795%22%20y=%22446.06%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-179.795%22%20y=%22446.06%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E90%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-130.514%22%20y=%22426.301%22%20font-weight=%22400%22%20font-size=%2240.128%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-130.514%22%20y=%22426.301%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2222.93%22%3E0%3C/tspan%3E%3C/text%3E%3C/svg%3E"
+        "name": "NOT",
+        "version": "1.0.3",
+        "description": "Puerta NOT",
+        "author": "Jesús Arroyo, Juan González",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22111.588%22%20height=%2268.24%22%20version=%221%22%3E%3Cpath%20d=%22M24.372%201.5l57.29%2032.619-57.29%2032.62V1.5z%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%223%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20cx=%2291.101%22%20cy=%2234.017%22%20rx=%227.572%22%20ry=%227.677%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M1.014%2034.281h23.1m75.26%200h11.2%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%222%22%20stroke-linecap=%22round%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%2228.438%22%20y=%2239.46%22%20font-weight=%22400%22%20font-size=%2217.5%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%2228.438%22%20y=%2239.46%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%3ENot%3C/tspan%3E%3C/text%3E%3C/svg%3E"
       },
       "design": {
         "graph": {
           "blocks": [
             {
-              "id": "f152532b-e244-4151-8936-703efb135401",
-              "type": "basic.input",
+              "id": "5365ed8c-e5db-4445-938f-8d689830ea5c",
+              "type": "basic.code",
               "data": {
-                "name": "",
-                "clock": true
+                "code": "//-- Puerta NOT\n\n//-- module (input wire a, output wire c);\n\n\nassign c = ~a;\n\n\n//-- endmodule\n",
+                "params": [],
+                "ports": {
+                  "in": [
+                    {
+                      "name": "a"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "c"
+                    }
+                  ]
+                }
               },
               "position": {
-                "x": -80,
-                "y": 176
+                "x": 256,
+                "y": 48
+              },
+              "size": {
+                "width": 400,
+                "height": 256
               }
             },
             {
-              "id": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc",
+              "id": "18c2ebc7-5152-439c-9b3f-851c59bac834",
+              "type": "basic.input",
+              "data": {
+                "name": ""
+              },
+              "position": {
+                "x": 64,
+                "y": 144
+              }
+            },
+            {
+              "id": "664caf9e-5f40-4df4-800a-b626af702e62",
               "type": "basic.output",
               "data": {
                 "name": ""
               },
               "position": {
-                "x": 280,
-                "y": 264
-              }
-            },
-            {
-              "id": "41328a7d-0a4d-4fd6-84c7-e20091fc73ce",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": false
-              },
-              "position": {
-                "x": -424,
-                "y": 456
-              }
-            },
-            {
-              "id": "fac62195-ccd2-46f4-aded-1d47b60457de",
-              "type": "basic.constant",
-              "data": {
-                "name": "POS1",
-                "value": "8'd167",
-                "local": true
-              },
-              "position": {
-                "x": -296,
-                "y": 48
-              }
-            },
-            {
-              "id": "cded9c5a-e09e-4ff9-a811-9a4351e30936",
-              "type": "basic.constant",
-              "data": {
-                "name": "POS0",
-                "value": "8'd82",
-                "local": true
-              },
-              "position": {
-                "x": -296,
-                "y": 272
-              }
-            },
-            {
-              "id": "f90d4eda-9785-495a-b614-c8cfa60b0edf",
-              "type": "8f649b8b1b4e70149ce2ce4a056f162f98b31545",
-              "position": {
-                "x": -296,
-                "y": 160
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
-              "id": "0296740d-16d2-4cb2-a055-63a2b48059b1",
-              "type": "96b8795a64cbcff38746c210260d7a44109f0472",
-              "position": {
-                "x": -80,
-                "y": 264
-              },
-              "size": {
-                "width": 96,
-                "height": 96
-              }
-            },
-            {
-              "id": "68cde331-1e8c-43c1-9b71-0de529e62e6a",
-              "type": "8f649b8b1b4e70149ce2ce4a056f162f98b31545",
-              "position": {
-                "x": -296,
-                "y": 384
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
-              "id": "c29d0366-050c-4242-9ee8-e6710906f1b8",
-              "type": "56a715a301e2f4cc348cbe2117721b86883da317",
-              "position": {
-                "x": 120,
-                "y": 264
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
-              "id": "982d200d-37e0-462f-a5db-02d37deabe0e",
-              "type": "basic.info",
-              "data": {
-                "info": "Posición 0",
-                "readonly": true
-              },
-              "position": {
-                "x": -440,
-                "y": 272
-              },
-              "size": {
-                "width": 112,
-                "height": 32
-              }
-            },
-            {
-              "id": "b2c5df1d-1302-4d64-ae38-251d0e52dddb",
-              "type": "basic.info",
-              "data": {
-                "info": "<B>Servobit</B> para Servos Futaba 3003 o comaptibles\nLas dos posiciones están distanciadas 90 grados\n\n* Posicion 0: 45 grados\n* Posicion 1: 135 grados",
-                "readonly": false
-              },
-              "position": {
-                "x": -80,
-                "y": 56
-              },
-              "size": {
-                "width": 448,
-                "height": 96
-              }
-            },
-            {
-              "id": "16971b13-9a1c-4766-9a5b-732c831e3a1d",
-              "type": "basic.info",
-              "data": {
-                "info": "Posición 1",
-                "readonly": true
-              },
-              "position": {
-                "x": -440,
-                "y": 64
-              },
-              "size": {
-                "width": 112,
-                "height": 32
+                "x": 752,
+                "y": 144
               }
             }
           ],
           "wires": [
             {
               "source": {
-                "block": "fac62195-ccd2-46f4-aded-1d47b60457de",
-                "port": "constant-out"
+                "block": "18c2ebc7-5152-439c-9b3f-851c59bac834",
+                "port": "out"
               },
               "target": {
-                "block": "f90d4eda-9785-495a-b614-c8cfa60b0edf",
-                "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
+                "block": "5365ed8c-e5db-4445-938f-8d689830ea5c",
+                "port": "a"
               }
             },
             {
               "source": {
-                "block": "f90d4eda-9785-495a-b614-c8cfa60b0edf",
-                "port": "32038fb9-c309-483d-a68c-de6fd7ab6a0f"
+                "block": "5365ed8c-e5db-4445-938f-8d689830ea5c",
+                "port": "c"
               },
               "target": {
-                "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
-                "port": "2371d0ae-6ba9-400a-a3eb-a4b0c31459d8"
-              },
-              "vertices": [
-                {
-                  "x": -144,
-                  "y": 264
-                }
-              ],
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "cded9c5a-e09e-4ff9-a811-9a4351e30936",
-                "port": "constant-out"
-              },
-              "target": {
-                "block": "68cde331-1e8c-43c1-9b71-0de529e62e6a",
-                "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
-              },
-              "vertices": []
-            },
-            {
-              "source": {
-                "block": "68cde331-1e8c-43c1-9b71-0de529e62e6a",
-                "port": "32038fb9-c309-483d-a68c-de6fd7ab6a0f"
-              },
-              "target": {
-                "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
-                "port": "55b32103-9c59-46d1-a4c3-a39b8df97119"
-              },
-              "vertices": [
-                {
-                  "x": -144,
-                  "y": 368
-                }
-              ],
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
-                "port": "fcae0076-6c4c-43a7-ac22-bf17805db11d"
-              },
-              "target": {
-                "block": "c29d0366-050c-4242-9ee8-e6710906f1b8",
-                "port": "1a91ad1d-23b7-42bf-b8af-5e3a64a00cca"
-              },
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "c29d0366-050c-4242-9ee8-e6710906f1b8",
-                "port": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc"
-              },
-              "target": {
-                "block": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc",
+                "block": "664caf9e-5f40-4df4-800a-b626af702e62",
                 "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "41328a7d-0a4d-4fd6-84c7-e20091fc73ce",
-                "port": "out"
-              },
-              "target": {
-                "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
-                "port": "c2494eae-6195-4a5d-9472-cc08e6f387a6"
-              }
-            },
-            {
-              "source": {
-                "block": "f152532b-e244-4151-8936-703efb135401",
-                "port": "out"
-              },
-              "target": {
-                "block": "c29d0366-050c-4242-9ee8-e6710906f1b8",
-                "port": "776266dd-e7ee-4ca5-84e4-5dc9193b2a7f"
               }
             }
           ]
         },
         "state": {
           "pan": {
-            "x": 480.3051,
-            "y": -5.4576
-          },
-          "zoom": 0.947
-        }
-      }
-    },
-    "7c60ce80e41e469a07765586576dd1b098d69ba9": {
-      "package": {
-        "name": "ServoBit-90-Tower-Pro-SG90",
-        "version": "0.1",
-        "description": "ServoBit para micrservo TowerPro-SG90. Controlador de 1 bit para mover un servo a 2 posiciones. El ángulo entre una posición y otra es de 90 grados",
-        "author": "Juan Gonzalez-Gomez y Jesus Arroyo",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20278.16016%20175.19108%22%20width=%22278.16%22%20height=%22175.191%22%3E%3Cdefs%3E%3Cmarker%20id=%22a%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22b%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M-218.782%20540.66v-1.407h-28.955a2.482%202.412%200%200%201-2.482-2.412v-67.936a2.482%202.412%200%200%201%202.482-2.412h28.955v-1.407a2.482%202.412%200%200%201%202.482-2.412h161.738a2.482%202.412%200%200%201%202.482%202.412v1.407h28.955a2.482%202.412%200%200%201%202.482%202.412v67.936a2.482%202.412%200%200%201-2.482%202.412H-52.08v1.407a2.482%202.412%200%200%201-2.482%202.412H-216.3a2.482%202.412%200%200%201-2.482-2.412%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cg%20transform=%22matrix(4.13652%200%200%20-4.0199%20-135.431%20502.873)%22%20stroke-width=%221.184%22%3E%3Ccircle%20cx=%229.45%22%20r=%227.079%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%22.873%22/%3E%3Ctitle%3EFusion009002001_cs001%3C/title%3E%3C/g%3E%3Cpath%20d=%22M-75.467%20483.966c-7.283-7.66-17.99-10.953-28.034-8.622-10.044%202.331-17.874%209.926-20.503%2019.887-2.629%209.96.35%2020.75%207.8%2028.248l81.49%2039.287z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-75.343%20519.74c-7.283%207.66-17.99%2010.952-28.033%208.621-10.044-2.33-17.875-9.926-20.503-19.887-2.629-9.96.35-20.749%207.8-28.247l80.462-43.908z%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-dasharray=%223.56129469,7.1225893%22/%3E%3Cpath%20d=%22M-.062%20548.435a66.685%2073.886%200%200%201-24.216-52.98%2066.685%2073.886%200%200%201%2018.799-55.613%22%20transform=%22scale(-1%201)%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-start=%22url(#a)%22%20marker-end=%22url(#b)%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-34.05%22%20y=%22427.331%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-34.05%22%20y=%22427.331%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.576%22%20y=%22576.091%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.576%22%20y=%22576.091%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-174.36%22%20y=%22487.585%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-174.36%22%20y=%22487.585%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3ETower%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22530.79%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22530.79%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3ESG-90%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-179.795%22%20y=%22446.06%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-179.795%22%20y=%22446.06%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E90%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-130.514%22%20y=%22426.301%22%20font-weight=%22400%22%20font-size=%2240.128%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-130.514%22%20y=%22426.301%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2222.93%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-174.36%22%20y=%22508.727%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-174.36%22%20y=%22508.727%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EPro%3C/tspan%3E%3C/text%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "f152532b-e244-4151-8936-703efb135401",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": true
-              },
-              "position": {
-                "x": -80,
-                "y": 176
-              }
-            },
-            {
-              "id": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc",
-              "type": "basic.output",
-              "data": {
-                "name": ""
-              },
-              "position": {
-                "x": 280,
-                "y": 264
-              }
-            },
-            {
-              "id": "41328a7d-0a4d-4fd6-84c7-e20091fc73ce",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": false
-              },
-              "position": {
-                "x": -424,
-                "y": 456
-              }
-            },
-            {
-              "id": "fac62195-ccd2-46f4-aded-1d47b60457de",
-              "type": "basic.constant",
-              "data": {
-                "name": "POS1",
-                "value": "8'd200",
-                "local": true
-              },
-              "position": {
-                "x": -296,
-                "y": 48
-              }
-            },
-            {
-              "id": "cded9c5a-e09e-4ff9-a811-9a4351e30936",
-              "type": "basic.constant",
-              "data": {
-                "name": "POS0",
-                "value": "8'd100",
-                "local": true
-              },
-              "position": {
-                "x": -296,
-                "y": 272
-              }
-            },
-            {
-              "id": "f90d4eda-9785-495a-b614-c8cfa60b0edf",
-              "type": "8f649b8b1b4e70149ce2ce4a056f162f98b31545",
-              "position": {
-                "x": -296,
-                "y": 160
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
-              "id": "0296740d-16d2-4cb2-a055-63a2b48059b1",
-              "type": "96b8795a64cbcff38746c210260d7a44109f0472",
-              "position": {
-                "x": -80,
-                "y": 264
-              },
-              "size": {
-                "width": 96,
-                "height": 96
-              }
-            },
-            {
-              "id": "68cde331-1e8c-43c1-9b71-0de529e62e6a",
-              "type": "8f649b8b1b4e70149ce2ce4a056f162f98b31545",
-              "position": {
-                "x": -296,
-                "y": 384
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
-              "id": "c29d0366-050c-4242-9ee8-e6710906f1b8",
-              "type": "56a715a301e2f4cc348cbe2117721b86883da317",
-              "position": {
-                "x": 120,
-                "y": 264
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
-              "id": "982d200d-37e0-462f-a5db-02d37deabe0e",
-              "type": "basic.info",
-              "data": {
-                "info": "Posición 0",
-                "readonly": true
-              },
-              "position": {
-                "x": -440,
-                "y": 272
-              },
-              "size": {
-                "width": 112,
-                "height": 32
-              }
-            },
-            {
-              "id": "b2c5df1d-1302-4d64-ae38-251d0e52dddb",
-              "type": "basic.info",
-              "data": {
-                "info": "<B>Servobit</B> para microservos TowerPro SG-90 o compatibles\nLas dos posiciones están distanciadas 90 grados\n\n* Posicion 0: 45 grados\n* Posicion 1: 135 grados",
-                "readonly": true
-              },
-              "position": {
-                "x": -80,
-                "y": 56
-              },
-              "size": {
-                "width": 512,
-                "height": 96
-              }
-            },
-            {
-              "id": "16971b13-9a1c-4766-9a5b-732c831e3a1d",
-              "type": "basic.info",
-              "data": {
-                "info": "Posición 1",
-                "readonly": true
-              },
-              "position": {
-                "x": -440,
-                "y": 64
-              },
-              "size": {
-                "width": 112,
-                "height": 32
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "fac62195-ccd2-46f4-aded-1d47b60457de",
-                "port": "constant-out"
-              },
-              "target": {
-                "block": "f90d4eda-9785-495a-b614-c8cfa60b0edf",
-                "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
-              }
-            },
-            {
-              "source": {
-                "block": "f90d4eda-9785-495a-b614-c8cfa60b0edf",
-                "port": "32038fb9-c309-483d-a68c-de6fd7ab6a0f"
-              },
-              "target": {
-                "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
-                "port": "2371d0ae-6ba9-400a-a3eb-a4b0c31459d8"
-              },
-              "vertices": [
-                {
-                  "x": -144,
-                  "y": 264
-                }
-              ],
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "cded9c5a-e09e-4ff9-a811-9a4351e30936",
-                "port": "constant-out"
-              },
-              "target": {
-                "block": "68cde331-1e8c-43c1-9b71-0de529e62e6a",
-                "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
-              },
-              "vertices": []
-            },
-            {
-              "source": {
-                "block": "68cde331-1e8c-43c1-9b71-0de529e62e6a",
-                "port": "32038fb9-c309-483d-a68c-de6fd7ab6a0f"
-              },
-              "target": {
-                "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
-                "port": "55b32103-9c59-46d1-a4c3-a39b8df97119"
-              },
-              "vertices": [
-                {
-                  "x": -144,
-                  "y": 368
-                }
-              ],
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
-                "port": "fcae0076-6c4c-43a7-ac22-bf17805db11d"
-              },
-              "target": {
-                "block": "c29d0366-050c-4242-9ee8-e6710906f1b8",
-                "port": "1a91ad1d-23b7-42bf-b8af-5e3a64a00cca"
-              },
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "c29d0366-050c-4242-9ee8-e6710906f1b8",
-                "port": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc"
-              },
-              "target": {
-                "block": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc",
-                "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "41328a7d-0a4d-4fd6-84c7-e20091fc73ce",
-                "port": "out"
-              },
-              "target": {
-                "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
-                "port": "c2494eae-6195-4a5d-9472-cc08e6f387a6"
-              }
-            },
-            {
-              "source": {
-                "block": "f152532b-e244-4151-8936-703efb135401",
-                "port": "out"
-              },
-              "target": {
-                "block": "c29d0366-050c-4242-9ee8-e6710906f1b8",
-                "port": "776266dd-e7ee-4ca5-84e4-5dc9193b2a7f"
-              }
-            }
-          ]
-        },
-        "state": {
-          "pan": {
-            "x": 959.5,
-            "y": 197.5
+            "x": 0,
+            "y": 0
           },
           "zoom": 1
         }
