@@ -1,4 +1,4 @@
-# Academia-Jedi-HW-09 Collection
+# Academia-Jedi-HW-11 Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
 ![Version](https://img.shields.io/badge/version-v0.1.0-orange.svg)
@@ -16,6 +16,7 @@ Colección para la Academia Jedi de Hardware.
   * 0
   * 1
 * *Puertas*
+  * and
   * not
 * *Varios*
   * *Bombeo*
@@ -37,20 +38,20 @@ Colección para la Academia Jedi de Hardware.
       * Servobit-90
 
 ## Examples
-* *0-Soluciones-Tutorial-9*
-  * Sol-9-1
-  * Sol-9-2
-  * Sol-9-3
+* *0-Soluciones-Tutorial-10*
+  * Sol-10-1
+  * Sol-10-2
+  * Sol-10-3
 * *1-Ejemplos*
-  * 01-Servo-pulsador
-  * 02-Servo-corazon
-  * 03-servo-tortuga
-  * servos-test
+  * 01-Pulsadores-AND
+  * 02-1-rafaga
+  * 03-1-rafaga-led-on
+  * 03-2-rafaga-pulsador-off
+  * 04-rafagas-periodicas
 * *2-Ejercicios*
-  * Ejercicio-8-1
-  * Ejercicio-8-2
-  * Ejercicio-8-3
-  * Ejercicio-8-4
+  * Ejercicio-11-1
+  * Ejercicio-11-2
+  * Ejercicio-11-3
 
 
 ## Authors
