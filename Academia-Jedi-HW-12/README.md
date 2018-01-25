@@ -48,6 +48,8 @@ Colección para la Academia Jedi de Hardware.
   * 03-cerradura-clave
 * *2-Ejercicios*
   * Ejercicio-12-1
+  * Ejercicio-12-2
+  * Ejercicio-12-3
 
 
 ## Authors
