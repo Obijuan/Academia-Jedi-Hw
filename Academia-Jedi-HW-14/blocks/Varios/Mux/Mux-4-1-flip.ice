@@ -154,7 +154,7 @@
           "id": "34e6d77b-15a8-4b7c-8c41-09e9b8d4d2be",
           "type": "basic.code",
           "data": {
-            "code": "wire sel = {s1, s0};\n\nassign o = (sel == 2'b00) ? i0 :\n           (sel == 2'b01) ? i1 :\n           (sel == 2'b10) ? i2 : i3;\n\n",
+            "code": "wire [1:0] sel = {s1, s0};\n\nassign o = (sel == 2'b00) ? i0 :\n           (sel == 2'b01) ? i1 :\n           (sel == 2'b10) ? i2 : i3;\n\n",
             "params": [],
             "ports": {
               "in": [
