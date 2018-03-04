@@ -54,7 +54,7 @@
           "id": "b81e4179-9897-4dac-935a-c125ab2d6cc4",
           "type": "basic.input",
           "data": {
-            "name": "Interruptor2",
+            "name": "Interruptor0",
             "pins": [
               {
                 "index": "0",
@@ -144,6 +144,70 @@
           "size": {
             "width": 96,
             "height": 192
+          }
+        },
+        {
+          "id": "ce78751e-a97d-4d90-a79a-9835f504f8b2",
+          "type": "basic.info",
+          "data": {
+            "info": "**Apagado**",
+            "readonly": true
+          },
+          "position": {
+            "x": -16,
+            "y": 200
+          },
+          "size": {
+            "width": 128,
+            "height": 32
+          }
+        },
+        {
+          "id": "be19bba9-5d03-4c09-9acc-bc7dd7f560a1",
+          "type": "basic.info",
+          "data": {
+            "info": "\n**Encendido**",
+            "readonly": true
+          },
+          "position": {
+            "x": -16,
+            "y": 128
+          },
+          "size": {
+            "width": 128,
+            "height": 32
+          }
+        },
+        {
+          "id": "3dfa2245-b98a-4299-bbe8-3b0afe400225",
+          "type": "basic.info",
+          "data": {
+            "info": "**Parpadeo lento**",
+            "readonly": true
+          },
+          "position": {
+            "x": -48,
+            "y": 56
+          },
+          "size": {
+            "width": 176,
+            "height": 32
+          }
+        },
+        {
+          "id": "489dae99-34ea-4a33-be99-60dd768ddf0d",
+          "type": "basic.info",
+          "data": {
+            "info": "**Parpadeo rápido**",
+            "readonly": true
+          },
+          "position": {
+            "x": -56,
+            "y": -24
+          },
+          "size": {
+            "width": 176,
+            "height": 32
           }
         }
       ],
@@ -246,8 +310,8 @@
     },
     "state": {
       "pan": {
-        "x": 146.04,
-        "y": 159.2
+        "x": 151.04,
+        "y": 137.2
       },
       "zoom": 0.745
     }
