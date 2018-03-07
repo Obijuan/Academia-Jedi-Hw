@@ -29,6 +29,9 @@ Colección para la Academia Jedi de Hardware.
     * Corazon_4Hz
     * Corazon_5Hz
     * Corazon_7Hz
+    * Corazon_DO4
+    * Corazon_MI4
+    * Corazon_RE4
   * *Mux*
     * Mux-2-1-flip
     * Mux-2-1
@@ -50,11 +53,14 @@ Colección para la Academia Jedi de Hardware.
   * Sol-13-2
   * Sol-13-3
 * *1-Ejemplos*
-  * 1-Sirena-luminosa
-  * 2-Tono-1Khz
-  * 3-Timbre
-  * 4-sirena
+  * 1-LED-Parpadeo-dos-freq
+  * 2-Sirena
+  * 3-LED-4-modos
+  * 4-Notas-zumbador
 * *2-Ejercicios*
+  * Ejercicio-14-1
+  * Ejercicio-14-2
+  * Ejercicio-14-3
 
 
 ## Authors
