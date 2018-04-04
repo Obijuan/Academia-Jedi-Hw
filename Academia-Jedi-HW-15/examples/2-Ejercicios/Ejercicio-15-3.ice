@@ -15,16 +15,16 @@
           "id": "c14fa047-7394-4cfd-8c1e-b806af0993d1",
           "type": "basic.info",
           "data": {
-            "info": "**Ejercicio 15.3**: (10 Bitpoints). **Icebot: Adelante - parado**\n\nConstruir el robot Icebot 0.1. Hacer un circuito para que el robot avance durante  \n2 segundos, y esté otros 2 segundos parado. Este ciclo se repite indefinidamente\n",
+            "info": "**Ejercicio 15.3**: (10 Bitpoints). **Icebot: Adelante - Giro derecha**\n\nConstruir el **icebot 0.1**. Hacer que avance durante 2 segundos, y gira  \nhacia la derecha durante 2 segundos (con movimiento en arco). Esto se  \nrepite indefinidamente\n\n**Consejo**: En esta secuencia, el motor izquiero siempre está activado y girando en \nel mismo sentido",
             "readonly": true
           },
           "position": {
             "x": 40,
-            "y": 0
+            "y": -32
           },
           "size": {
             "width": 688,
-            "height": 96
+            "height": 144
           }
         },
         {
@@ -64,8 +64,8 @@
     },
     "state": {
       "pan": {
-        "x": 66,
-        "y": 107.5
+        "x": 371.5,
+        "y": 341.5
       },
       "zoom": 1
     }
