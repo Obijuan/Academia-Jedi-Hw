@@ -58,7 +58,9 @@ Colección para la Academia Jedi de Hardware.
 * *1-Ejemplos*
   * 1-Motor-pulsadores
   * 2-Dos-motores
-  * 3-Icebot-pulsador
+  * 3-Icebot-adelante
+  * 4-Icebot-adelante-stop
+  * 5-Icebot-pulsador
 * *2-Ejercicios*
   * Ejercicio-15-1
   * Ejercicio-15-2
