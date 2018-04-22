@@ -15,16 +15,16 @@
           "id": "c14fa047-7394-4cfd-8c1e-b806af0993d1",
           "type": "basic.info",
           "data": {
-            "info": "**Ejercicio 16.1**: (5 Bitpoints). **Alarma por infrarrojos**\n\nDiseñar un **circuito digital** que haga sonar una alarma mientras el **sensor de \ninfrarrojos** esté detectando un objeto. La alarma sonará por un **zumbador**, y estará  \ncompuesta por **dos tonos** de **1Khz** y **2Khz**, alternados a la frecuencia de **2Hz**\n\nCuando el sensor no detecta objetos, la alarma estará callada\n\n",
+            "info": "**Ejercicio 17.2**: (5 Bitpoints). **Caja fuerte con dos claves de apertura**\n\nDiseñar un circuito digital para que se abra una **caja fuerte** cuando se   \nintroduce el código **101** ó el **010** en tres interruptores externos. Al  \nabrirse se moverá un servo a una posición, y cuando está cerrada se moverá a  \nla contraria\n",
             "readonly": true
           },
           "position": {
-            "x": 40,
+            "x": 48,
             "y": -32
           },
           "size": {
             "width": 736,
-            "height": 144
+            "height": 128
           }
         },
         {
@@ -64,7 +64,7 @@
     },
     "state": {
       "pan": {
-        "x": 66,
+        "x": 38,
         "y": 95.5
       },
       "zoom": 1

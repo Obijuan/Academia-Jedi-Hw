@@ -15,23 +15,23 @@
           "id": "c14fa047-7394-4cfd-8c1e-b806af0993d1",
           "type": "basic.info",
           "data": {
-            "info": "**Ejercicio 16.2**: (5 Bitpoints). **Barrera automática**\n\nDiseñar un circuito digital que suba una **barrera** cuando el **sensor de IR** detecta la  \npresencia de un coche. Se cierra cuando no se detecta nada. El circuito todavía no \ntemporiza nada, ni almacena información. Simplemente sube o baja la barrera en función\ndel estado del sensor IR\n",
+            "info": "**Ejercicio 17.3**: (7 Bitpoints). **Franky con disparo automático y manual**\n\nDiseñar un circuito digital para que franky funcione en modo \"defensa\". Estará  \nmirando de lado a lado con un periodo de **4 segundos** (2 segundos en cada lado).  \nEn uno de los lados disparará automáticamente una **ráfaga** por sus ojos, que   \nparpadearán a una frecuencia de **10Hz**. Además, durante el disparo, sonarán **pitidos  \nde 1Khz**, con una **cadenacia de 10Hz** (pi-pi-pi-pi...). Adicionalmente se colocará  \nun **pulsador** para **disparo manual**. Al pulsarlo realizará los mismos disparos  \ncomentados anteriormente (señal luminosa en los ojos y pitidos de 1Khz con  \ncadencia de 10Hz)\n",
             "readonly": true
           },
           "position": {
-            "x": 40,
-            "y": -8
+            "x": 48,
+            "y": -96
           },
           "size": {
-            "width": 736,
-            "height": 144
+            "width": 704,
+            "height": 192
           }
         },
         {
           "id": "08b55ee3-890d-403c-9792-da4254a88da4",
           "type": "basic.info",
           "data": {
-            "info": "**Entregar**:\n\n  -1 Pantallazo del circuito (2 Bitpoints)\n  \n  -1 Vídeo del funcionamiento (2 Bitpoints)\n  \n  Enviarlos por redes sociales (Twitter, G+) con mención \n  a @Obijuan_cube. El vídeo puede estar en youtube o directamente en el tuit/post\n  ",
+            "info": "**Entregar**:\n\n  -1 Pantallazo del circuito (3 Bitpoints)\n  \n  -1 Vídeo del funcionamiento (3 Bitpoints)\n  \n  Enviarlos por redes sociales (Twitter, G+) con mención \n  a @Obijuan_cube. El vídeo puede estar en youtube o directamente en el tuit/post\n  ",
             "readonly": true
           },
           "position": {
@@ -64,10 +64,10 @@
     },
     "state": {
       "pan": {
-        "x": 42,
-        "y": 95.5
+        "x": 67.7054,
+        "y": 173.1149
       },
-      "zoom": 1
+      "zoom": 0.9803
     }
   },
   "dependencies": {}

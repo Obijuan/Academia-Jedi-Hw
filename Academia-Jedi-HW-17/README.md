@@ -52,22 +52,18 @@ Colección para la Academia Jedi de Hardware.
       * Servobit-90
 
 ## Examples
-* *0-Soluciones-Tutorial-15*
-  * Sol-15-1
-  * Sol-15-2
-  * Sol-15-3
+* *0-Soluciones-Tutorial-16*
+  * Sol-16-1
+  * Sol-16-2
+  * Sol-16-3
 * *1-Ejemplos*
-  * 1-Sensor-IR-LED
-  * 2-Sensor-IR-zumbador
-  * 3-Sensor-IR-blanco-negro
-  * 4-Experimento1-sensor-motor
-  * 5-Experimento2-sensor-NOT-motor
-  * 6-Experimento3-sensor-izdo-NOT-motor-izdo
-  * 7-Experimento4-seguir-objeto
+  * 1-OR-pulsadores
+  * 2-OR-boton-IR
+  * 3-Cerradura-doble-clave
 * *2-Ejercicios*
-  * Ejercicio-16-1
-  * Ejercicio-16-2
-  * Ejercicio-16-3
+  * Ejercicio-17-1
+  * Ejercicio-17-2
+  * Ejercicio-17-3
 
 
 ## Authors

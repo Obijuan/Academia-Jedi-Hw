@@ -15,23 +15,23 @@
           "id": "c14fa047-7394-4cfd-8c1e-b806af0993d1",
           "type": "basic.info",
           "data": {
-            "info": "**Ejercicio 16.3**: (10 Bitpoints). **Icebot policía**\n\nHacer un circuito digital para que el robot icebot **siga a un objeto**. Utilizará **dos  \nsensores IR** colocados en su parte delantera. Siempre que el icebot esté en movimiento  \nse activará una **sirena acústina** y otra **luminosa**. La sirena es la misma que la del \nejercicio 1. La luminosa está formada por **dos LEDs** que parpadean anternativamente a  \nla misma frecuecia que la acústica (2Hz)",
+            "info": "**Ejercicio 17.1**: (3 Bitpoints). **Barrera automática y manual**\n\nDiseñar el circuito digital para controlar una **barrera de acceso** que se levantará  \n**automáticamente** cuando detecte la presencia de un coche, y se bajará cuando no lo haya.  \nAdemás, tiene un **modo manual** para poder subirla mediante un **interruptor**.  \nLa barrera sólo baja si no hay coche detectado y no está activada manualmente\n",
             "readonly": true
           },
           "position": {
-            "x": 40,
+            "x": 48,
             "y": -32
           },
           "size": {
             "width": 736,
-            "height": 144
+            "height": 128
           }
         },
         {
           "id": "08b55ee3-890d-403c-9792-da4254a88da4",
           "type": "basic.info",
           "data": {
-            "info": "**Entregar**:\n\n  -1 Pantallazo del circuito (4 Bitpoints)\n  \n  -1 Vídeo del funcionamiento (4 Bitpoints)\n  \n  Enviarlos por redes sociales (Twitter, G+) con mención \n  a @Obijuan_cube. El vídeo puede estar en youtube o directamente en el tuit/post\n  ",
+            "info": "**Entregar**:\n\n  -1 Pantallazo del circuito (1 Bitpoints)\n  \n  -1 Vídeo del funcionamiento (1 Bitpoints)\n  \n  Enviarlos por redes sociales (Twitter, G+) con mención \n  a @Obijuan_cube. El vídeo puede estar en youtube o directamente en el tuit/post\n  ",
             "readonly": true
           },
           "position": {
@@ -47,7 +47,7 @@
           "id": "df40451e-59d3-4af3-8ab9-1245aaf6cee6",
           "type": "basic.info",
           "data": {
-            "info": "**GITHUB**:\n\n  2 Bitpoint adicional si lo entregáis por Github (sólo pantallazo, el vídeo\n  no hace falta, para que no ocupe tanto espacio)",
+            "info": "**GITHUB**:\n\n  1 Bitpoint adicional si lo entregáis por Github (sólo pantallazo, el vídeo\n  no hace falta, para que no ocupe tanto espacio)",
             "readonly": true
           },
           "position": {
@@ -64,7 +64,7 @@
     },
     "state": {
       "pan": {
-        "x": 42,
+        "x": 38,
         "y": 95.5
       },
       "zoom": 1
