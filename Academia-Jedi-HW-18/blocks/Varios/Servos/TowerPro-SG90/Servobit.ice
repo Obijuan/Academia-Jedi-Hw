@@ -5,34 +5,34 @@
     "version": "0.1",
     "description": "ServoBit para micrservo TowerPro-SG90. Controlador de 1 bit para mover un servo a 2 posiciones. El ángulo entre una posición y otra es de 90 grados",
     "author": "Juan Gonzalez-Gomez y Jesus Arroyo",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20278.24787%20161.55007%22%20width=%22278.248%22%20height=%22161.55%22%3E%3Cdefs%3E%3Cmarker%20orient=%22auto%22%20id=%22a%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22b%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M-218.782%20532.277v-1.407h-28.955a2.482%202.412%200%200%201-2.482-2.412v-67.936a2.482%202.412%200%200%201%202.482-2.412h28.955v-1.407a2.482%202.412%200%200%201%202.482-2.412h161.738a2.482%202.412%200%200%201%202.482%202.412v1.407h28.955a2.482%202.412%200%200%201%202.482%202.412v67.936a2.482%202.412%200%200%201-2.482%202.412H-52.08v1.407a2.482%202.412%200%200%201-2.482%202.412H-216.3a2.482%202.412%200%200%201-2.482-2.412%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-474.19%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-514.791%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-474.19%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-514.791%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cg%20transform=%22matrix(4.13652%200%200%20-4.0199%20-135.431%20494.49)%22%20stroke-width=%221.184%22%3E%3Ccircle%20cx=%229.45%22%20r=%227.079%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%22.873%22/%3E%3Ctitle%3EFusion009002001_cs001%3C/title%3E%3C/g%3E%3Cpath%20d=%22M-75.467%20475.583c-7.283-7.66-17.99-10.953-28.034-8.622-10.044%202.331-17.874%209.927-20.503%2019.887-2.629%209.961.35%2020.75%207.8%2028.248l81.49%2039.287z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-75.343%20511.357c-7.283%207.66-17.99%2010.953-28.033%208.622-10.044-2.331-17.875-9.927-20.503-19.887-2.629-9.961.35-20.75%207.8-28.248l80.462-43.907z%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-dasharray=%223.56129469,7.1225893%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.9%22%20y=%22561.946%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.9%22%20y=%22561.946%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.576%22%20y=%22430.862%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.576%22%20y=%22430.862%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-174.36%22%20y=%22479.202%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-174.36%22%20y=%22479.202%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3ETower%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22522.407%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22522.407%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3ESG-90%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-179.795%22%20y=%22437.678%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-179.795%22%20y=%22437.678%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E90%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-130.514%22%20y=%22417.919%22%20font-weight=%22400%22%20font-size=%2240.128%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-130.514%22%20y=%22417.919%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2222.93%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-174.36%22%20y=%22500.344%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-174.36%22%20y=%22500.344%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EPro%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M-.15%20535.598a66.685%2073.886%200%200%201-24.215-52.98%2066.685%2073.886%200%200%201%2018.798-55.612%22%20transform=%22scale(-1%201)%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-start=%22url(#a)%22%20marker-end=%22url(#b)%22/%3E%3C/svg%3E"
+    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20278.24787%20161.55007%22%20width=%22278.248%22%20height=%22161.55%22%3E%3Cdefs%3E%3Cmarker%20orient=%22auto%22%20id=%22a%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22b%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M-218.782%20532.277v-1.407h-28.955a2.482%202.412%200%200%201-2.482-2.412v-67.936a2.482%202.412%200%200%201%202.482-2.412h28.955v-1.407a2.482%202.412%200%200%201%202.482-2.412h161.738a2.482%202.412%200%200%201%202.482%202.412v1.407h28.955a2.482%202.412%200%200%201%202.482%202.412v67.936a2.482%202.412%200%200%201-2.482%202.412H-52.08v1.407a2.482%202.412%200%200%201-2.482%202.412H-216.3a2.482%202.412%200%200%201-2.482-2.412%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-474.19%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-514.791%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-474.19%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-514.791%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cg%20transform=%22matrix(4.13652%200%200%20-4.0199%20-135.431%20494.49)%22%20stroke-width=%221.184%22%3E%3Ccircle%20cx=%229.45%22%20r=%227.079%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%22.873%22/%3E%3Ctitle%3EFusion009002001_cs001%3C/title%3E%3C/g%3E%3Cpath%20d=%22M-75.467%20475.583c-7.283-7.66-17.99-10.953-28.034-8.622-10.044%202.331-17.874%209.927-20.503%2019.887-2.629%209.961.35%2020.75%207.8%2028.248l81.49%2039.287z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-75.343%20511.357c-7.283%207.66-17.99%2010.953-28.033%208.622-10.044-2.331-17.875-9.927-20.503-19.887-2.629-9.961.35-20.75%207.8-28.248l80.462-43.907z%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-dasharray=%223.56129469,7.1225893%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.9%22%20y=%22561.946%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.9%22%20y=%22561.946%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.576%22%20y=%22430.862%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.576%22%20y=%22430.862%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-174.36%22%20y=%22479.202%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-174.36%22%20y=%22479.202%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3ETower%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22522.407%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22522.407%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3ESG-90%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-174.36%22%20y=%22500.344%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-174.36%22%20y=%22500.344%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EPro%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M-.15%20535.598a66.685%2073.886%200%200%201-24.215-52.98%2066.685%2073.886%200%200%201%2018.798-55.612%22%20transform=%22scale(-1%201)%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-start=%22url(#a)%22%20marker-end=%22url(#b)%22/%3E%3C/svg%3E"
   },
   "design": {
     "board": "icezum",
     "graph": {
       "blocks": [
         {
-          "id": "eb4ca658-9f9d-45d0-b692-0961a593777a",
+          "id": "f152532b-e244-4151-8936-703efb135401",
           "type": "basic.input",
           "data": {
             "name": "",
             "pins": [
               {
                 "index": "0",
-                "name": "D13",
-                "value": "144"
+                "name": "CLK",
+                "value": "21"
               }
             ],
-            "virtual": true,
+            "virtual": false,
             "clock": true
           },
           "position": {
-            "x": -288,
-            "y": 288
+            "x": -88,
+            "y": 176
           }
         },
         {
-          "id": "dd28d456-e7a5-40ee-be2f-be3b0c65def9",
+          "id": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc",
           "type": "basic.output",
           "data": {
             "name": "",
@@ -43,15 +43,15 @@
                 "value": "119"
               }
             ],
-            "virtual": true
+            "virtual": false
           },
           "position": {
-            "x": 72,
-            "y": 304
+            "x": 280,
+            "y": 264
           }
         },
         {
-          "id": "8c270da8-143a-4c1d-ba63-a206b366a99a",
+          "id": "41328a7d-0a4d-4fd6-84c7-e20091fc73ce",
           "type": "basic.input",
           "data": {
             "name": "",
@@ -62,49 +62,185 @@
                 "value": "144"
               }
             ],
-            "virtual": true,
+            "virtual": false,
             "clock": false
           },
           "position": {
-            "x": -288,
-            "y": 400
+            "x": -568,
+            "y": 480
           }
         },
         {
-          "id": "f5c2790c-4adb-4f01-a1c6-3c8d3eefb481",
+          "id": "fac62195-ccd2-46f4-aded-1d47b60457de",
           "type": "basic.constant",
           "data": {
-            "name": "usec",
+            "name": "P1",
             "value": "2000",
-            "local": true
+            "local": false
           },
           "position": {
-            "x": -160,
-            "y": 192
+            "x": -336,
+            "y": 40
           }
         },
         {
-          "id": "1743d073-7470-4acb-a76f-2888d3690db5",
+          "id": "cded9c5a-e09e-4ff9-a811-9a4351e30936",
           "type": "basic.constant",
           "data": {
-            "name": "usec",
+            "name": "P0",
             "value": "1000",
-            "local": true
+            "local": false
           },
           "position": {
-            "x": -48,
-            "y": 192
+            "x": -336,
+            "y": 272
           }
         },
         {
-          "id": "74f05af3-b0c0-4ae4-99be-86e063ed1618",
-          "type": "0f44061042f7d4aaa88485bcb3017ccbac3f56d4",
+          "id": "0296740d-16d2-4cb2-a055-63a2b48059b1",
+          "type": "96b8795a64cbcff38746c210260d7a44109f0472",
           "position": {
-            "x": -104,
-            "y": 304
+            "x": -80,
+            "y": 264
           },
           "size": {
             "width": 96,
+            "height": 96
+          }
+        },
+        {
+          "id": "c29d0366-050c-4242-9ee8-e6710906f1b8",
+          "type": "56a715a301e2f4cc348cbe2117721b86883da317",
+          "position": {
+            "x": 120,
+            "y": 264
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "c68e3a05-5c88-4145-a307-a3ad350d49a9",
+          "type": "basic.info",
+          "data": {
+            "info": "**Posición 1**: Posición del servo cuando  \nse introduce un 1\n\nEl valor por defecto es de 135 grados\n",
+            "readonly": true
+          },
+          "position": {
+            "x": -640,
+            "y": 32
+          },
+          "size": {
+            "width": 320,
+            "height": 112
+          }
+        },
+        {
+          "id": "06566a3a-fd7c-4dd2-87af-449de7a08ee7",
+          "type": "basic.info",
+          "data": {
+            "info": "**Posición 0**: Posición del servo cuando  \nse introduce un 0\n\nEl valor por defecto es de 45 grados",
+            "readonly": true
+          },
+          "position": {
+            "x": -640,
+            "y": 264
+          },
+          "size": {
+            "width": 336,
+            "height": 80
+          }
+        },
+        {
+          "id": "fcce0844-b9c0-44e7-80f1-ba8cc7771756",
+          "type": "basic.info",
+          "data": {
+            "info": "**Entrada**: posición a donde llevar  \nel servo (posición 0 ó 1)",
+            "readonly": true
+          },
+          "position": {
+            "x": -616,
+            "y": 416
+          },
+          "size": {
+            "width": 288,
+            "height": 48
+          }
+        },
+        {
+          "id": "113731d2-225d-44e4-9600-78126f23c099",
+          "type": "basic.info",
+          "data": {
+            "info": "**Servobit paramétrico** para los microservos **TowerPro SG-90** o compatibles\n\nLos parámetros **P1** y **P0** son las posiciones asociadas a un valor de la entrada de 1 ó 0  \nEstán expresados en **micro-segundos** (usec). Este tiempo es el ancho del pulso\n\nSus **valores** deben estar comprendidos en este rango: \n\n* Extremo derecho: **500 usec**  \n* Extremo izquierdo **2350 usec**\n",
+            "readonly": true
+          },
+          "position": {
+            "x": -184,
+            "y": -48
+          },
+          "size": {
+            "width": 768,
+            "height": 176
+          }
+        },
+        {
+          "id": "3d9a4269-ea27-4b7e-ac96-234cf32c13a1",
+          "type": "basic.code",
+          "data": {
+            "code": "assign k=P1/10;",
+            "params": [
+              {
+                "name": "P1"
+              }
+            ],
+            "ports": {
+              "in": [],
+              "out": [
+                {
+                  "name": "k",
+                  "range": "[7:0]",
+                  "size": 8
+                }
+              ]
+            }
+          },
+          "position": {
+            "x": -384,
+            "y": 160
+          },
+          "size": {
+            "width": 192,
+            "height": 64
+          }
+        },
+        {
+          "id": "7b60c202-0960-4c7e-88a2-6c34d13be284",
+          "type": "basic.code",
+          "data": {
+            "code": "assign k=P0/10;",
+            "params": [
+              {
+                "name": "P0"
+              }
+            ],
+            "ports": {
+              "in": [],
+              "out": [
+                {
+                  "name": "k",
+                  "range": "[7:0]",
+                  "size": 8
+                }
+              ]
+            }
+          },
+          "position": {
+            "x": -384,
+            "y": 384
+          },
+          "size": {
+            "width": 192,
             "height": 64
           }
         }
@@ -112,397 +248,110 @@
       "wires": [
         {
           "source": {
-            "block": "74f05af3-b0c0-4ae4-99be-86e063ed1618",
+            "block": "3d9a4269-ea27-4b7e-ac96-234cf32c13a1",
+            "port": "k"
+          },
+          "target": {
+            "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
+            "port": "2371d0ae-6ba9-400a-a3eb-a4b0c31459d8"
+          },
+          "vertices": [
+            {
+              "x": -144,
+              "y": 264
+            }
+          ],
+          "size": 8
+        },
+        {
+          "source": {
+            "block": "7b60c202-0960-4c7e-88a2-6c34d13be284",
+            "port": "k"
+          },
+          "target": {
+            "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
+            "port": "55b32103-9c59-46d1-a4c3-a39b8df97119"
+          },
+          "vertices": [
+            {
+              "x": -144,
+              "y": 368
+            }
+          ],
+          "size": 8
+        },
+        {
+          "source": {
+            "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
+            "port": "fcae0076-6c4c-43a7-ac22-bf17805db11d"
+          },
+          "target": {
+            "block": "c29d0366-050c-4242-9ee8-e6710906f1b8",
+            "port": "1a91ad1d-23b7-42bf-b8af-5e3a64a00cca"
+          },
+          "size": 8
+        },
+        {
+          "source": {
+            "block": "c29d0366-050c-4242-9ee8-e6710906f1b8",
             "port": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc"
           },
           "target": {
-            "block": "dd28d456-e7a5-40ee-be2f-be3b0c65def9",
+            "block": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc",
             "port": "in"
-          },
-          "vertices": []
+          }
         },
         {
           "source": {
-            "block": "8c270da8-143a-4c1d-ba63-a206b366a99a",
+            "block": "41328a7d-0a4d-4fd6-84c7-e20091fc73ce",
             "port": "out"
           },
           "target": {
-            "block": "74f05af3-b0c0-4ae4-99be-86e063ed1618",
-            "port": "41328a7d-0a4d-4fd6-84c7-e20091fc73ce"
-          },
-          "vertices": []
+            "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
+            "port": "c2494eae-6195-4a5d-9472-cc08e6f387a6"
+          }
         },
         {
           "source": {
-            "block": "f5c2790c-4adb-4f01-a1c6-3c8d3eefb481",
-            "port": "constant-out"
-          },
-          "target": {
-            "block": "74f05af3-b0c0-4ae4-99be-86e063ed1618",
-            "port": "fac62195-ccd2-46f4-aded-1d47b60457de"
-          },
-          "vertices": []
-        },
-        {
-          "source": {
-            "block": "1743d073-7470-4acb-a76f-2888d3690db5",
-            "port": "constant-out"
-          },
-          "target": {
-            "block": "74f05af3-b0c0-4ae4-99be-86e063ed1618",
-            "port": "cded9c5a-e09e-4ff9-a811-9a4351e30936"
-          },
-          "vertices": []
-        },
-        {
-          "source": {
-            "block": "eb4ca658-9f9d-45d0-b692-0961a593777a",
+            "block": "f152532b-e244-4151-8936-703efb135401",
             "port": "out"
           },
           "target": {
-            "block": "74f05af3-b0c0-4ae4-99be-86e063ed1618",
-            "port": "f152532b-e244-4151-8936-703efb135401"
+            "block": "c29d0366-050c-4242-9ee8-e6710906f1b8",
+            "port": "776266dd-e7ee-4ca5-84e4-5dc9193b2a7f"
+          }
+        },
+        {
+          "source": {
+            "block": "fac62195-ccd2-46f4-aded-1d47b60457de",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "3d9a4269-ea27-4b7e-ac96-234cf32c13a1",
+            "port": "P1"
+          }
+        },
+        {
+          "source": {
+            "block": "cded9c5a-e09e-4ff9-a811-9a4351e30936",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "7b60c202-0960-4c7e-88a2-6c34d13be284",
+            "port": "P0"
           }
         }
       ]
     },
     "state": {
       "pan": {
-        "x": 510,
-        "y": -64.5
+        "x": 1143.1349,
+        "y": 195.6491
       },
-      "zoom": 1
+      "zoom": 1.2451
     }
   },
   "dependencies": {
-    "0f44061042f7d4aaa88485bcb3017ccbac3f56d4": {
-      "package": {
-        "name": "ServoBit-90-Tower-Pro-SG90",
-        "version": "0.1",
-        "description": "ServoBit para micrservo TowerPro-SG90. Controlador de 1 bit para mover un servo a 2 posiciones. El ángulo entre una posición y otra es de 90 grados",
-        "author": "Juan Gonzalez-Gomez y Jesus Arroyo",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20278.24787%20161.55007%22%20width=%22278.248%22%20height=%22161.55%22%3E%3Cdefs%3E%3Cmarker%20orient=%22auto%22%20id=%22a%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22b%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M-218.782%20532.277v-1.407h-28.955a2.482%202.412%200%200%201-2.482-2.412v-67.936a2.482%202.412%200%200%201%202.482-2.412h28.955v-1.407a2.482%202.412%200%200%201%202.482-2.412h161.738a2.482%202.412%200%200%201%202.482%202.412v1.407h28.955a2.482%202.412%200%200%201%202.482%202.412v67.936a2.482%202.412%200%200%201-2.482%202.412H-52.08v1.407a2.482%202.412%200%200%201-2.482%202.412H-216.3a2.482%202.412%200%200%201-2.482-2.412%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-474.19%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-514.791%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-474.19%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-514.791%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cg%20transform=%22matrix(4.13652%200%200%20-4.0199%20-135.431%20494.49)%22%20stroke-width=%221.184%22%3E%3Ccircle%20cx=%229.45%22%20r=%227.079%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%22.873%22/%3E%3Ctitle%3EFusion009002001_cs001%3C/title%3E%3C/g%3E%3Cpath%20d=%22M-75.467%20475.583c-7.283-7.66-17.99-10.953-28.034-8.622-10.044%202.331-17.874%209.927-20.503%2019.887-2.629%209.961.35%2020.75%207.8%2028.248l81.49%2039.287z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-75.343%20511.357c-7.283%207.66-17.99%2010.953-28.033%208.622-10.044-2.331-17.875-9.927-20.503-19.887-2.629-9.961.35-20.75%207.8-28.248l80.462-43.907z%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-dasharray=%223.56129469,7.1225893%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.9%22%20y=%22561.946%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.9%22%20y=%22561.946%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.576%22%20y=%22430.862%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.576%22%20y=%22430.862%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-174.36%22%20y=%22479.202%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-174.36%22%20y=%22479.202%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3ETower%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22522.407%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22522.407%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3ESG-90%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-174.36%22%20y=%22500.344%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-174.36%22%20y=%22500.344%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EPro%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M-.15%20535.598a66.685%2073.886%200%200%201-24.215-52.98%2066.685%2073.886%200%200%201%2018.798-55.612%22%20transform=%22scale(-1%201)%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-start=%22url(#a)%22%20marker-end=%22url(#b)%22/%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "f152532b-e244-4151-8936-703efb135401",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": true
-              },
-              "position": {
-                "x": -88,
-                "y": 176
-              }
-            },
-            {
-              "id": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc",
-              "type": "basic.output",
-              "data": {
-                "name": ""
-              },
-              "position": {
-                "x": 280,
-                "y": 264
-              }
-            },
-            {
-              "id": "41328a7d-0a4d-4fd6-84c7-e20091fc73ce",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": false
-              },
-              "position": {
-                "x": -568,
-                "y": 480
-              }
-            },
-            {
-              "id": "fac62195-ccd2-46f4-aded-1d47b60457de",
-              "type": "basic.constant",
-              "data": {
-                "name": "P1",
-                "value": "2000",
-                "local": false
-              },
-              "position": {
-                "x": -336,
-                "y": 40
-              }
-            },
-            {
-              "id": "cded9c5a-e09e-4ff9-a811-9a4351e30936",
-              "type": "basic.constant",
-              "data": {
-                "name": "P0",
-                "value": "1000",
-                "local": false
-              },
-              "position": {
-                "x": -336,
-                "y": 272
-              }
-            },
-            {
-              "id": "0296740d-16d2-4cb2-a055-63a2b48059b1",
-              "type": "96b8795a64cbcff38746c210260d7a44109f0472",
-              "position": {
-                "x": -80,
-                "y": 264
-              },
-              "size": {
-                "width": 96,
-                "height": 96
-              }
-            },
-            {
-              "id": "c29d0366-050c-4242-9ee8-e6710906f1b8",
-              "type": "56a715a301e2f4cc348cbe2117721b86883da317",
-              "position": {
-                "x": 120,
-                "y": 264
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
-              "id": "c68e3a05-5c88-4145-a307-a3ad350d49a9",
-              "type": "basic.info",
-              "data": {
-                "info": "**Posición 1**: Posición del servo cuando  \nse introduce un 1\n\nEl valor por defecto es de 135 grados\n",
-                "readonly": true
-              },
-              "position": {
-                "x": -640,
-                "y": 32
-              },
-              "size": {
-                "width": 320,
-                "height": 112
-              }
-            },
-            {
-              "id": "06566a3a-fd7c-4dd2-87af-449de7a08ee7",
-              "type": "basic.info",
-              "data": {
-                "info": "**Posición 0**: Posición del servo cuando  \nse introduce un 0\n\nEl valor por defecto es de 45 grados",
-                "readonly": true
-              },
-              "position": {
-                "x": -640,
-                "y": 264
-              },
-              "size": {
-                "width": 336,
-                "height": 80
-              }
-            },
-            {
-              "id": "fcce0844-b9c0-44e7-80f1-ba8cc7771756",
-              "type": "basic.info",
-              "data": {
-                "info": "**Entrada**: posición a donde llevar  \nel servo (posición 0 ó 1)",
-                "readonly": true
-              },
-              "position": {
-                "x": -616,
-                "y": 416
-              },
-              "size": {
-                "width": 288,
-                "height": 48
-              }
-            },
-            {
-              "id": "113731d2-225d-44e4-9600-78126f23c099",
-              "type": "basic.info",
-              "data": {
-                "info": "**Servobit paramétrico** para los microservos **TowerPro SG-90** o compatibles\n\nLos parámetros **P1** y **P0** son las posiciones asociadas a un valor de la entrada de 1 ó 0  \nEstán expresados en **micro-segundos** (usec). Este tiempo es el ancho del pulso\n\nSus **valores** deben estar comprendidos en este rango: \n\n* Extremo derecho: **500 usec**  \n* Extremo izquierdo **2350 usec**\n",
-                "readonly": true
-              },
-              "position": {
-                "x": -184,
-                "y": -48
-              },
-              "size": {
-                "width": 768,
-                "height": 176
-              }
-            },
-            {
-              "id": "3d9a4269-ea27-4b7e-ac96-234cf32c13a1",
-              "type": "basic.code",
-              "data": {
-                "code": "assign k=P1/10;",
-                "params": [
-                  {
-                    "name": "P1"
-                  }
-                ],
-                "ports": {
-                  "in": [],
-                  "out": [
-                    {
-                      "name": "k",
-                      "range": "[7:0]",
-                      "size": 8
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": -384,
-                "y": 160
-              },
-              "size": {
-                "width": 192,
-                "height": 64
-              }
-            },
-            {
-              "id": "7b60c202-0960-4c7e-88a2-6c34d13be284",
-              "type": "basic.code",
-              "data": {
-                "code": "assign k=P0/10;",
-                "params": [
-                  {
-                    "name": "P0"
-                  }
-                ],
-                "ports": {
-                  "in": [],
-                  "out": [
-                    {
-                      "name": "k",
-                      "range": "[7:0]",
-                      "size": 8
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": -384,
-                "y": 384
-              },
-              "size": {
-                "width": 192,
-                "height": 64
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "3d9a4269-ea27-4b7e-ac96-234cf32c13a1",
-                "port": "k"
-              },
-              "target": {
-                "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
-                "port": "2371d0ae-6ba9-400a-a3eb-a4b0c31459d8"
-              },
-              "vertices": [
-                {
-                  "x": -144,
-                  "y": 264
-                }
-              ],
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "7b60c202-0960-4c7e-88a2-6c34d13be284",
-                "port": "k"
-              },
-              "target": {
-                "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
-                "port": "55b32103-9c59-46d1-a4c3-a39b8df97119"
-              },
-              "vertices": [
-                {
-                  "x": -144,
-                  "y": 368
-                }
-              ],
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
-                "port": "fcae0076-6c4c-43a7-ac22-bf17805db11d"
-              },
-              "target": {
-                "block": "c29d0366-050c-4242-9ee8-e6710906f1b8",
-                "port": "1a91ad1d-23b7-42bf-b8af-5e3a64a00cca"
-              },
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "c29d0366-050c-4242-9ee8-e6710906f1b8",
-                "port": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc"
-              },
-              "target": {
-                "block": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc",
-                "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "41328a7d-0a4d-4fd6-84c7-e20091fc73ce",
-                "port": "out"
-              },
-              "target": {
-                "block": "0296740d-16d2-4cb2-a055-63a2b48059b1",
-                "port": "c2494eae-6195-4a5d-9472-cc08e6f387a6"
-              }
-            },
-            {
-              "source": {
-                "block": "f152532b-e244-4151-8936-703efb135401",
-                "port": "out"
-              },
-              "target": {
-                "block": "c29d0366-050c-4242-9ee8-e6710906f1b8",
-                "port": "776266dd-e7ee-4ca5-84e4-5dc9193b2a7f"
-              }
-            },
-            {
-              "source": {
-                "block": "fac62195-ccd2-46f4-aded-1d47b60457de",
-                "port": "constant-out"
-              },
-              "target": {
-                "block": "3d9a4269-ea27-4b7e-ac96-234cf32c13a1",
-                "port": "P1"
-              }
-            },
-            {
-              "source": {
-                "block": "cded9c5a-e09e-4ff9-a811-9a4351e30936",
-                "port": "constant-out"
-              },
-              "target": {
-                "block": "7b60c202-0960-4c7e-88a2-6c34d13be284",
-                "port": "P0"
-              }
-            }
-          ]
-        },
-        "state": {
-          "pan": {
-            "x": 1143.1349,
-            "y": 195.6491
-          },
-          "zoom": 1.2451
-        }
-      }
-    },
     "96b8795a64cbcff38746c210260d7a44109f0472": {
       "package": {
         "name": "Mux-2-1-7bits",

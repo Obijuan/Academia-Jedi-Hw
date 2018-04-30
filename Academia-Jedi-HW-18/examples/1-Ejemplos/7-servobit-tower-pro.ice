@@ -1,41 +1,21 @@
 {
   "version": "1.1",
   "package": {
-    "name": "ServoBit-90-Tower-Pro-SG90",
-    "version": "0.1",
-    "description": "ServoBit para micrservo TowerPro-SG90. Controlador de 1 bit para mover un servo a 2 posiciones. El ángulo entre una posición y otra es de 90 grados",
-    "author": "Juan Gonzalez-Gomez y Jesus Arroyo",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20278.24787%20161.55007%22%20width=%22278.248%22%20height=%22161.55%22%3E%3Cdefs%3E%3Cmarker%20orient=%22auto%22%20id=%22a%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22b%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M-218.782%20532.277v-1.407h-28.955a2.482%202.412%200%200%201-2.482-2.412v-67.936a2.482%202.412%200%200%201%202.482-2.412h28.955v-1.407a2.482%202.412%200%200%201%202.482-2.412h161.738a2.482%202.412%200%200%201%202.482%202.412v1.407h28.955a2.482%202.412%200%200%201%202.482%202.412v67.936a2.482%202.412%200%200%201-2.482%202.412H-52.08v1.407a2.482%202.412%200%200%201-2.482%202.412H-216.3a2.482%202.412%200%200%201-2.482-2.412%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-474.19%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-514.791%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-474.19%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-514.791%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cg%20transform=%22matrix(4.13652%200%200%20-4.0199%20-135.431%20494.49)%22%20stroke-width=%221.184%22%3E%3Ccircle%20cx=%229.45%22%20r=%227.079%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%22.873%22/%3E%3Ctitle%3EFusion009002001_cs001%3C/title%3E%3C/g%3E%3Cpath%20d=%22M-75.467%20475.583c-7.283-7.66-17.99-10.953-28.034-8.622-10.044%202.331-17.874%209.927-20.503%2019.887-2.629%209.961.35%2020.75%207.8%2028.248l81.49%2039.287z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-75.343%20511.357c-7.283%207.66-17.99%2010.953-28.033%208.622-10.044-2.331-17.875-9.927-20.503-19.887-2.629-9.961.35-20.75%207.8-28.248l80.462-43.907z%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-dasharray=%223.56129469,7.1225893%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.9%22%20y=%22561.946%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.9%22%20y=%22561.946%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.576%22%20y=%22430.862%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.576%22%20y=%22430.862%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-174.36%22%20y=%22479.202%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-174.36%22%20y=%22479.202%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3ETower%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22522.407%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22522.407%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3ESG-90%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-179.795%22%20y=%22437.678%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-179.795%22%20y=%22437.678%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E90%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-130.514%22%20y=%22417.919%22%20font-weight=%22400%22%20font-size=%2240.128%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-130.514%22%20y=%22417.919%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2222.93%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-174.36%22%20y=%22500.344%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-174.36%22%20y=%22500.344%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EPro%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M-.15%20535.598a66.685%2073.886%200%200%201-24.215-52.98%2066.685%2073.886%200%200%201%2018.798-55.612%22%20transform=%22scale(-1%201)%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-start=%22url(#a)%22%20marker-end=%22url(#b)%22/%3E%3C/svg%3E"
+    "name": "",
+    "version": "",
+    "description": "",
+    "author": "",
+    "image": ""
   },
   "design": {
     "board": "icezum",
     "graph": {
       "blocks": [
         {
-          "id": "eb4ca658-9f9d-45d0-b692-0961a593777a",
-          "type": "basic.input",
-          "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "D13",
-                "value": "144"
-              }
-            ],
-            "virtual": true,
-            "clock": true
-          },
-          "position": {
-            "x": -288,
-            "y": 288
-          }
-        },
-        {
-          "id": "dd28d456-e7a5-40ee-be2f-be3b0c65def9",
+          "id": "d031f889-5343-472c-a153-8c85538527f3",
           "type": "basic.output",
           "data": {
-            "name": "",
+            "name": "Servo",
             "pins": [
               {
                 "index": "0",
@@ -43,18 +23,18 @@
                 "value": "119"
               }
             ],
-            "virtual": true
+            "virtual": false
           },
           "position": {
-            "x": 72,
-            "y": 304
+            "x": 752,
+            "y": 320
           }
         },
         {
-          "id": "8c270da8-143a-4c1d-ba63-a206b366a99a",
+          "id": "67cd3ade-99d0-4b69-b975-c0acb62d7767",
           "type": "basic.input",
           "data": {
-            "name": "",
+            "name": "Boton",
             "pins": [
               {
                 "index": "0",
@@ -62,46 +42,46 @@
                 "value": "144"
               }
             ],
-            "virtual": true,
+            "virtual": false,
             "clock": false
           },
           "position": {
-            "x": -288,
-            "y": 400
+            "x": 392,
+            "y": 336
           }
         },
         {
-          "id": "f5c2790c-4adb-4f01-a1c6-3c8d3eefb481",
+          "id": "c6133d99-35b1-4a04-96e3-16b966389cde",
           "type": "basic.constant",
           "data": {
             "name": "usec",
-            "value": "2000",
-            "local": true
+            "value": "2350",
+            "local": false
           },
           "position": {
-            "x": -160,
-            "y": 192
+            "x": 504,
+            "y": 208
           }
         },
         {
-          "id": "1743d073-7470-4acb-a76f-2888d3690db5",
+          "id": "b7db1040-3d2f-4fc4-9227-426f2f41d1bb",
           "type": "basic.constant",
           "data": {
             "name": "usec",
-            "value": "1000",
-            "local": true
+            "value": "500",
+            "local": false
           },
           "position": {
-            "x": -48,
-            "y": 192
+            "x": 640,
+            "y": 208
           }
         },
         {
-          "id": "74f05af3-b0c0-4ae4-99be-86e063ed1618",
+          "id": "dd93b868-29db-4252-a462-c6f83559bb1d",
           "type": "0f44061042f7d4aaa88485bcb3017ccbac3f56d4",
           "position": {
-            "x": -104,
-            "y": 304
+            "x": 576,
+            "y": 320
           },
           "size": {
             "width": 96,
@@ -112,64 +92,52 @@
       "wires": [
         {
           "source": {
-            "block": "74f05af3-b0c0-4ae4-99be-86e063ed1618",
+            "block": "dd93b868-29db-4252-a462-c6f83559bb1d",
             "port": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc"
           },
           "target": {
-            "block": "dd28d456-e7a5-40ee-be2f-be3b0c65def9",
+            "block": "d031f889-5343-472c-a153-8c85538527f3",
             "port": "in"
           },
           "vertices": []
         },
         {
           "source": {
-            "block": "8c270da8-143a-4c1d-ba63-a206b366a99a",
+            "block": "67cd3ade-99d0-4b69-b975-c0acb62d7767",
             "port": "out"
           },
           "target": {
-            "block": "74f05af3-b0c0-4ae4-99be-86e063ed1618",
+            "block": "dd93b868-29db-4252-a462-c6f83559bb1d",
             "port": "41328a7d-0a4d-4fd6-84c7-e20091fc73ce"
           },
           "vertices": []
         },
         {
           "source": {
-            "block": "f5c2790c-4adb-4f01-a1c6-3c8d3eefb481",
+            "block": "c6133d99-35b1-4a04-96e3-16b966389cde",
             "port": "constant-out"
           },
           "target": {
-            "block": "74f05af3-b0c0-4ae4-99be-86e063ed1618",
+            "block": "dd93b868-29db-4252-a462-c6f83559bb1d",
             "port": "fac62195-ccd2-46f4-aded-1d47b60457de"
-          },
-          "vertices": []
+          }
         },
         {
           "source": {
-            "block": "1743d073-7470-4acb-a76f-2888d3690db5",
+            "block": "b7db1040-3d2f-4fc4-9227-426f2f41d1bb",
             "port": "constant-out"
           },
           "target": {
-            "block": "74f05af3-b0c0-4ae4-99be-86e063ed1618",
+            "block": "dd93b868-29db-4252-a462-c6f83559bb1d",
             "port": "cded9c5a-e09e-4ff9-a811-9a4351e30936"
-          },
-          "vertices": []
-        },
-        {
-          "source": {
-            "block": "eb4ca658-9f9d-45d0-b692-0961a593777a",
-            "port": "out"
-          },
-          "target": {
-            "block": "74f05af3-b0c0-4ae4-99be-86e063ed1618",
-            "port": "f152532b-e244-4151-8936-703efb135401"
           }
         }
       ]
     },
     "state": {
       "pan": {
-        "x": 510,
-        "y": -64.5
+        "x": -170,
+        "y": -40.5
       },
       "zoom": 1
     }
