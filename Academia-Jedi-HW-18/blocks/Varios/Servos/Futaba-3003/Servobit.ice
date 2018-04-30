@@ -1,38 +1,38 @@
 {
   "version": "1.1",
   "package": {
-    "name": "ServoBit-90-Futaba3003",
+    "name": "ServoBit-Futaba3003",
     "version": "0.1",
-    "description": "ServoBit para Futaba 3003. Controlador de 1 bit para mover un servo a 2 posiciones. El ángulo entre una posición y otra es de 90 grados",
+    "description": "ServoBit paramétrico para Futaba 3003. Controlador de 1 bit para mover el servo a las 2 posiciones POS0 y POS1",
     "author": "Juan Gonzalez-Gomez y Jesus Arroyo",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20278.16016%20175.19108%22%20width=%22278.16%22%20height=%22175.191%22%3E%3Cdefs%3E%3Cmarker%20id=%22a%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22b%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M-218.782%20540.66v-1.407h-28.955a2.482%202.412%200%200%201-2.482-2.412v-67.936a2.482%202.412%200%200%201%202.482-2.412h28.955v-1.407a2.482%202.412%200%200%201%202.482-2.412h161.738a2.482%202.412%200%200%201%202.482%202.412v1.407h28.955a2.482%202.412%200%200%201%202.482%202.412v67.936a2.482%202.412%200%200%201-2.482%202.412H-52.08v1.407a2.482%202.412%200%200%201-2.482%202.412H-216.3a2.482%202.412%200%200%201-2.482-2.412%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cg%20transform=%22matrix(4.13652%200%200%20-4.0199%20-135.431%20502.873)%22%20stroke-width=%221.184%22%3E%3Ccircle%20cx=%229.45%22%20r=%227.079%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%22.873%22/%3E%3Ctitle%3EFusion009002001_cs001%3C/title%3E%3C/g%3E%3Cpath%20d=%22M-75.467%20483.966c-7.283-7.66-17.99-10.953-28.034-8.622-10.044%202.331-17.874%209.926-20.503%2019.887-2.629%209.96.35%2020.75%207.8%2028.248l81.49%2039.287z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-75.343%20519.74c-7.283%207.66-17.99%2010.952-28.033%208.621-10.044-2.33-17.875-9.926-20.503-19.887-2.629-9.96.35-20.749%207.8-28.247l80.462-43.908z%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-dasharray=%223.56129469,7.1225893%22/%3E%3Cpath%20d=%22M-.062%20548.435a66.685%2073.886%200%200%201-24.216-52.98%2066.685%2073.886%200%200%201%2018.799-55.613%22%20transform=%22scale(-1%201)%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-start=%22url(#a)%22%20marker-end=%22url(#b)%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-30.206%22%20y=%22571.866%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-30.206%22%20y=%22571.866%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.576%22%20y=%22446.164%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.576%22%20y=%22446.164%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22499.501%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22499.501%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EFutaba%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22522.333%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22522.333%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3E3003%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-179.795%22%20y=%22446.06%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-179.795%22%20y=%22446.06%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E90%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-130.514%22%20y=%22426.301%22%20font-weight=%22400%22%20font-size=%2240.128%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-130.514%22%20y=%22426.301%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2222.93%22%3E0%3C/tspan%3E%3C/text%3E%3C/svg%3E"
+    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20278.16016%20175.19108%22%20width=%22278.16%22%20height=%22175.191%22%3E%3Cdefs%3E%3Cmarker%20id=%22a%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22b%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M-218.782%20540.66v-1.407h-28.955a2.482%202.412%200%200%201-2.482-2.412v-67.936a2.482%202.412%200%200%201%202.482-2.412h28.955v-1.407a2.482%202.412%200%200%201%202.482-2.412h161.738a2.482%202.412%200%200%201%202.482%202.412v1.407h28.955a2.482%202.412%200%200%201%202.482%202.412v67.936a2.482%202.412%200%200%201-2.482%202.412H-52.08v1.407a2.482%202.412%200%200%201-2.482%202.412H-216.3a2.482%202.412%200%200%201-2.482-2.412%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cg%20transform=%22matrix(4.13652%200%200%20-4.0199%20-135.431%20502.873)%22%20stroke-width=%221.184%22%3E%3Ccircle%20cx=%229.45%22%20r=%227.079%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%22.873%22/%3E%3Ctitle%3EFusion009002001_cs001%3C/title%3E%3C/g%3E%3Cpath%20d=%22M-75.467%20483.966c-7.283-7.66-17.99-10.953-28.034-8.622-10.044%202.331-17.874%209.926-20.503%2019.887-2.629%209.96.35%2020.75%207.8%2028.248l81.49%2039.287z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-75.343%20519.74c-7.283%207.66-17.99%2010.952-28.033%208.621-10.044-2.33-17.875-9.926-20.503-19.887-2.629-9.96.35-20.749%207.8-28.247l80.462-43.908z%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-dasharray=%223.56129469,7.1225893%22/%3E%3Cpath%20d=%22M-.062%20548.435a66.685%2073.886%200%200%201-24.216-52.98%2066.685%2073.886%200%200%201%2018.799-55.613%22%20transform=%22scale(-1%201)%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-start=%22url(#a)%22%20marker-end=%22url(#b)%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-30.206%22%20y=%22571.866%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-30.206%22%20y=%22571.866%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.576%22%20y=%22446.164%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.576%22%20y=%22446.164%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22499.501%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22499.501%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EFutaba%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22522.333%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22522.333%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3E3003%3C/tspan%3E%3C/text%3E%3C/svg%3E"
   },
   "design": {
     "board": "icezum",
     "graph": {
       "blocks": [
         {
-          "id": "d914ba1c-a7ca-4ca3-919f-19ae42b3bb77",
+          "id": "26c62726-108d-4db7-b5fb-086be3c3bbe8",
           "type": "basic.input",
           "data": {
             "name": "",
             "pins": [
               {
                 "index": "0",
-                "name": "",
-                "value": "0"
+                "name": "CLK",
+                "value": "21"
               }
             ],
             "virtual": true,
             "clock": true
           },
           "position": {
-            "x": -280,
-            "y": 320
+            "x": 984,
+            "y": 56
           }
         },
         {
-          "id": "8cd7e68d-a379-4703-b473-df733e6bfc68",
+          "id": "e93b6501-719f-45be-af80-f19062ee250b",
           "type": "basic.output",
           "data": {
             "name": "",
@@ -46,12 +46,12 @@
             "virtual": true
           },
           "position": {
-            "x": 88,
-            "y": 336
+            "x": 1352,
+            "y": 144
           }
         },
         {
-          "id": "a8effcd3-75f9-4e29-a09b-3af2906257a4",
+          "id": "76fc8a3d-32ae-4f36-a895-403d5db46915",
           "type": "basic.input",
           "data": {
             "name": "",
@@ -66,61 +66,181 @@
             "clock": false
           },
           "position": {
-            "x": -280,
-            "y": 400
+            "x": 504,
+            "y": 360
           }
         },
         {
-          "id": "2911651b-c790-41cb-a598-0ab81bef259e",
+          "id": "f4dc3dbc-550f-41f8-ae8d-b97dcba33672",
           "type": "basic.constant",
           "data": {
             "name": "P1",
             "value": "1670",
-            "local": true
+            "local": false
           },
           "position": {
-            "x": -144,
-            "y": 224
+            "x": 736,
+            "y": -80
           }
         },
         {
-          "id": "99a0641c-b393-4e40-9f88-13ad308577ad",
+          "id": "9766bdcd-4afc-4f4d-a6c8-ac7765014a0a",
           "type": "basic.constant",
           "data": {
             "name": "P0",
             "value": "820",
-            "local": true
+            "local": false
           },
           "position": {
-            "x": -40,
-            "y": 224
+            "x": 736,
+            "y": 152
           }
         },
         {
-          "id": "b2c5df1d-1302-4d64-ae38-251d0e52dddb",
-          "type": "basic.info",
-          "data": {
-            "info": "**Servobit** para Servos Futaba 3003 o comaptibles\nLas dos posiciones están distanciadas **90 grados**  \n\n* **Posicion 0**: 45 grados  \n* **Posicion 1**: 135 grados  ",
-            "readonly": true
-          },
+          "id": "aef7dd0a-5df7-47c0-8605-3c67d8963582",
+          "type": "96b8795a64cbcff38746c210260d7a44109f0472",
           "position": {
-            "x": -408,
-            "y": 128
+            "x": 992,
+            "y": 144
           },
           "size": {
-            "width": 448,
+            "width": 96,
             "height": 96
           }
         },
         {
-          "id": "2b7f9660-7356-4858-9bd3-f6ad0500d145",
-          "type": "694e841237a248951f54174969d445af5352f681",
+          "id": "af453838-27fa-4d3b-bc4a-95dd4ea0eece",
+          "type": "56a715a301e2f4cc348cbe2117721b86883da317",
           "position": {
-            "x": -88,
-            "y": 336
+            "x": 1192,
+            "y": 144
           },
           "size": {
             "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "56c68fee-38c6-4bf3-bb40-189cdacb4e13",
+          "type": "basic.info",
+          "data": {
+            "info": "**Posición 1**: Posición del servo cuando  \nse introduce un 1\n\nEl valor por defecto es de 135 grados\n",
+            "readonly": true
+          },
+          "position": {
+            "x": 432,
+            "y": -88
+          },
+          "size": {
+            "width": 320,
+            "height": 112
+          }
+        },
+        {
+          "id": "0b8ab99d-8809-4cae-9b09-092e231cda9b",
+          "type": "basic.info",
+          "data": {
+            "info": "**Posición 0**: Posición del servo cuando  \nse introduce un 0\n\nEl valor por defecto es de 45 grados",
+            "readonly": true
+          },
+          "position": {
+            "x": 432,
+            "y": 144
+          },
+          "size": {
+            "width": 336,
+            "height": 80
+          }
+        },
+        {
+          "id": "68f35412-5eee-4169-a3bc-8a8711852c3f",
+          "type": "basic.info",
+          "data": {
+            "info": "**Entrada**: posición a donde llevar  \nel servo (posición 0 ó 1)",
+            "readonly": true
+          },
+          "position": {
+            "x": 456,
+            "y": 296
+          },
+          "size": {
+            "width": 288,
+            "height": 48
+          }
+        },
+        {
+          "id": "9f26fece-d735-46b5-9f25-48d338ac7d76",
+          "type": "basic.info",
+          "data": {
+            "info": "**Servobit paramétrico** para los microservos **Futaba 3003** o compatibles\n\nLos parámetros **P1** y **P0** son las posiciones asociadas a un valor de la entrada de 1 ó 0  \nEstán expresados en **micro-segundos** (usec). Este tiempo es el ancho del pulso\n\nSus **valores** deben estar comprendidos en este rango: \n\n* Extremo derecho: **380 usec**  \n* Extremo izquierdo **2410 usec**\n",
+            "readonly": true
+          },
+          "position": {
+            "x": 888,
+            "y": -168
+          },
+          "size": {
+            "width": 768,
+            "height": 176
+          }
+        },
+        {
+          "id": "533b92be-2a3c-4c55-9b16-10222a41cab3",
+          "type": "basic.code",
+          "data": {
+            "code": "assign k=P1/10;",
+            "params": [
+              {
+                "name": "P1"
+              }
+            ],
+            "ports": {
+              "in": [],
+              "out": [
+                {
+                  "name": "k",
+                  "range": "[7:0]",
+                  "size": 8
+                }
+              ]
+            }
+          },
+          "position": {
+            "x": 688,
+            "y": 40
+          },
+          "size": {
+            "width": 192,
+            "height": 64
+          }
+        },
+        {
+          "id": "c723a38a-8186-4ef4-96a1-5b0db5ade615",
+          "type": "basic.code",
+          "data": {
+            "code": "assign k=P0/10;",
+            "params": [
+              {
+                "name": "P0"
+              }
+            ],
+            "ports": {
+              "in": [],
+              "out": [
+                {
+                  "name": "k",
+                  "range": "[7:0]",
+                  "size": 8
+                }
+              ]
+            }
+          },
+          "position": {
+            "x": 688,
+            "y": 264
+          },
+          "size": {
+            "width": 192,
             "height": 64
           }
         }
@@ -128,56 +248,102 @@
       "wires": [
         {
           "source": {
-            "block": "2b7f9660-7356-4858-9bd3-f6ad0500d145",
-            "port": "e93b6501-719f-45be-af80-f19062ee250b"
+            "block": "76fc8a3d-32ae-4f36-a895-403d5db46915",
+            "port": "out"
           },
           "target": {
-            "block": "8cd7e68d-a379-4703-b473-df733e6bfc68",
+            "block": "aef7dd0a-5df7-47c0-8605-3c67d8963582",
+            "port": "c2494eae-6195-4a5d-9472-cc08e6f387a6"
+          },
+          "vertices": []
+        },
+        {
+          "source": {
+            "block": "af453838-27fa-4d3b-bc4a-95dd4ea0eece",
+            "port": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc"
+          },
+          "target": {
+            "block": "e93b6501-719f-45be-af80-f19062ee250b",
             "port": "in"
           },
           "vertices": []
         },
         {
           "source": {
-            "block": "2911651b-c790-41cb-a598-0ab81bef259e",
-            "port": "constant-out"
+            "block": "aef7dd0a-5df7-47c0-8605-3c67d8963582",
+            "port": "fcae0076-6c4c-43a7-ac22-bf17805db11d"
           },
           "target": {
-            "block": "2b7f9660-7356-4858-9bd3-f6ad0500d145",
-            "port": "f4dc3dbc-550f-41f8-ae8d-b97dcba33672"
+            "block": "af453838-27fa-4d3b-bc4a-95dd4ea0eece",
+            "port": "1a91ad1d-23b7-42bf-b8af-5e3a64a00cca"
           },
-          "vertices": []
+          "vertices": [],
+          "size": 8
         },
         {
           "source": {
-            "block": "99a0641c-b393-4e40-9f88-13ad308577ad",
-            "port": "constant-out"
-          },
-          "target": {
-            "block": "2b7f9660-7356-4858-9bd3-f6ad0500d145",
-            "port": "9766bdcd-4afc-4f4d-a6c8-ac7765014a0a"
-          },
-          "vertices": []
-        },
-        {
-          "source": {
-            "block": "a8effcd3-75f9-4e29-a09b-3af2906257a4",
+            "block": "26c62726-108d-4db7-b5fb-086be3c3bbe8",
             "port": "out"
           },
           "target": {
-            "block": "2b7f9660-7356-4858-9bd3-f6ad0500d145",
-            "port": "76fc8a3d-32ae-4f36-a895-403d5db46915"
+            "block": "af453838-27fa-4d3b-bc4a-95dd4ea0eece",
+            "port": "776266dd-e7ee-4ca5-84e4-5dc9193b2a7f"
           },
           "vertices": []
         },
         {
           "source": {
-            "block": "d914ba1c-a7ca-4ca3-919f-19ae42b3bb77",
-            "port": "out"
+            "block": "533b92be-2a3c-4c55-9b16-10222a41cab3",
+            "port": "k"
           },
           "target": {
-            "block": "2b7f9660-7356-4858-9bd3-f6ad0500d145",
-            "port": "26c62726-108d-4db7-b5fb-086be3c3bbe8"
+            "block": "aef7dd0a-5df7-47c0-8605-3c67d8963582",
+            "port": "2371d0ae-6ba9-400a-a3eb-a4b0c31459d8"
+          },
+          "vertices": [
+            {
+              "x": 928,
+              "y": 144
+            }
+          ],
+          "size": 8
+        },
+        {
+          "source": {
+            "block": "f4dc3dbc-550f-41f8-ae8d-b97dcba33672",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "533b92be-2a3c-4c55-9b16-10222a41cab3",
+            "port": "P1"
+          },
+          "vertices": []
+        },
+        {
+          "source": {
+            "block": "c723a38a-8186-4ef4-96a1-5b0db5ade615",
+            "port": "k"
+          },
+          "target": {
+            "block": "aef7dd0a-5df7-47c0-8605-3c67d8963582",
+            "port": "55b32103-9c59-46d1-a4c3-a39b8df97119"
+          },
+          "vertices": [
+            {
+              "x": 928,
+              "y": 248
+            }
+          ],
+          "size": 8
+        },
+        {
+          "source": {
+            "block": "9766bdcd-4afc-4f4d-a6c8-ac7765014a0a",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "c723a38a-8186-4ef4-96a1-5b0db5ade615",
+            "port": "P0"
           },
           "vertices": []
         }
@@ -185,347 +351,13 @@
     },
     "state": {
       "pan": {
-        "x": 562,
-        "y": -32.5
+        "x": -225.1176,
+        "y": 282.8726
       },
-      "zoom": 1
+      "zoom": 0.8799
     }
   },
   "dependencies": {
-    "694e841237a248951f54174969d445af5352f681": {
-      "package": {
-        "name": "ServoBit-Futaba3003",
-        "version": "0.1",
-        "description": "ServoBit paramétrico para Futaba 3003. Controlador de 1 bit para mover el servo a las 2 posiciones POS0 y POS1",
-        "author": "Juan Gonzalez-Gomez y Jesus Arroyo",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20278.16016%20175.19108%22%20width=%22278.16%22%20height=%22175.191%22%3E%3Cdefs%3E%3Cmarker%20id=%22a%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22b%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M-218.782%20540.66v-1.407h-28.955a2.482%202.412%200%200%201-2.482-2.412v-67.936a2.482%202.412%200%200%201%202.482-2.412h28.955v-1.407a2.482%202.412%200%200%201%202.482-2.412h161.738a2.482%202.412%200%200%201%202.482%202.412v1.407h28.955a2.482%202.412%200%200%201%202.482%202.412v67.936a2.482%202.412%200%200%201-2.482%202.412H-52.08v1.407a2.482%202.412%200%200%201-2.482%202.412H-216.3a2.482%202.412%200%200%201-2.482-2.412%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cg%20transform=%22matrix(4.13652%200%200%20-4.0199%20-135.431%20502.873)%22%20stroke-width=%221.184%22%3E%3Ccircle%20cx=%229.45%22%20r=%227.079%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%22.873%22/%3E%3Ctitle%3EFusion009002001_cs001%3C/title%3E%3C/g%3E%3Cpath%20d=%22M-75.467%20483.966c-7.283-7.66-17.99-10.953-28.034-8.622-10.044%202.331-17.874%209.926-20.503%2019.887-2.629%209.96.35%2020.75%207.8%2028.248l81.49%2039.287z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-75.343%20519.74c-7.283%207.66-17.99%2010.952-28.033%208.621-10.044-2.33-17.875-9.926-20.503-19.887-2.629-9.96.35-20.749%207.8-28.247l80.462-43.908z%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-dasharray=%223.56129469,7.1225893%22/%3E%3Cpath%20d=%22M-.062%20548.435a66.685%2073.886%200%200%201-24.216-52.98%2066.685%2073.886%200%200%201%2018.799-55.613%22%20transform=%22scale(-1%201)%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-start=%22url(#a)%22%20marker-end=%22url(#b)%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-30.206%22%20y=%22571.866%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-30.206%22%20y=%22571.866%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.576%22%20y=%22446.164%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.576%22%20y=%22446.164%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22499.501%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22499.501%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EFutaba%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22522.333%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22522.333%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3E3003%3C/tspan%3E%3C/text%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "26c62726-108d-4db7-b5fb-086be3c3bbe8",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": true
-              },
-              "position": {
-                "x": 984,
-                "y": 56
-              }
-            },
-            {
-              "id": "e93b6501-719f-45be-af80-f19062ee250b",
-              "type": "basic.output",
-              "data": {
-                "name": ""
-              },
-              "position": {
-                "x": 1352,
-                "y": 144
-              }
-            },
-            {
-              "id": "76fc8a3d-32ae-4f36-a895-403d5db46915",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": false
-              },
-              "position": {
-                "x": 504,
-                "y": 360
-              }
-            },
-            {
-              "id": "f4dc3dbc-550f-41f8-ae8d-b97dcba33672",
-              "type": "basic.constant",
-              "data": {
-                "name": "P1",
-                "value": "1670",
-                "local": false
-              },
-              "position": {
-                "x": 736,
-                "y": -80
-              }
-            },
-            {
-              "id": "9766bdcd-4afc-4f4d-a6c8-ac7765014a0a",
-              "type": "basic.constant",
-              "data": {
-                "name": "P0",
-                "value": "820",
-                "local": false
-              },
-              "position": {
-                "x": 736,
-                "y": 152
-              }
-            },
-            {
-              "id": "aef7dd0a-5df7-47c0-8605-3c67d8963582",
-              "type": "96b8795a64cbcff38746c210260d7a44109f0472",
-              "position": {
-                "x": 992,
-                "y": 144
-              },
-              "size": {
-                "width": 96,
-                "height": 96
-              }
-            },
-            {
-              "id": "af453838-27fa-4d3b-bc4a-95dd4ea0eece",
-              "type": "56a715a301e2f4cc348cbe2117721b86883da317",
-              "position": {
-                "x": 1192,
-                "y": 144
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
-              "id": "56c68fee-38c6-4bf3-bb40-189cdacb4e13",
-              "type": "basic.info",
-              "data": {
-                "info": "**Posición 1**: Posición del servo cuando  \nse introduce un 1\n\nEl valor por defecto es de 135 grados\n",
-                "readonly": true
-              },
-              "position": {
-                "x": 432,
-                "y": -88
-              },
-              "size": {
-                "width": 320,
-                "height": 112
-              }
-            },
-            {
-              "id": "0b8ab99d-8809-4cae-9b09-092e231cda9b",
-              "type": "basic.info",
-              "data": {
-                "info": "**Posición 0**: Posición del servo cuando  \nse introduce un 0\n\nEl valor por defecto es de 45 grados",
-                "readonly": true
-              },
-              "position": {
-                "x": 432,
-                "y": 144
-              },
-              "size": {
-                "width": 336,
-                "height": 80
-              }
-            },
-            {
-              "id": "68f35412-5eee-4169-a3bc-8a8711852c3f",
-              "type": "basic.info",
-              "data": {
-                "info": "**Entrada**: posición a donde llevar  \nel servo (posición 0 ó 1)",
-                "readonly": true
-              },
-              "position": {
-                "x": 456,
-                "y": 296
-              },
-              "size": {
-                "width": 288,
-                "height": 48
-              }
-            },
-            {
-              "id": "9f26fece-d735-46b5-9f25-48d338ac7d76",
-              "type": "basic.info",
-              "data": {
-                "info": "**Servobit paramétrico** para los microservos **Futaba 3003** o compatibles\n\nLos parámetros **P1** y **P0** son las posiciones asociadas a un valor de la entrada de 1 ó 0  \nEstán expresados en **micro-segundos** (usec). Este tiempo es el ancho del pulso\n\nSus **valores** deben estar comprendidos en este rango: \n\n* Extremo derecho: **380 usec**  \n* Extremo izquierdo **2410 usec**\n",
-                "readonly": true
-              },
-              "position": {
-                "x": 888,
-                "y": -168
-              },
-              "size": {
-                "width": 768,
-                "height": 176
-              }
-            },
-            {
-              "id": "533b92be-2a3c-4c55-9b16-10222a41cab3",
-              "type": "basic.code",
-              "data": {
-                "code": "assign k=P1/10;",
-                "params": [
-                  {
-                    "name": "P1"
-                  }
-                ],
-                "ports": {
-                  "in": [],
-                  "out": [
-                    {
-                      "name": "k",
-                      "range": "[7:0]",
-                      "size": 8
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 688,
-                "y": 40
-              },
-              "size": {
-                "width": 192,
-                "height": 64
-              }
-            },
-            {
-              "id": "c723a38a-8186-4ef4-96a1-5b0db5ade615",
-              "type": "basic.code",
-              "data": {
-                "code": "assign k=P0/10;",
-                "params": [
-                  {
-                    "name": "P0"
-                  }
-                ],
-                "ports": {
-                  "in": [],
-                  "out": [
-                    {
-                      "name": "k",
-                      "range": "[7:0]",
-                      "size": 8
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 688,
-                "y": 264
-              },
-              "size": {
-                "width": 192,
-                "height": 64
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "76fc8a3d-32ae-4f36-a895-403d5db46915",
-                "port": "out"
-              },
-              "target": {
-                "block": "aef7dd0a-5df7-47c0-8605-3c67d8963582",
-                "port": "c2494eae-6195-4a5d-9472-cc08e6f387a6"
-              },
-              "vertices": []
-            },
-            {
-              "source": {
-                "block": "af453838-27fa-4d3b-bc4a-95dd4ea0eece",
-                "port": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc"
-              },
-              "target": {
-                "block": "e93b6501-719f-45be-af80-f19062ee250b",
-                "port": "in"
-              },
-              "vertices": []
-            },
-            {
-              "source": {
-                "block": "aef7dd0a-5df7-47c0-8605-3c67d8963582",
-                "port": "fcae0076-6c4c-43a7-ac22-bf17805db11d"
-              },
-              "target": {
-                "block": "af453838-27fa-4d3b-bc4a-95dd4ea0eece",
-                "port": "1a91ad1d-23b7-42bf-b8af-5e3a64a00cca"
-              },
-              "vertices": [],
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "26c62726-108d-4db7-b5fb-086be3c3bbe8",
-                "port": "out"
-              },
-              "target": {
-                "block": "af453838-27fa-4d3b-bc4a-95dd4ea0eece",
-                "port": "776266dd-e7ee-4ca5-84e4-5dc9193b2a7f"
-              },
-              "vertices": []
-            },
-            {
-              "source": {
-                "block": "533b92be-2a3c-4c55-9b16-10222a41cab3",
-                "port": "k"
-              },
-              "target": {
-                "block": "aef7dd0a-5df7-47c0-8605-3c67d8963582",
-                "port": "2371d0ae-6ba9-400a-a3eb-a4b0c31459d8"
-              },
-              "vertices": [
-                {
-                  "x": 928,
-                  "y": 144
-                }
-              ],
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "f4dc3dbc-550f-41f8-ae8d-b97dcba33672",
-                "port": "constant-out"
-              },
-              "target": {
-                "block": "533b92be-2a3c-4c55-9b16-10222a41cab3",
-                "port": "P1"
-              },
-              "vertices": []
-            },
-            {
-              "source": {
-                "block": "c723a38a-8186-4ef4-96a1-5b0db5ade615",
-                "port": "k"
-              },
-              "target": {
-                "block": "aef7dd0a-5df7-47c0-8605-3c67d8963582",
-                "port": "55b32103-9c59-46d1-a4c3-a39b8df97119"
-              },
-              "vertices": [
-                {
-                  "x": 928,
-                  "y": 248
-                }
-              ],
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "9766bdcd-4afc-4f4d-a6c8-ac7765014a0a",
-                "port": "constant-out"
-              },
-              "target": {
-                "block": "c723a38a-8186-4ef4-96a1-5b0db5ade615",
-                "port": "P0"
-              },
-              "vertices": []
-            }
-          ]
-        },
-        "state": {
-          "pan": {
-            "x": -225.1176,
-            "y": 282.8726
-          },
-          "zoom": 0.8799
-        }
-      }
-    },
     "96b8795a64cbcff38746c210260d7a44109f0472": {
       "package": {
         "name": "Mux-2-1-7bits",
