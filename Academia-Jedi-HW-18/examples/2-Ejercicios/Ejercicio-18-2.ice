@@ -15,16 +15,16 @@
           "id": "c14fa047-7394-4cfd-8c1e-b806af0993d1",
           "type": "basic.info",
           "data": {
-            "info": "**Ejercicio 18.1**: (5 Bitpoints). **Notas DO-RE-MI-FA**\n\nDiseñar un circuito digital que toque **4 notas** diferentes: Do-re-mi-fa  \nLas notas se seleccionan mediante **2 interruptores externos**. Al apretarse  \nun **pulsador externo** sonará la nota seleccionada\n\nLas **frecuencias** de las notas a tocar son:\n\n* **Do**:  131 Hz\n* **Re**:  147 Hz\n* **Mi**:  165 Hz\n* **Fa**:  175 Hz\n\n**Consejo**: Utilizar un multiplexor 4:1",
+            "info": "**Ejercicio 18.2**: (5 Bitpoints). Movimiento de un Servo con ángulos pequeño y grande\n\nDiseñar un circuito digital para mover el servo a dos posiciones diferentes,  \ncontroladas por un **pulsador**. Mediante un **interruptor externo** seleccionaremos  \nentre dos modos: **ángulo pequeño** y **ángulo grande**.  En el modo ángulo pequeño,  \nel servo se mueve entre dos posiciones, separadas un ángulo pequeño, menor de 90.  \nEn el modo ángulo grande, el servo se moverá entre sus **dos extremos**",
             "readonly": true
           },
           "position": {
             "x": 40,
-            "y": -144
+            "y": -32
           },
           "size": {
             "width": 672,
-            "height": 240
+            "height": 128
           }
         },
         {
@@ -58,14 +58,46 @@
             "width": 624,
             "height": 96
           }
+        },
+        {
+          "id": "4f3d9e64-07c9-43cf-bd7b-239037fea769",
+          "type": "basic.info",
+          "data": {
+            "info": "**Vídeo en Youtube**:\n\nURL:  https://www.youtube.com/watch?v=uMLxEvIMIeM",
+            "readonly": true
+          },
+          "position": {
+            "x": 784,
+            "y": -32
+          },
+          "size": {
+            "width": 400,
+            "height": 64
+          }
+        },
+        {
+          "id": "bfff83d3-f585-4c19-ae76-ccca0d1b9e22",
+          "type": "basic.info",
+          "data": {
+            "info": "[![](http://img.youtube.com/vi/uMLxEvIMIeM/0.jpg)](https://www.youtube.com/watch?v=uMLxEvIMIeM)\n",
+            "readonly": true
+          },
+          "position": {
+            "x": 744,
+            "y": 48
+          },
+          "size": {
+            "width": 768,
+            "height": 32
+          }
         }
       ],
       "wires": []
     },
     "state": {
       "pan": {
-        "x": 184,
-        "y": 247
+        "x": 54.5,
+        "y": 103
       },
       "zoom": 1
     }
