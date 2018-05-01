@@ -54,7 +54,7 @@
           "id": "11cca7d6-991e-46bd-b1ea-cb9ea597888e",
           "type": "basic.constant",
           "data": {
-            "name": "P1",
+            "name": "microsec",
             "value": "1670",
             "local": false
           },
@@ -67,7 +67,7 @@
           "id": "dad4ff0b-f096-4556-a64d-240a739c5fe3",
           "type": "basic.constant",
           "data": {
-            "name": "P0",
+            "name": "microsec",
             "value": "820",
             "local": false
           },
@@ -77,8 +77,8 @@
           }
         },
         {
-          "id": "b9c3d539-3c25-496d-b372-897c8aaec4d2",
-          "type": "694e841237a248951f54174969d445af5352f681",
+          "id": "d63716ea-4ef6-44a7-b39a-99d5d151100d",
+          "type": "19967a588857c35afc59f26c55f0b2f69b13e700",
           "position": {
             "x": 376,
             "y": 240
@@ -96,7 +96,7 @@
             "port": "constant-out"
           },
           "target": {
-            "block": "b9c3d539-3c25-496d-b372-897c8aaec4d2",
+            "block": "d63716ea-4ef6-44a7-b39a-99d5d151100d",
             "port": "f4dc3dbc-550f-41f8-ae8d-b97dcba33672"
           }
         },
@@ -106,13 +106,13 @@
             "port": "constant-out"
           },
           "target": {
-            "block": "b9c3d539-3c25-496d-b372-897c8aaec4d2",
+            "block": "d63716ea-4ef6-44a7-b39a-99d5d151100d",
             "port": "9766bdcd-4afc-4f4d-a6c8-ac7765014a0a"
           }
         },
         {
           "source": {
-            "block": "b9c3d539-3c25-496d-b372-897c8aaec4d2",
+            "block": "d63716ea-4ef6-44a7-b39a-99d5d151100d",
             "port": "e93b6501-719f-45be-af80-f19062ee250b"
           },
           "target": {
@@ -126,7 +126,7 @@
             "port": "out"
           },
           "target": {
-            "block": "b9c3d539-3c25-496d-b372-897c8aaec4d2",
+            "block": "d63716ea-4ef6-44a7-b39a-99d5d151100d",
             "port": "76fc8a3d-32ae-4f36-a895-403d5db46915"
           }
         }
@@ -141,11 +141,11 @@
     }
   },
   "dependencies": {
-    "694e841237a248951f54174969d445af5352f681": {
+    "19967a588857c35afc59f26c55f0b2f69b13e700": {
       "package": {
         "name": "ServoBit-Futaba3003",
         "version": "0.1",
-        "description": "ServoBit paramétrico para Futaba 3003. Controlador de 1 bit para mover el servo a las 2 posiciones POS0 y POS1",
+        "description": "ServoBit paramétrico para Futaba 3003. Controlador de 1 bit para mover el servo a las 2 posiciones P0 y P1",
         "author": "Juan Gonzalez-Gomez y Jesus Arroyo",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20278.16016%20175.19108%22%20width=%22278.16%22%20height=%22175.191%22%3E%3Cdefs%3E%3Cmarker%20id=%22a%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22b%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M-218.782%20540.66v-1.407h-28.955a2.482%202.412%200%200%201-2.482-2.412v-67.936a2.482%202.412%200%200%201%202.482-2.412h28.955v-1.407a2.482%202.412%200%200%201%202.482-2.412h161.738a2.482%202.412%200%200%201%202.482%202.412v1.407h28.955a2.482%202.412%200%200%201%202.482%202.412v67.936a2.482%202.412%200%200%201-2.482%202.412H-52.08v1.407a2.482%202.412%200%200%201-2.482%202.412H-216.3a2.482%202.412%200%200%201-2.482-2.412%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cg%20transform=%22matrix(4.13652%200%200%20-4.0199%20-135.431%20502.873)%22%20stroke-width=%221.184%22%3E%3Ccircle%20cx=%229.45%22%20r=%227.079%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%22.873%22/%3E%3Ctitle%3EFusion009002001_cs001%3C/title%3E%3C/g%3E%3Cpath%20d=%22M-75.467%20483.966c-7.283-7.66-17.99-10.953-28.034-8.622-10.044%202.331-17.874%209.926-20.503%2019.887-2.629%209.96.35%2020.75%207.8%2028.248l81.49%2039.287z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-75.343%20519.74c-7.283%207.66-17.99%2010.952-28.033%208.621-10.044-2.33-17.875-9.926-20.503-19.887-2.629-9.96.35-20.749%207.8-28.247l80.462-43.908z%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-dasharray=%223.56129469,7.1225893%22/%3E%3Cpath%20d=%22M-.062%20548.435a66.685%2073.886%200%200%201-24.216-52.98%2066.685%2073.886%200%200%201%2018.799-55.613%22%20transform=%22scale(-1%201)%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-start=%22url(#a)%22%20marker-end=%22url(#b)%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-30.206%22%20y=%22571.866%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-30.206%22%20y=%22571.866%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.576%22%20y=%22446.164%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.576%22%20y=%22446.164%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22499.501%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22499.501%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EFutaba%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22522.333%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22522.333%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3E3003%3C/tspan%3E%3C/text%3E%3C/svg%3E"
       },
@@ -468,10 +468,10 @@
         },
         "state": {
           "pan": {
-            "x": -225.1176,
-            "y": 282.8726
+            "x": -249.4118,
+            "y": 177.7484
           },
-          "zoom": 0.8799
+          "zoom": 0.6699
         }
       }
     },
