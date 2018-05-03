@@ -120,6 +120,22 @@
             "width": 96,
             "height": 96
           }
+        },
+        {
+          "id": "096100ac-4c49-4e30-a0e3-daf1ecd09fc9",
+          "type": "basic.info",
+          "data": {
+            "info": "**Ejemplo 6: Reduciendo las velocidades a Motorbit**\n\nEjemplo de modificación de las velocidades horario y  \nantihoraria del motorbit, para que sean menores a las  \nusadas por defecto. Se hace cambiando los parámetros V1 y V2  \nEl parámetro V0 debe conincidir con el punto en el que el  \nservo está parado",
+            "readonly": true
+          },
+          "position": {
+            "x": 264,
+            "y": 704
+          },
+          "size": {
+            "width": 496,
+            "height": 144
+          }
         }
       ],
       "wires": [
@@ -187,8 +203,8 @@
     },
     "state": {
       "pan": {
-        "x": -149,
-        "y": -730
+        "x": 154.5,
+        "y": -472.5
       },
       "zoom": 1
     }
