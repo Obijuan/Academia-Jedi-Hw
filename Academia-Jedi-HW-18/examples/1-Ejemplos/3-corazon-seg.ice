@@ -59,7 +59,7 @@
           "id": "f1774d91-9aec-4559-8ab1-fd08716d9f48",
           "type": "basic.info",
           "data": {
-            "info": "**Ejemplo de corazón paramétrico en segundos**\n\nEl parámetro es el **periodo** (en segundo)\n\nEn este ejemplo el periodo es de **10 segundos**  \nInicialmente el LED está **apagado** durante **5 segundos**  \ny luego se **enciende** durante otros **5**  \nSe repite indefinidamente",
+            "info": "**Ejemplo 3: corazón paramétrico en segundos**\n\nEl parámetro es el **periodo** (en segundo)\n\nEn este ejemplo el periodo es de **10 segundos**  \nInicialmente el LED está **apagado** durante **5 segundos**  \ny luego se **enciende** durante otros **5**  \nSe repite indefinidamente",
             "readonly": true
           },
           "position": {
@@ -97,8 +97,8 @@
     },
     "state": {
       "pan": {
-        "x": 58,
-        "y": 159.5
+        "x": -106,
+        "y": 163.5
       },
       "zoom": 1
     }

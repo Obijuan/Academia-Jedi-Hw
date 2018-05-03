@@ -49,10 +49,13 @@ Colección para la Academia Jedi de Hardware.
   * *Servos*
     * *Emax-ES08A*
       * ServoBit-90
+      * ServoBit
     * *Futaba-3003*
       * Servobit-90
+      * Servobit
     * *TowerPro-SG90*
       * Servobit-90
+      * Servobit
 
 ## Examples
 * *0-Soluciones-Tutorial-17*
@@ -62,8 +65,14 @@ Colección para la Academia Jedi de Hardware.
 * *1-Ejemplos*
   * 1-corazon-hz-1
   * 2-corazon-hz-4
+  * 3-corazon-seg
+  * 4-servobit-1
+  * 5-pinza-mecanica
+  * 6-motorbit-1
 * *2-Ejercicios*
   * Ejercicio-18-1
+  * Ejercicio-18-2
+  * Ejercicio-18-3
 
 
 ## Authors

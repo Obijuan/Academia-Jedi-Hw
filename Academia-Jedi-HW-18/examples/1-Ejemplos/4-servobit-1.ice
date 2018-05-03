@@ -87,6 +87,22 @@
             "width": 96,
             "height": 64
           }
+        },
+        {
+          "id": "6c06ba2e-370b-44f8-9819-fd184bf217bf",
+          "type": "basic.info",
+          "data": {
+            "info": "**Ejemplo 4: Cambiando posiciones al servobit**\n\nCambiando los valores de los parámetros P1 y P0 se establecen  \nlas dos posiciones del servo, correspondientes a 1 y 0\n",
+            "readonly": true
+          },
+          "position": {
+            "x": 200,
+            "y": 0
+          },
+          "size": {
+            "width": 528,
+            "height": 96
+          }
         }
       ],
       "wires": [
@@ -134,8 +150,8 @@
     },
     "state": {
       "pan": {
-        "x": 30,
-        "y": 39.5
+        "x": 74,
+        "y": 160.5
       },
       "zoom": 1
     }

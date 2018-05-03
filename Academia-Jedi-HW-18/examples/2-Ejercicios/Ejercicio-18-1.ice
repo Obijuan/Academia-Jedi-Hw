@@ -19,8 +19,8 @@
             "readonly": true
           },
           "position": {
-            "x": 40,
-            "y": -144
+            "x": 32,
+            "y": -152
           },
           "size": {
             "width": 672,
@@ -58,16 +58,48 @@
             "width": 624,
             "height": 96
           }
+        },
+        {
+          "id": "1ea64424-b40f-468e-9de5-b390a32c5d4a",
+          "type": "basic.info",
+          "data": {
+            "info": "**Vídeo en Youtube**:\n\nURL:  https://www.youtube.com/watch?v=vpLthAkkWCM",
+            "readonly": true
+          },
+          "position": {
+            "x": 784,
+            "y": 216
+          },
+          "size": {
+            "width": 432,
+            "height": 80
+          }
+        },
+        {
+          "id": "726a1c35-4293-4057-97bc-fe8f7acbd970",
+          "type": "basic.info",
+          "data": {
+            "info": "[![](http://img.youtube.com/vi/vpLthAkkWCM/0.jpg)](https://www.youtube.com/watch?v=vpLthAkkWCM)\n",
+            "readonly": true
+          },
+          "position": {
+            "x": 720,
+            "y": -192
+          },
+          "size": {
+            "width": 464,
+            "height": 32
+          }
         }
       ],
       "wires": []
     },
     "state": {
       "pan": {
-        "x": 184,
-        "y": 247
+        "x": 49.3214,
+        "y": 223.4286
       },
-      "zoom": 1
+      "zoom": 0.9554
     }
   },
   "dependencies": {}
