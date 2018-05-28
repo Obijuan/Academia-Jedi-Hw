@@ -15,7 +15,7 @@ Colección para la Academia Jedi de Hardware.
 * *Bits*
   * 0
   * 1
-* *Combinacional*
+* *Comb*
   * *Mux*
     * Mux-2-1-flip
     * Mux-2-1
@@ -23,8 +23,12 @@ Colección para la Academia Jedi de Hardware.
     * Mux-4-1
   * *Puertas*
     * and
+    * nand
+    * nor
     * not
     * or
+    * xnor
+    * xor
   * *Tablas*
     * tabla-1-1
     * tabla-2-1
@@ -70,14 +74,17 @@ Colección para la Academia Jedi de Hardware.
   * Sol-18-2
   * Sol-18-3
 * *1-Ejemplos*
-  * *test*
-    * tabla-1-1-test-1
-    * tabla-2-1-test
-    * tabla-2-2-test
-    * tabla-3-1-test
-    * tabla-4-1-test
+  * 01-tabla-1-1-NOT
+  * 02-tabla-1-1-cable
+  * 03-tabla-2-1-comparador-bits
+  * 04-tabla-2-1-puerta-XOR
+  * 05-1-mux-2-1-normal
+  * 05-2-tabla-3-1-mux-2-1
+  * 06-tabla-4-1-comparador
 * *2-Ejercicios*
-  * Ejercicio-18-1
+  * Ejercicio-19-1
+  * Ejercicio-19-2
+  * Ejercicio-19-3
 
 
 ## Authors

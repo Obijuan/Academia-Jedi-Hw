@@ -19,16 +19,16 @@
             "pins": [
               {
                 "index": "0",
-                "name": "D13",
-                "value": "144"
+                "name": "SW1",
+                "value": "10"
               }
             ],
             "virtual": false,
             "clock": false
           },
           "position": {
-            "x": 176,
-            "y": 312
+            "x": 336,
+            "y": 184
           }
         },
         {
@@ -39,32 +39,15 @@
             "pins": [
               {
                 "index": "0",
-                "name": "D12",
-                "value": "143"
+                "name": "LED0",
+                "value": "95"
               }
             ],
             "virtual": false
           },
           "position": {
-            "x": 480,
-            "y": 312
-          }
-        },
-        {
-          "id": "b3a783ec-2836-474f-8356-6ec86aa40330",
-          "type": "basic.memory",
-          "data": {
-            "list": "0\n1",
-            "name": "tabla_1",
-            "local": false
-          },
-          "position": {
-            "x": 296,
-            "y": 176
-          },
-          "size": {
-            "width": 80,
-            "height": 80
+            "x": 640,
+            "y": 184
           }
         },
         {
@@ -72,12 +55,12 @@
           "type": "basic.memory",
           "data": {
             "list": "1\n0",
-            "name": "tabla_2",
+            "name": "",
             "local": false
           },
           "position": {
-            "x": 400,
-            "y": 176
+            "x": 496,
+            "y": 72
           },
           "size": {
             "width": 80,
@@ -88,12 +71,44 @@
           "id": "1b2ab90e-dcd1-46ce-babf-8032ce68dd5c",
           "type": "76e11f499792b626aee8e886ab57b1c6a37398e5",
           "position": {
-            "x": 328,
-            "y": 312
+            "x": 488,
+            "y": 184
           },
           "size": {
             "width": 96,
             "height": 64
+          }
+        },
+        {
+          "id": "ea46e3e6-6a5a-4d77-9af2-34b3abc597eb",
+          "type": "basic.info",
+          "data": {
+            "info": "**Ejemplo 1**: Circuito combinaciona con una entrada  \ny una salida: Puerta NOT",
+            "readonly": true
+          },
+          "position": {
+            "x": 80,
+            "y": 24
+          },
+          "size": {
+            "width": 408,
+            "height": 64
+          }
+        },
+        {
+          "id": "ab5b5b2d-5954-40fe-9b02-ac1a523f7bb6",
+          "type": "basic.info",
+          "data": {
+            "info": "**Tabla de verdad**\n\n| Entrada | Salida |\n|---------|--------|\n| 0       |   1    |\n| 1       |   0    |",
+            "readonly": true
+          },
+          "position": {
+            "x": 88,
+            "y": 112
+          },
+          "size": {
+            "width": 192,
+            "height": 128
           }
         }
       ],
@@ -120,7 +135,7 @@
         },
         {
           "source": {
-            "block": "b3a783ec-2836-474f-8356-6ec86aa40330",
+            "block": "5e8ef9c7-af9c-4f2d-8980-64bfdf7e7aeb",
             "port": "memory-out"
           },
           "target": {
@@ -129,13 +144,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 74,
-        "y": -16.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {
@@ -255,13 +263,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 82,
-            "y": -32.5
-          },
-          "zoom": 1
         }
       }
     }

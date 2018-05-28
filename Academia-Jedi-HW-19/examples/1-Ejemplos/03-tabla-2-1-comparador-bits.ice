@@ -12,160 +12,180 @@
     "graph": {
       "blocks": [
         {
-          "id": "b832b805-164a-48d4-8547-0001fd3d1a5b",
+          "id": "b39d7316-8542-44d6-85df-316708ac0d64",
           "type": "basic.input",
           "data": {
-            "name": "Interruptor",
+            "name": "",
             "pins": [
               {
                 "index": "0",
-                "name": "D13",
-                "value": "144"
+                "name": "SW1",
+                "value": "10"
               }
             ],
             "virtual": false,
             "clock": false
           },
           "position": {
-            "x": 248,
-            "y": 216
+            "x": 184,
+            "y": 160
           }
         },
         {
-          "id": "f5c8718c-f991-46fd-91ec-cfff0496a3d1",
+          "id": "8266f3f0-25b6-465f-88c5-a47250526bdc",
           "type": "basic.output",
           "data": {
-            "name": "LED",
+            "name": "",
             "pins": [
               {
                 "index": "0",
-                "name": "D11",
-                "value": "142"
+                "name": "LED0",
+                "value": "95"
               }
             ],
             "virtual": false
           },
           "position": {
-            "x": 616,
-            "y": 232
+            "x": 560,
+            "y": 192
           }
         },
         {
-          "id": "5431b598-d33b-4cd7-a18c-4b9117efb93c",
+          "id": "1f0ced6a-99fc-497b-8191-88fde54481ce",
           "type": "basic.input",
           "data": {
-            "name": "interruptor",
+            "name": "",
             "pins": [
               {
                 "index": "0",
-                "name": "D12",
-                "value": "143"
+                "name": "SW2",
+                "value": "11"
               }
             ],
             "virtual": false,
             "clock": false
           },
           "position": {
-            "x": 248,
-            "y": 296
+            "x": 184,
+            "y": 224
           }
         },
         {
-          "id": "90d9fb33-a8f2-42f3-9f1e-bc21cd875f0b",
+          "id": "3d664835-2161-4c6d-9eeb-b3e4b73eef2a",
           "type": "basic.memory",
           "data": {
-            "name": "Tabla_1",
-            "list": "0\n0\n0\n1",
+            "name": "",
+            "list": "1\n0\n0\n1",
             "local": false
           },
           "position": {
-            "x": 368,
-            "y": 40
+            "x": 392,
+            "y": 56
           },
           "size": {
             "width": 96,
-            "height": 112
+            "height": 104
           }
         },
         {
-          "id": "e145b75f-a37a-4438-9bf4-aaef6ffb7e3a",
-          "type": "basic.memory",
-          "data": {
-            "name": "Tabla_2",
-            "list": "0\n1\n1\n0",
-            "local": false
-          },
-          "position": {
-            "x": 512,
-            "y": 40
-          },
-          "size": {
-            "width": 96,
-            "height": 112
-          }
-        },
-        {
-          "id": "5e5dc4cc-8a23-4a82-b906-5d6cc14511fa",
+          "id": "feb65eb0-fa81-45c7-a11e-acc2236378e3",
           "type": "132a1513942301e2dd65111ad66fae1501604c3a",
           "position": {
-            "x": 440,
-            "y": 232
+            "x": 392,
+            "y": 192
           },
           "size": {
             "width": 96,
             "height": 64
+          }
+        },
+        {
+          "id": "6c51c0d3-225e-4161-9f77-33de01d96e90",
+          "type": "basic.info",
+          "data": {
+            "info": "**Ejemplo 3**: Circuito combinaciona con dos entradas  \ny una salida: **Comparador de bits**",
+            "readonly": true
+          },
+          "position": {
+            "x": -80,
+            "y": -32
+          },
+          "size": {
+            "width": 424,
+            "height": 56
+          }
+        },
+        {
+          "id": "f60fb52d-1a66-4588-be7a-4fe72b9c7c60",
+          "type": "basic.info",
+          "data": {
+            "info": "**Tabla de verdad**\n\n|Fila| i1   | i0 | Salida |\n|------|----|----|--------|\n|**0** | 0  | 0  |  1     |\n|**1** | 0  | 1  |  0     |\n|**2** | 1  | 0  |  0     |\n|**3** | 1  | 1  |  1     |",
+            "readonly": true
+          },
+          "position": {
+            "x": -80,
+            "y": 56
+          },
+          "size": {
+            "width": 240,
+            "height": 192
           }
         }
       ],
       "wires": [
         {
           "source": {
-            "block": "5e5dc4cc-8a23-4a82-b906-5d6cc14511fa",
+            "block": "b39d7316-8542-44d6-85df-316708ac0d64",
+            "port": "out"
+          },
+          "target": {
+            "block": "feb65eb0-fa81-45c7-a11e-acc2236378e3",
+            "port": "ace53645-b2e3-46be-beae-4ada8d69586e"
+          },
+          "vertices": [
+            {
+              "x": 344,
+              "y": 200
+            }
+          ]
+        },
+        {
+          "source": {
+            "block": "1f0ced6a-99fc-497b-8191-88fde54481ce",
+            "port": "out"
+          },
+          "target": {
+            "block": "feb65eb0-fa81-45c7-a11e-acc2236378e3",
+            "port": "561eb4e1-8d5e-48ed-be5f-2e0009ca1648"
+          },
+          "vertices": [
+            {
+              "x": 344,
+              "y": 248
+            }
+          ]
+        },
+        {
+          "source": {
+            "block": "feb65eb0-fa81-45c7-a11e-acc2236378e3",
             "port": "a27d660d-90c7-4b16-9727-ea799771b851"
           },
           "target": {
-            "block": "f5c8718c-f991-46fd-91ec-cfff0496a3d1",
+            "block": "8266f3f0-25b6-465f-88c5-a47250526bdc",
             "port": "in"
           }
         },
         {
           "source": {
-            "block": "b832b805-164a-48d4-8547-0001fd3d1a5b",
-            "port": "out"
-          },
-          "target": {
-            "block": "5e5dc4cc-8a23-4a82-b906-5d6cc14511fa",
-            "port": "ace53645-b2e3-46be-beae-4ada8d69586e"
-          }
-        },
-        {
-          "source": {
-            "block": "5431b598-d33b-4cd7-a18c-4b9117efb93c",
-            "port": "out"
-          },
-          "target": {
-            "block": "5e5dc4cc-8a23-4a82-b906-5d6cc14511fa",
-            "port": "561eb4e1-8d5e-48ed-be5f-2e0009ca1648"
-          }
-        },
-        {
-          "source": {
-            "block": "e145b75f-a37a-4438-9bf4-aaef6ffb7e3a",
+            "block": "3d664835-2161-4c6d-9eeb-b3e4b73eef2a",
             "port": "memory-out"
           },
           "target": {
-            "block": "5e5dc4cc-8a23-4a82-b906-5d6cc14511fa",
+            "block": "feb65eb0-fa81-45c7-a11e-acc2236378e3",
             "port": "c71c44ac-0500-4eb5-9c1c-4ea21cd78377"
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": -26,
-        "y": 59.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {
@@ -310,13 +330,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 70,
-            "y": -52.5
-          },
-          "zoom": 1
         }
       }
     }
