@@ -15,9 +15,18 @@ Componentes que se incluran en la colección de la academia Jedi de Hardware.
 * *Varios*
   * *Servos*
     * ServoTime-20ms
+  * *tablas*
+    * tabla-3-2
+    * tabla-3-3
+    * tabla-4-2
+    * tabla-4-3
 
 ## Examples
 * ServoTime-Futaba3003
+* tabla-3-2-test
+* tabla-3-3-test
+* tabla-4-2-test
+* tabla-4-3-test
 
 
 ## Authors

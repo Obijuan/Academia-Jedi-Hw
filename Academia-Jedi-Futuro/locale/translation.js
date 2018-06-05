@@ -9,10 +9,19 @@
 
 gettext('Varios');
 gettext('Servos');
+gettext('tablas');
 gettext('ServoTime-20ms');
 gettext('Controlador PWM para posicionar servos de 20ms. Las unidades de pos son de 10usec');
 gettext('<B>Posicion del servo</B>\n\nSe especifica en unidades de 10micro-segundos\nEj. pos = 100 --> Pulso de achura 1ms');
 gettext('<B>Generación de una señal PWM para posicionamiento de Servos</B>\nEl periodo es de 20ms\nEl ancho del pulso varía entre 0 - 255 (0 - 2.5ms)');
+gettext('tabla-3-2');
+gettext('Circuito combinacional de 3 entradas y 2 salidas');
+gettext('tabla-3-3');
+gettext('Circuito combinacional de 3 entradas y 3 salidas');
+gettext('tabla-4-2');
+gettext('Circuito combinacional de 4 entradas y 2 salida');
+gettext('tabla-4-3');
+gettext('Circuito combinacional de 4 entradas y 3 salida');
 gettext('ServoTime-Futaba3003');
 gettext('Controlador de 1 bit para mover un servo a 2 posiciones. El ángulo entre una posición y otra es de 180 grados');
 gettext('Valor constante para bus de 8 bits');
@@ -55,3 +64,8 @@ gettext('Pincha en los bloques para bajar de nivel');
 gettext('Átomos de Silicio');
 gettext('Nivel 1: ATOMOS');
 gettext('Los cristales de silicio se forman a \npartir del enlace covalente entre los\nátomos de silicio. Cada uno de ellos \nestá rodeado por 4 átomos de silicio\nformando un tetraedro');
+gettext('tabla-3-2-test');
+gettext('tabla-3-3-test');
+gettext('tabla-4-2-test');
+gettext('Circuito combinacional de 4 entradas y 1 salida');
+gettext('tabla-4-3-test');
