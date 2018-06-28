@@ -163,8 +163,11 @@ Colección para la Academia Jedi de Hardware.
   * 11-Corazon-enable-param-pines
   * 12-Corazon-enable-param-test
   * 13-Detector-k-pines
+  * 14-Detector-k-test
 * *2-Ejercicios*
-  * Ejercicio-18-1
+  * Ejercicio-21-1
+  * Ejercicio-21-2
+  * Ejercicio-21-3
 
 
 ## Authors
