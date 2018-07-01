@@ -95,13 +95,13 @@
             "pins": [
               {
                 "index": "1",
-                "name": "LED5",
-                "value": "101"
+                "name": "LED1",
+                "value": "96"
               },
               {
                 "index": "0",
-                "name": "LED4",
-                "value": "99"
+                "name": "LED0",
+                "value": "95"
               }
             ],
             "virtual": false
