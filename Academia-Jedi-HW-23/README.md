@@ -76,7 +76,6 @@ Colección para la Academia Jedi de Hardware.
       * Valor_170
       * Valor_255
 * *Varios*
-  * Test
   * *Bombeo*
     * Corazon_Hz
     * Corazon_Seg
@@ -128,6 +127,7 @@ Colección para la Academia Jedi de Hardware.
         * 13-Padawan-N3
         * 14-Aspirante-Jedi
         * 15-Aspirante-Jedi-N1
+        * 16-Aspirante-Jedi-N2
     * *Emojis*
       * Smiley
       * caca
@@ -159,31 +159,16 @@ Colección para la Academia Jedi de Hardware.
     * Icemove9
 
 ## Examples
-* *0-Soluciones-Tutorial-21*
-  * Sol-21-1-bloque
-  * Sol-21-1
-  * Sol-21-2-bloque
-  * Sol-21-2
-  * Sol-21-3-bloque
-  * Sol-21-3
+* *0-Soluciones-Tutorial-22*
+  * Sol-22-1
+  * Sol-22-2
+  * Sol-22-3
 * *1-Ejemplos*
-  * 01-icemove4-test
-  * 02-icemove9-test
-  * 03-LEDs-alternantes
-  * 04-LEDs-simultaneos
-  * 05-Icebot-adelante-parado
-  * 06-Icebot-adelante-derecha
-  * 07-Secuencia-4LEDs
-  * 08-Secuencia-2x4LEDs
-  * 09-Secuencia-8LEDs
-  * 10-Secuencia-8LEDs-Mux
-  * 11-Icebot-pulsadores-icemove4
-  * 12-Icebot-pulsadores-icemove9
-  * 13-Secuencia-4-estados-8-LED
-  * 14-Decodificador-3-8
+  * *NO-HAY*
 * *2-Ejercicios*
-  * Ejercicio-21-1
-  * Ejercicio-21-x
+  * Ejercicio-23-1
+  * Ejercicio-23-2
+  * Ejercicio-23-3
 
 
 ## Authors
