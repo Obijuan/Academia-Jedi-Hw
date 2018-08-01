@@ -15,7 +15,7 @@
           "id": "194eb1df-8ffe-4b9c-8ab5-edf38e38fc21",
           "type": "basic.output",
           "data": {
-            "name": "Dispaly",
+            "name": "Display",
             "range": "[6:0]",
             "pins": [
               {
