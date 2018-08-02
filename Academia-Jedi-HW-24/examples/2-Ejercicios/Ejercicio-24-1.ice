@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "package": {
     "name": "",
     "version": "",
@@ -15,7 +15,7 @@
           "id": "c14fa047-7394-4cfd-8c1e-b806af0993d1",
           "type": "basic.info",
           "data": {
-            "info": "**Ejercicio 16.1**: (5 Bitpoints). **Alarma por infrarrojos**\n\nDiseñar un **circuito digital** que haga sonar una alarma mientras el **sensor de \ninfrarrojos** esté detectando un objeto. La alarma sonará por un **zumbador**, y estará  \ncompuesta por **dos tonos** de **1Khz** y **2Khz**, alternados a la frecuencia de **2Hz**\n\nCuando el sensor no detecta objetos, la alarma estará callada\n\n",
+            "info": "**Ejercicio 24.1**: (5 Bitpoints). **Conexión del 7 segmentos**\n\n\nConectar un display de 7 segmentos a los pines GP0 - GP7 de la Icezum Alhambra  \nEnviar la constate \"8\" del display para que se enciendan todos los segmentos y  \ncomprobar que las conexiones están bien (lamp test). Activar también el punto",
             "readonly": true
           },
           "position": {
@@ -24,19 +24,19 @@
           },
           "size": {
             "width": 736,
-            "height": 144
+            "height": 104
           }
         },
         {
           "id": "08b55ee3-890d-403c-9792-da4254a88da4",
           "type": "basic.info",
           "data": {
-            "info": "**Entregar**:\n\n  -1 Pantallazo del circuito (2 Bitpoints)\n  \n  -1 Vídeo del funcionamiento (2 Bitpoints)\n  \n  Enviarlos por redes sociales (Twitter, G+) con mención \n  a @Obijuan_cube. El vídeo puede estar en youtube o directamente en el tuit/post\n  ",
+            "info": "**Entregar**:\n\n  -1 Pantallazo del circuito (2 Bitpoints)\n  \n  -1 Foto del display de 7 segmentos encendido (2 Bitpoints)\n  \n  Enviarlos por redes sociales (Twitter, G+) con mención \n  a @Obijuan_cube\n  ",
             "readonly": true
           },
           "position": {
             "x": 40,
-            "y": 120
+            "y": 96
           },
           "size": {
             "width": 688,
@@ -47,7 +47,7 @@
           "id": "df40451e-59d3-4af3-8ab9-1245aaf6cee6",
           "type": "basic.info",
           "data": {
-            "info": "**GITHUB**:\n\n  1 Bitpoint adicional si lo entregáis por Github (sólo pantallazo, el vídeo\n  no hace falta, para que no ocupe tanto espacio)",
+            "info": "**GITHUB**:\n\n Entrega obligatoria por github (1 Bitpoint)",
             "readonly": true
           },
           "position": {
@@ -61,13 +61,6 @@
         }
       ],
       "wires": []
-    },
-    "state": {
-      "pan": {
-        "x": 66,
-        "y": 95.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {}
