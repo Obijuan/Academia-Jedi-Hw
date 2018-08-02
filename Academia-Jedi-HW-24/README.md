@@ -7,12 +7,20 @@ Colección para la Academia Jedi de Hardware.
 
 ## Install
 
-* Download the collection: [stable](https://github.com/Obijuan/Academia-Jedi-Hw/archive/v0.1.0.zip) or [development](https://github.com/Obijuan/Academia-Jedi-Hw/archive/master.zip)
+* Download the collection: [Academia-Jedi-HW-24.zip](https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/raw/master/wiki/Tutorial-24/Collections/Academia-Jedi-HW-24.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
 ## Blocks
 * *Comb*
+  * *Decodificadores*
+    * *7Seg*
+      * *Catodo-comun*
+        * displayBit
+        * displayBit2
+        * displayBit3
+        * displayDEC
+        * displayHEX
   * *Mux*
     * *1-Bit*
       * Mux-2-1-flip
@@ -25,6 +33,8 @@ Colección para la Academia Jedi de Hardware.
     * *4-Bits*
       * Mux-2-1
       * Mux-4-1
+    * *7-Bit*
+      * Mux-2-1
     * *8-Bit*
       * Mux-2-1
       * Mux-4-1
@@ -38,25 +48,74 @@ Colección para la Academia Jedi de Hardware.
     * xnor
     * xor
   * *Tablas*
-    * tabla-4-1
     * *Tablas-1-input*
-      * tabla-1-1
-      * tabla-1-2
-      * tabla-1-4
-      * tabla-1-8
+      * *HEX*
+        * tabla-1-1
+        * tabla-1-2
+        * tabla-1-4
+        * tabla-1-6
+        * tabla-1-7
+        * tabla-1-8
+      * *bin*
+        * tabla-bin-1-7
     * *Tablas-2-inputs*
-      * tabla-2-1
-      * tabla-2-2
-      * tabla-2-4
-      * tabla-2-8
+      * *Hexa*
+        * tabla-2-1
+        * tabla-2-2
+        * tabla-2-4
+        * tabla-2-8
+        * tabla-hex-2-7
     * *Tablas-3-inputs*
-      * tabla-3-1
-      * tabla-3-8
+      * *HEX*
+        * tabla-3-1
+        * tabla-3-8
+        * tabla-hex-3-7
+    * *Tablas-4-inputs*
+      * *Bin*
+        * tabla-bin-4-7
+      * *HEX*
+        * tabla-4-1
+        * tabla-hex-4-7
 * *Const*
+  * *7Seg*
+    * *Digitos*
+      * 0
+      * 1
+      * 2
+      * 3
+      * 4
+      * 5
+      * 6
+      * 7
+      * 8
+      * 9
+      * A
+      * B
+      * C
+      * D
+      * E
+      * F
+    * *Letras*
+      * G
+      * H
+      * I
+      * J
+      * L
+      * N
+      * NN
+      * O
+      * P
+      * Q
+      * R
+      * S
+      * U
+      * Y
   * *Bits*
     * 0
     * 1
   * *Bus*
+    * *01_bits*
+      * Generico
     * *02_bits*
       * Generico
       * Valor_0
@@ -69,6 +128,8 @@ Colección para la Academia Jedi de Hardware.
       * Valor_05
       * Valor_10
       * Valor_15
+    * *07_bits*
+      * Generico
     * *08_bits*
       * Generico
       * Valor_000
@@ -76,7 +137,6 @@ Colección para la Academia Jedi de Hardware.
       * Valor_170
       * Valor_255
 * *Varios*
-  * Test
   * *Bombeo*
     * Corazon_Hz
     * Corazon_Seg
@@ -161,29 +221,41 @@ Colección para la Academia Jedi de Hardware.
     * Icemove9
 
 ## Examples
-* Test
 * *0-Soluciones-Tutorial-23*
   * Sol-23-1
   * Sol-23-2
   * Sol-23-3
 * *1-Ejemplos*
-  * 01-icemove4-test
-  * 02-icemove9-test
-  * 03-LEDs-alternantes
-  * 04-LEDs-simultaneos
-  * 05-Icebot-adelante-parado
-  * 06-Icebot-adelante-derecha
-  * 07-Secuencia-4LEDs
-  * 08-Secuencia-2x4LEDs
-  * 09-Secuencia-8LEDs
-  * 10-Secuencia-8LEDs-Mux
-  * 11-Icebot-pulsadores-icemove4
-  * 12-Icebot-pulsadores-icemove9
-  * 13-Secuencia-4-estados-8-LED
-  * 14-Decodificador-3-8
+  * *01-Dibujando*
+    * 01-boca-franky
+    * 02-digitos-0-1
+  * *02-Conexion-7Seg*
+    * 03-Display-segmentos-aislados
+    * 04-lamp-test
+    * 05-lamp-test-2
+  * *03-Digitos*
+    * 06-digito-0
+    * 07-digito-0-bloque
+    * 08-digitos-0-9-bloques
+    * 09-Select-7-9-int
+    * 10-digitos-A-F-bloques
+    * 11-letras-bloques
+  * *04-Decodificadores*
+    * 12-1-Displaybit-IR
+    * 12-2-Displaybit-IR-bin
+    * 12-3-DisplayBit-IR-bloque
+    * 13-2-DisplayBit2-Cuenta-0-3-bloque
+    * 13-DisplayBit2-Cuenta-0-3
+    * 14-2-DisplayBit3-Conversion-bin-dec-bloque
+    * 14-DisplayBit3-Conversion-bin-dec
+    * 15-2-DisplayDEC-interruptores
+    * 15-DisplayDEC-interruptores
+    * 16-1-DisplayHex-interruptores
+    * 16-2-DisplayHex-interruptores
 * *2-Ejercicios*
-  * Ejercicio-21-1
-  * Ejercicio-21-x
+  * Ejercicio-24-1
+  * Ejercicio-24-2
+  * Ejercicio-24-3
 
 
 ## Authors
