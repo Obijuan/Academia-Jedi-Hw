@@ -7,7 +7,7 @@ Colección para la Academia Jedi de Hardware.
 
 ## Install
 
-* Download the collection: [stable](https://github.com/Obijuan/Academia-Jedi-Hw/archive/v0.1.0.zip) or [development](https://github.com/Obijuan/Academia-Jedi-Hw/archive/master.zip)
+* Download the collection: [Academia-Jedi-HW-25.zip](https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/raw/master/wiki/Tutorial-25/Colecctions/Academia-Jedi-HW-25.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
@@ -255,7 +255,6 @@ Colección para la Academia Jedi de Hardware.
       * Valor_170
       * Valor_255
 * *Varios*
-  * Test
   * *Accesorios*
     * Baliza-1
     * Baliza-2
@@ -346,7 +345,6 @@ Colección para la Academia Jedi de Hardware.
     * Icemove9
 
 ## Examples
-* Test
 * *0-Soluciones-Tutorial-24*
   * Sol-24-1
   * Sol-24-2
@@ -361,9 +359,9 @@ Colección para la Academia Jedi de Hardware.
   * 06-Caja-fuerte-codigo
   * 07-Alarma-antirrobo
 * *2-Ejercicios*
-  * Ejercicio-21-x
   * Ejercicio-25-1
   * Ejercicio-25-2
+  * Ejercicio-25-3
 
 
 ## Authors
