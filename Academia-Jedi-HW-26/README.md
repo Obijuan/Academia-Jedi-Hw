@@ -1,4 +1,4 @@
-# Academia-Jedi-HW-25 Collection
+# Academia-Jedi-HW-26 Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
 ![Version](https://img.shields.io/badge/version-v0.1.0-orange.svg)
@@ -7,7 +7,7 @@ Colección para la Academia Jedi de Hardware.
 
 ## Install
 
-* Download the collection: [Academia-Jedi-HW-25.zip](https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/raw/master/wiki/Tutorial-25/Colecctions/Academia-Jedi-HW-25.zip)
+* Download the collection: [stable](https://github.com/Obijuan/Academia-Jedi-Hw/archive/v0.1.0.zip) or [development](https://github.com/Obijuan/Academia-Jedi-Hw/archive/master.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
@@ -15,6 +15,12 @@ Colección para la Academia Jedi de Hardware.
 * *Comb*
   * *Decodificadores*
     * *7Seg*
+      * *Anodo-comun*
+        * displayBit
+        * displayBit2
+        * displayBit3
+        * displayDEC
+        * displayHEX
       * *Catodo-comun*
         * displayBit
         * displayBit2
@@ -196,6 +202,72 @@ Colección para la Academia Jedi de Hardware.
         * tabla-hex-8-8
 * *Const*
   * *7Seg*
+    * *Anodo_comun*
+      * *Digitos*
+        * 0
+        * 1
+        * 2
+        * 3
+        * 4
+        * 5
+        * 6
+        * 7
+        * 8
+        * 9
+        * A
+        * B
+        * C
+        * D
+        * E
+        * F
+      * *Letras*
+        * G
+        * H
+        * I
+        * J
+        * L
+        * N
+        * NN
+        * O
+        * P
+        * Q
+        * R
+        * S
+        * U
+        * Y
+    * *Catodo_comun*
+      * *Digitos*
+        * 0
+        * 1
+        * 2
+        * 3
+        * 4
+        * 5
+        * 6
+        * 7
+        * 8
+        * 9
+        * A
+        * B
+        * C
+        * D
+        * E
+        * F
+      * *Letras*
+        * G
+        * H
+        * I
+        * J
+        * L
+        * N
+        * NN
+        * O
+        * P
+        * Q
+        * R
+        * S
+        * U
+        * Y
     * *Digitos*
       * 0
       * 1
@@ -277,6 +349,13 @@ Colección para la Academia Jedi de Hardware.
       * Corazon_DO4
       * Corazon_MI4
       * Corazon_RE4
+    * *Tics*
+      * Heart-Hz
+      * Heart-Sec
+      * Heart-ms
+      * Heart-us
+      * *Fijos*
+        * Heart-1Hz
   * *Bus*
     * *02_bits*
       * Agregador
@@ -288,6 +367,8 @@ Colección para la Academia Jedi de Hardware.
     * *08_bits*
       * Agregador
       * Separador
+  * *IR*
+    * IR-tic
   * *Motor*
     * *SM-S4303R*
       * MotorBit
@@ -314,18 +395,14 @@ Colección para la Academia Jedi de Hardware.
         * 15-Aspirante-Jedi-N1
         * 16-Aspirante-Jedi-N2
         * 17-Aspirante-Jedi-N3
+      * *03-Tercero*
+        * 18-Jedi
     * *Emojis*
       * Smiley
       * caca
       * like
-    * *Rusia-2018*
-      * Rusia-2018-Balon
-      * Rusia-2018-equipos
-      * Rusia-2018-logo-1
-      * Rusia-2018-logo-2
-      * Rusia-2018-spain-1
-      * Rusia-2018-spain-2
-      * Rusia-2018-spain-3
+  * *Pulsador*
+    * pulsador-tic
   * *Recreo*
     * comecocos
   * *Retardo*
@@ -340,28 +417,38 @@ Colección para la Academia Jedi de Hardware.
     * *TowerPro-SG90*
       * Servobit-90
       * Servobit
+  * *Timers*
+    * timer-msec
+    * timer-sec
+    * timer-usec
   * *icebot*
     * Icemove4
     * Icemove9
 
 ## Examples
-* *0-Soluciones-Tutorial-24*
-  * Sol-24-1
-  * Sol-24-2
-  * Sol-24-3-bloque
-  * Sol-24-3
+* *0-Soluciones-Tutorial-25*
+  * Sol-25-1
+  * Sol-25-2
+  * Sol-25-3
 * *1-Ejemplos*
-  * 01-pulsador-led
-  * 02-Notificacion-pulsador-LED
-  * 03-IR-led
-  * 04-Notificacion-IR-LED
-  * 05-Barrera-automatica
-  * 06-Caja-fuerte-codigo
-  * 07-Alarma-antirrobo
+  * 01-1-Pulsador-tic-LED
+  * 01-2-Pulsador-tic-Biestable
+  * 02-Pulsador-Doble-click-LED
+  * 03-IR-tic-Biestable
+  * 04-IR-tic-deteccion-3-objetos
+  * 05-Corazon-tic-Biestable
+  * 06-timer-LED-3-segundos
+  * 07-Pitidos-duracion-constante
+  * 08-LEDs-encadenados
+  * 09-Circuitos-en-anillo
+  * 09-mi-primer-automatismo
+  * 10-LED-sonido-pulsantes
+  * 11-LED-dos-intensidades
+  * 12-Servo-futaba-dos-posiciones
 * *2-Ejercicios*
-  * Ejercicio-25-1
-  * Ejercicio-25-2
-  * Ejercicio-25-3
+  * Ejercicio-26-1
+  * Ejercicio-26-2
+  * Ejercicio-26-3
 
 
 ## Authors
