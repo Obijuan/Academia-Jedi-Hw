@@ -63,7 +63,7 @@
           "id": "71be2613-0c43-4db8-b513-29cd3f3f6831",
           "type": "basic.info",
           "data": {
-            "info": "El funcionamiento se muestra en este [Vídeo de Youtube]([Vídeo en Youtube](https://www.youtube.com/watch?v=WpYWPK14Y6Q):\n\n[![Click to see the youtube video](http://img.youtube.com/vi/WpYWPK14Y6Q/0.jpg)]([Vídeo en Youtube](https://www.youtube.com/watch?v=WpYWPK14Y6Q): )",
+            "info": "El funcionamiento se muestra en este [Vídeo de Youtube]([Vídeo en Youtube](https://www.youtube.com/watch?v=WpYWPK14Y6Q):\n\n[![Click to see the youtube video](http://img.youtube.com/vi/WpYWPK14Y6Q/0.jpg)]([Vídeo en Youtube](https://www.youtube.com/watch?v=WpYWPK14Y6Q)",
             "readonly": true
           },
           "position": {
