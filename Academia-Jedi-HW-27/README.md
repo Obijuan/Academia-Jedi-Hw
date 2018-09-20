@@ -7,7 +7,7 @@ Colección para la Academia Jedi de Hardware.
 
 ## Install
 
-* Download the collection: [stable](https://github.com/Obijuan/Academia-Jedi-Hw/archive/v0.1.0.zip) or [development](https://github.com/Obijuan/Academia-Jedi-Hw/archive/master.zip)
+* Download the collection: [Academia-Jedi-HW-27.zip](https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/raw/master/wiki/Tutorial-27/Collections/Academia-Jedi-HW-27.zip) 
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
@@ -34,14 +34,20 @@ Colección para la Academia Jedi de Hardware.
       * Mux-4-1-flip
       * Mux-4-1
     * *2-Bits*
+      * Mux-2-1-flip
       * Mux-2-1
       * Mux-4-1
+    * *3-Bits*
+      * Mux-2-1
     * *4-Bits*
       * Mux-2-1
       * Mux-4-1
+    * *5-Bits*
+      * Mux-2-1
     * *7-Bit*
       * Mux-2-1
     * *8-Bit*
+      * Mux-2-1-flip
       * Mux-2-1
       * Mux-4-1
   * *Puertas*
@@ -318,6 +324,8 @@ Colección para la Academia Jedi de Hardware.
       * Valor_05
       * Valor_10
       * Valor_15
+    * *05_bits*
+      * Generico
     * *07_bits*
       * Generico
     * *08_bits*
@@ -367,6 +375,21 @@ Colección para la Academia Jedi de Hardware.
     * *08_bits*
       * Agregador
       * Separador
+  * *Contadores*
+    * *02-bits*
+      * cont-up
+    * *03-bits*
+      * cont-up
+    * *04-bits*
+      * cont-up
+    * *05-bits*
+      * cont-up
+    * *06-bits*
+      * cont-up
+    * *07-bits*
+      * cont-up
+    * *08-bits*
+      * cont-up
   * *IR*
     * IR-tic
   * *Motor*
@@ -397,6 +420,9 @@ Colección para la Academia Jedi de Hardware.
         * 17-Aspirante-Jedi-N3
       * *03-Tercero*
         * 18-Jedi
+        * 19-Jedi-N1
+        * 20-Jedi-N2
+        * 21-Jedi-N3
     * *Emojis*
       * Smiley
       * caca
@@ -431,24 +457,25 @@ Colección para la Academia Jedi de Hardware.
   * Sol-26-2
   * Sol-26-3
 * *1-Ejemplos*
-  * 01-1-Pulsador-tic-LED
-  * 01-2-Pulsador-tic-Biestable
-  * 02-Pulsador-Doble-click-LED
-  * 03-IR-tic-Biestable
-  * 04-IR-tic-deteccion-3-objetos
-  * 05-Corazon-tic-Biestable
-  * 06-timer-LED-3-segundos
-  * 07-Pitidos-duracion-constante
-  * 08-LEDs-encadenados
-  * 09-Circuitos-en-anillo
-  * 09-mi-primer-automatismo
-  * 10-LED-sonido-pulsantes
-  * 11-LED-dos-intensidades
-  * 12-Servo-futaba-dos-posiciones
+  * 01-Cont-2bits-LEDs-pulsador
+  * 02-Cont-2bits-LEDs-pulsador-reset
+  * 03-Cont-2bits-decimal
+  * 04-Cont-2bits-overflow
+  * 05-Cont-2bits-modulo-3
+  * 06-Contador-decimal
+  * 07-Contadores-encadenados
+  * 08-Contadores-encadenados-4bits-hexadecimal
+  * 09-pulsaciones-triples
+  * 10-scaner-supermercado
+  * 11-contador-vueltas-spiner
+  * 12-segundero
+  * 13-cronometro
+  * 14-secuencia-LEDs-KITT
+  * 15-secuencia-texto-display
 * *2-Ejercicios*
-  * Ejercicio-26-1
-  * Ejercicio-26-2
-  * Ejercicio-26-3
+  * Ejercicio-27-1
+  * Ejercicio-27-2
+  * Ejercicio-27-3
 
 
 ## Authors
