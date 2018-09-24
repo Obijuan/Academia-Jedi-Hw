@@ -26,8 +26,8 @@
             "virtual": true
           },
           "position": {
-            "x": 640,
-            "y": 168
+            "x": 720,
+            "y": 176
           }
         },
         {
@@ -65,7 +65,7 @@
             "virtual": true
           },
           "position": {
-            "x": 640,
+            "x": 720,
             "y": 280
           }
         },
@@ -73,7 +73,7 @@
           "id": "8442894d-b93c-4aff-a7cb-dea7176ac3db",
           "type": "basic.code",
           "data": {
-            "code": "assign i1 = (y == 1);\nassign i0 = ~i1;",
+            "code": "assign {i1,i0} = 1 << y;\n",
             "params": [],
             "ports": {
               "in": [
@@ -96,7 +96,7 @@
             "y": 224
           },
           "size": {
-            "width": 224,
+            "width": 248,
             "height": 64
           }
         }

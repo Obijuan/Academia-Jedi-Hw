@@ -26,8 +26,8 @@
             "virtual": true
           },
           "position": {
-            "x": 736,
-            "y": 40
+            "x": 520,
+            "y": 88
           }
         },
         {
@@ -45,8 +45,8 @@
             "virtual": true
           },
           "position": {
-            "x": 760,
-            "y": 120
+            "x": 536,
+            "y": 136
           }
         },
         {
@@ -71,8 +71,8 @@
             "clock": false
           },
           "position": {
-            "x": 24,
-            "y": 200
+            "x": 40,
+            "y": 184
           }
         },
         {
@@ -90,8 +90,8 @@
             "virtual": true
           },
           "position": {
-            "x": 760,
-            "y": 208
+            "x": 552,
+            "y": 192
           }
         },
         {
@@ -109,15 +109,15 @@
             "virtual": true
           },
           "position": {
-            "x": 744,
-            "y": 272
+            "x": 536,
+            "y": 248
           }
         },
         {
           "id": "8442894d-b93c-4aff-a7cb-dea7176ac3db",
           "type": "basic.code",
           "data": {
-            "code": "assign {i3,i2,i1,i0} = (y == 2'h3) ? 4'b1000 :\n                       (y == 2'h2) ? 4'b0100 :\n                       (y == 2'h1) ? 4'b0010 : 4'b0001;\n                       \n",
+            "code": "assign {i3,i2,i1,i0} = 1 << y;\n                       \n",
             "params": [],
             "ports": {
               "in": [
@@ -148,8 +148,8 @@
             "y": 184
           },
           "size": {
-            "width": 464,
-            "height": 88
+            "width": 280,
+            "height": 64
           }
         }
       ],

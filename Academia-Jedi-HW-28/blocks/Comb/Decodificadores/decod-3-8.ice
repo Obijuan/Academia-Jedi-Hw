@@ -26,8 +26,8 @@
             "virtual": true
           },
           "position": {
-            "x": 728,
-            "y": 56
+            "x": 696,
+            "y": 48
           }
         },
         {
@@ -114,7 +114,7 @@
             "clock": false
           },
           "position": {
-            "x": 24,
+            "x": 16,
             "y": 256
           }
         },
@@ -190,7 +190,7 @@
             "virtual": true
           },
           "position": {
-            "x": 720,
+            "x": 760,
             "y": 416
           }
         },
@@ -198,7 +198,7 @@
           "id": "8442894d-b93c-4aff-a7cb-dea7176ac3db",
           "type": "basic.code",
           "data": {
-            "code": "wire [7:0] i;\n\nassign i = (y == 3'h7) ? 8'b1000_0000 :\n           (y == 3'h6) ? 8'b0100_0000 :\n           (y == 3'h5) ? 8'b0010_0000 :\n           (y == 3'h4) ? 8'b0001_0000 :\n           (y == 3'h3) ? 8'b0000_1000 :\n           (y == 3'h2) ? 8'b0000_0100 :\n           (y == 3'h1) ? 8'b0000_0010 : 8'b0000_0001;\n\nassign {i7, i6, i5, i4, i3, i2, i1, i0} = i;\n                       \n",
+            "code": "assign {i7,i6,i5,i4,i3,i2,i1,i0} = 1 << y;\n\n                       \n",
             "params": [],
             "ports": {
               "in": [
@@ -241,8 +241,8 @@
             "y": 184
           },
           "size": {
-            "width": 496,
-            "height": 200
+            "width": 416,
+            "height": 208
           }
         }
       ],
