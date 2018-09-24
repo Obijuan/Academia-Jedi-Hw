@@ -91,11 +91,28 @@
           }
         },
         {
+          "id": "bf12a800-db30-4289-a7c5-8c08438f9a39",
+          "type": "basic.constant",
+          "data": {
+            "name": "",
+            "value": "0",
+            "local": false
+          },
+          "position": {
+            "x": 464,
+            "y": 0
+          }
+        },
+        {
           "id": "90068dea-9e7b-4a0f-afa3-e6585d0d8542",
           "type": "basic.code",
           "data": {
-            "code": "reg q = 0;\n\nalways @(posedge clk)\n  if (set)\n    q <= 1'b1;\n  else if (rst)\n    q<=1'b0;",
-            "params": [],
+            "code": "reg q = INI;\n\nalways @(posedge clk)\n  if (set)\n    q <= 1'b1;\n  else if (rst)\n    q<=1'b0;",
+            "params": [
+              {
+                "name": "INI"
+              }
+            ],
             "ports": {
               "in": [
                 {
@@ -176,6 +193,16 @@
           "target": {
             "block": "1cb167a4-9e2a-416b-803e-da7b6151eaa5",
             "port": "in"
+          }
+        },
+        {
+          "source": {
+            "block": "bf12a800-db30-4289-a7c5-8c08438f9a39",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "90068dea-9e7b-4a0f-afa3-e6585d0d8542",
+            "port": "INI"
           }
         }
       ]
