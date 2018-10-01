@@ -12,26 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "f64445db-9c80-479f-b84d-a4eda63a9dbe",
-          "type": "basic.input",
-          "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "D0",
-                "value": "119"
-              }
-            ],
-            "virtual": false,
-            "clock": false
-          },
-          "position": {
-            "x": -328,
-            "y": 320
-          }
-        },
-        {
           "id": "d8154944-ab29-426c-bef9-eadeb0152e19",
           "type": "basic.output",
           "data": {
@@ -51,92 +31,37 @@
           }
         },
         {
-          "id": "d9c6e15e-0cca-4c7f-bf09-3b546843e080",
-          "type": "basic.output",
-          "data": {
-            "name": "LED",
-            "range": "[7:0]",
-            "pins": [
-              {
-                "index": "7",
-                "name": "LED7",
-                "value": "104"
-              },
-              {
-                "index": "6",
-                "name": "LED6",
-                "value": "102"
-              },
-              {
-                "index": "5",
-                "name": "LED5",
-                "value": "101"
-              },
-              {
-                "index": "4",
-                "name": "LED4",
-                "value": "99"
-              },
-              {
-                "index": "3",
-                "name": "LED3",
-                "value": "98"
-              },
-              {
-                "index": "2",
-                "name": "LED2",
-                "value": "97"
-              },
-              {
-                "index": "1",
-                "name": "LED1",
-                "value": "96"
-              },
-              {
-                "index": "0",
-                "name": "LED0",
-                "value": "95"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 920,
-            "y": 616
-          }
-        },
-        {
           "id": "0ef5a3f0-e720-4e56-aa0b-29d61f549068",
           "type": "basic.constant",
           "data": {
-            "name": "",
+            "name": "msec",
             "value": "50",
             "local": false
           },
           "position": {
-            "x": -120,
-            "y": 200
+            "x": -160,
+            "y": 472
           }
         },
         {
           "id": "c679a1f3-cfb9-42cd-8b0c-5bbe497b7693",
           "type": "basic.constant",
           "data": {
-            "name": "",
+            "name": "Módulo",
             "value": "12",
             "local": false
           },
           "position": {
-            "x": 224,
-            "y": 104
+            "x": 192,
+            "y": 376
           }
         },
         {
           "id": "07aa3fe9-8e8b-44a6-828f-759daec3538a",
           "type": "1c7dae7144d376f2ee4896fcc502a29110e2db37",
           "position": {
-            "x": 80,
-            "y": 256
+            "x": 40,
+            "y": 520
           },
           "size": {
             "width": 96,
@@ -159,8 +84,8 @@
           "id": "c355e8d9-144f-4be4-8182-251a3c5b47ac",
           "type": "3d2d16068c495f9dcae3633c3321a073853d155f",
           "position": {
-            "x": 224,
-            "y": 208
+            "x": 192,
+            "y": 472
           },
           "size": {
             "width": 96,
@@ -168,10 +93,134 @@
           }
         },
         {
+          "id": "487daf1e-38bd-4a8b-ace1-7b67c2ea6371",
+          "type": "519d315d08b3a8cc1aac53c9d14d2fd81d67033f",
+          "position": {
+            "x": -160,
+            "y": 568
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "cd4aab8d-4bee-41f6-814c-687f92641706",
+          "type": "basic.info",
+          "data": {
+            "info": "**NeoPixel-16**",
+            "readonly": true
+          },
+          "position": {
+            "x": 808,
+            "y": 432
+          },
+          "size": {
+            "width": 160,
+            "height": 48
+          }
+        },
+        {
+          "id": "c34d5347-e8d4-43a1-a0cf-ae634834e4db",
+          "type": "basic.info",
+          "data": {
+            "info": "Contador para direccionar los 12  \nLED del anillo",
+            "readonly": true
+          },
+          "position": {
+            "x": 136,
+            "y": 320
+          },
+          "size": {
+            "width": 272,
+            "height": 64
+          }
+        },
+        {
+          "id": "cdf78a4c-4023-47a6-be7e-b082fb477405",
+          "type": "basic.info",
+          "data": {
+            "info": "Número de LED  \n(Dirección)",
+            "readonly": true
+          },
+          "position": {
+            "x": 544,
+            "y": 480
+          },
+          "size": {
+            "width": 152,
+            "height": 64
+          }
+        },
+        {
+          "id": "6e720c49-2a2f-4787-be80-84ef20b29853",
+          "type": "basic.info",
+          "data": {
+            "info": "Temporización: Generación de  \ntics de 50 mili-segundos",
+            "readonly": true
+          },
+          "position": {
+            "x": -200,
+            "y": 648
+          },
+          "size": {
+            "width": 256,
+            "height": 72
+          }
+        },
+        {
+          "id": "1a4a3db8-3922-461d-a193-f69c976dd529",
+          "type": "basic.info",
+          "data": {
+            "info": "Retrasar el pulso 1 tic",
+            "readonly": true
+          },
+          "position": {
+            "x": -8,
+            "y": 472
+          },
+          "size": {
+            "width": 216,
+            "height": 40
+          }
+        },
+        {
+          "id": "a3d6a4ff-a3b3-4fc4-8fe8-48c1d8746b2a",
+          "type": "basic.info",
+          "data": {
+            "info": "Escribir el valor en el  \nLED actual",
+            "readonly": true
+          },
+          "position": {
+            "x": 536,
+            "y": 552
+          },
+          "size": {
+            "width": 208,
+            "height": 56
+          }
+        },
+        {
+          "id": "76ae479c-bd2f-4a68-a9f8-4ac15b19813f",
+          "type": "basic.info",
+          "data": {
+            "info": "Valor rgb para  \nel LED",
+            "readonly": true
+          },
+          "position": {
+            "x": 680,
+            "y": 656
+          },
+          "size": {
+            "width": 192,
+            "height": 64
+          }
+        },
+        {
           "id": "5622b5fb-a0ff-4633-aa70-ee4da00953de",
           "type": "basic.code",
           "data": {
-            "code": "reg [23:0] q = 24'h00000F;\n\nalways @(posedge clk)\n  if (cnt)\n    q <= {q[19:0], q[23:20]};\n\n\n\nassign o = q;\nassign deb = q[7:0];",
+            "code": "reg [23:0] q = 24'h00000F;\n\nalways @(posedge clk)\n  if (cnt)\n    q <= {q[19:0], q[23:20]};\n\nassign o = q;\n",
             "params": [],
             "ports": {
               "in": [
@@ -187,33 +236,48 @@
                   "name": "o",
                   "range": "[23:0]",
                   "size": 24
-                },
-                {
-                  "name": "deb",
-                  "range": "[7:0]",
-                  "size": 8
                 }
               ]
             }
           },
           "position": {
-            "x": 424,
-            "y": 656
+            "x": 384,
+            "y": 728
           },
           "size": {
-            "width": 280,
-            "height": 144
+            "width": 304,
+            "height": 136
           }
         },
         {
-          "id": "487daf1e-38bd-4a8b-ace1-7b67c2ea6371",
-          "type": "519d315d08b3a8cc1aac53c9d14d2fd81d67033f",
+          "id": "865effba-ea5b-4abb-a56a-7ce989dbb3b8",
+          "type": "basic.info",
+          "data": {
+            "info": "Registro de desplazamiento para obtener  \nel siguiente valor rgb\n",
+            "readonly": true
+          },
           "position": {
-            "x": -120,
-            "y": 304
+            "x": 408,
+            "y": 872
           },
           "size": {
-            "width": 96,
+            "width": 328,
+            "height": 64
+          }
+        },
+        {
+          "id": "e66ba705-eac8-43eb-af0c-b592cb6d74f7",
+          "type": "basic.info",
+          "data": {
+            "info": "Evento: se han recorrido  \nlos 12 LEDs",
+            "readonly": true
+          },
+          "position": {
+            "x": 344,
+            "y": 640
+          },
+          "size": {
+            "width": 216,
             "height": 64
           }
         }
@@ -228,23 +292,6 @@
             "block": "d8154944-ab29-426c-bef9-eadeb0152e19",
             "port": "in"
           }
-        },
-        {
-          "source": {
-            "block": "c355e8d9-144f-4be4-8182-251a3c5b47ac",
-            "port": "c659caa2-1cf7-4da3-855a-2b0c0ecc7510"
-          },
-          "target": {
-            "block": "30936bb8-6073-41ff-ba38-407f07ce3ccd",
-            "port": "1f432869-d3ce-49b3-a509-2ce871c49659"
-          },
-          "vertices": [
-            {
-              "x": 480,
-              "y": 400
-            }
-          ],
-          "size": 4
         },
         {
           "source": {
@@ -297,12 +344,7 @@
             "block": "30936bb8-6073-41ff-ba38-407f07ce3ccd",
             "port": "35c52a69-a45d-41fb-9ece-27c3078406bf"
           },
-          "vertices": [
-            {
-              "x": 312,
-              "y": 512
-            }
-          ]
+          "vertices": []
         },
         {
           "source": {
@@ -315,21 +357,10 @@
           },
           "vertices": [
             {
-              "x": 368,
-              "y": 408
+              "x": 336,
+              "y": 616
             }
           ]
-        },
-        {
-          "source": {
-            "block": "5622b5fb-a0ff-4633-aa70-ee4da00953de",
-            "port": "deb"
-          },
-          "target": {
-            "block": "d9c6e15e-0cca-4c7f-bf09-3b546843e080",
-            "port": "in"
-          },
-          "size": 8
         },
         {
           "source": {
@@ -340,6 +371,23 @@
             "block": "487daf1e-38bd-4a8b-ace1-7b67c2ea6371",
             "port": "136e8d6d-892a-4f14-8d6d-0c5bc6c3e844"
           }
+        },
+        {
+          "source": {
+            "block": "c355e8d9-144f-4be4-8182-251a3c5b47ac",
+            "port": "c659caa2-1cf7-4da3-855a-2b0c0ecc7510"
+          },
+          "target": {
+            "block": "30936bb8-6073-41ff-ba38-407f07ce3ccd",
+            "port": "1f432869-d3ce-49b3-a509-2ce871c49659"
+          },
+          "vertices": [
+            {
+              "x": 432,
+              "y": 528
+            }
+          ],
+          "size": 4
         }
       ]
     }
