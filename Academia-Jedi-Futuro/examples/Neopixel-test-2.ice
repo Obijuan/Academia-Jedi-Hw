@@ -39,7 +39,7 @@
             "local": false
           },
           "position": {
-            "x": -160,
+            "x": 0,
             "y": 472
           }
         },
@@ -54,18 +54,6 @@
           "position": {
             "x": 192,
             "y": 376
-          }
-        },
-        {
-          "id": "07aa3fe9-8e8b-44a6-828f-759daec3538a",
-          "type": "1c7dae7144d376f2ee4896fcc502a29110e2db37",
-          "position": {
-            "x": 40,
-            "y": 520
-          },
-          "size": {
-            "width": 96,
-            "height": 64
           }
         },
         {
@@ -96,7 +84,7 @@
           "id": "487daf1e-38bd-4a8b-ace1-7b67c2ea6371",
           "type": "519d315d08b3a8cc1aac53c9d14d2fd81d67033f",
           "position": {
-            "x": -160,
+            "x": 0,
             "y": 568
           },
           "size": {
@@ -160,28 +148,12 @@
             "readonly": true
           },
           "position": {
-            "x": -200,
+            "x": -40,
             "y": 648
           },
           "size": {
             "width": 256,
             "height": 72
-          }
-        },
-        {
-          "id": "1a4a3db8-3922-461d-a193-f69c976dd529",
-          "type": "basic.info",
-          "data": {
-            "info": "Retrasar el pulso 1 tic",
-            "readonly": true
-          },
-          "position": {
-            "x": -8,
-            "y": 472
-          },
-          "size": {
-            "width": 216,
-            "height": 40
           }
         },
         {
@@ -317,26 +289,6 @@
         },
         {
           "source": {
-            "block": "07aa3fe9-8e8b-44a6-828f-759daec3538a",
-            "port": "aa84d31e-cd92-44c7-bb38-c7a4cd903a78"
-          },
-          "target": {
-            "block": "c355e8d9-144f-4be4-8182-251a3c5b47ac",
-            "port": "26aba23f-8567-4e9b-bd45-c26724030f33"
-          }
-        },
-        {
-          "source": {
-            "block": "487daf1e-38bd-4a8b-ace1-7b67c2ea6371",
-            "port": "c138a610-b61f-4e7c-bb8a-c4f3b0b9f95c"
-          },
-          "target": {
-            "block": "07aa3fe9-8e8b-44a6-828f-759daec3538a",
-            "port": "bf2f0c53-2d04-4cba-aa70-2df85502d24f"
-          }
-        },
-        {
-          "source": {
             "block": "487daf1e-38bd-4a8b-ace1-7b67c2ea6371",
             "port": "c138a610-b61f-4e7c-bb8a-c4f3b0b9f95c"
           },
@@ -388,151 +340,21 @@
             }
           ],
           "size": 4
+        },
+        {
+          "source": {
+            "block": "487daf1e-38bd-4a8b-ace1-7b67c2ea6371",
+            "port": "c138a610-b61f-4e7c-bb8a-c4f3b0b9f95c"
+          },
+          "target": {
+            "block": "c355e8d9-144f-4be4-8182-251a3c5b47ac",
+            "port": "26aba23f-8567-4e9b-bd45-c26724030f33"
+          }
         }
       ]
     }
   },
   "dependencies": {
-    "1c7dae7144d376f2ee4896fcc502a29110e2db37": {
-      "package": {
-        "name": "Biestable-D",
-        "version": "0.1",
-        "description": "Biestable de datos (Tipo D). Cuando se recibe un tic por load se captura el dato",
-        "author": "Juan González-Gómez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22156.57%22%20height=%22216.83%22%20viewBox=%220%200%2041.425941%2057.369679%22%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M25.682%2040.152L39.29%2056.824%2032.372%2036.29%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M18.298%2032.088L9.066%2012.475l-6.45%203.724-2.07-3.583L21.451.546%2023.52%204.13l-6.092%203.517%2012.03%2018.223s5.399-2.025%208.535.74c3.137%202.766%202.52%204.92%202.887%204.772L17.192%2045.02s-2.848-3.695-2.16-6.795c.688-3.1%203.266-6.137%203.266-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "3943e194-090b-4553-9df3-88bc4b17abc2",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": true
-              },
-              "position": {
-                "x": 192,
-                "y": 136
-              }
-            },
-            {
-              "id": "aa84d31e-cd92-44c7-bb38-c7a4cd903a78",
-              "type": "basic.output",
-              "data": {
-                "name": ""
-              },
-              "position": {
-                "x": 680,
-                "y": 184
-              }
-            },
-            {
-              "id": "bf2f0c53-2d04-4cba-aa70-2df85502d24f",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": false
-              },
-              "position": {
-                "x": 192,
-                "y": 232
-              }
-            },
-            {
-              "id": "65194b18-5d2a-41b2-bd86-01be99978ad6",
-              "type": "basic.constant",
-              "data": {
-                "name": "",
-                "value": "0",
-                "local": false
-              },
-              "position": {
-                "x": 456,
-                "y": 64
-              }
-            },
-            {
-              "id": "bdc170f0-4468-4137-bd79-4624c9cadf2b",
-              "type": "basic.code",
-              "data": {
-                "code": "reg q = INI;\nalways @(posedge clk)\n  q <= d;",
-                "params": [
-                  {
-                    "name": "INI"
-                  }
-                ],
-                "ports": {
-                  "in": [
-                    {
-                      "name": "clk"
-                    },
-                    {
-                      "name": "d"
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "q"
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 384,
-                "y": 168
-              },
-              "size": {
-                "width": 232,
-                "height": 88
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "3943e194-090b-4553-9df3-88bc4b17abc2",
-                "port": "out"
-              },
-              "target": {
-                "block": "bdc170f0-4468-4137-bd79-4624c9cadf2b",
-                "port": "clk"
-              }
-            },
-            {
-              "source": {
-                "block": "bdc170f0-4468-4137-bd79-4624c9cadf2b",
-                "port": "q"
-              },
-              "target": {
-                "block": "aa84d31e-cd92-44c7-bb38-c7a4cd903a78",
-                "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "65194b18-5d2a-41b2-bd86-01be99978ad6",
-                "port": "constant-out"
-              },
-              "target": {
-                "block": "bdc170f0-4468-4137-bd79-4624c9cadf2b",
-                "port": "INI"
-              }
-            },
-            {
-              "source": {
-                "block": "bf2f0c53-2d04-4cba-aa70-2df85502d24f",
-                "port": "out"
-              },
-              "target": {
-                "block": "bdc170f0-4468-4137-bd79-4624c9cadf2b",
-                "port": "d"
-              }
-            }
-          ]
-        }
-      }
-    },
     "24a36777b1654cb1298f58cdfa3c0458b254bd40": {
       "package": {
         "name": "NeoPixel-16",
