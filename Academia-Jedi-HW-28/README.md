@@ -13,7 +13,13 @@ Colección para la Academia Jedi de Hardware.
 
 ## Blocks
 * *Comb*
+  * *Codificadores*
+    * cod-2-1
+    * cod-4-1
   * *Decodificadores*
+    * decod-1-2
+    * decod-2-4
+    * decod-3-8
     * *7Seg*
       * *Anodo-comun*
         * displayBit
@@ -27,6 +33,10 @@ Colección para la Academia Jedi de Hardware.
         * displayBit3
         * displayDEC
         * displayHEX
+  * *Demux*
+    * *1-Bit*
+      * Demux-1-2
+      * Demux-2-4
   * *Mux*
     * *1-Bit*
       * Mux-2-1-flip
@@ -37,6 +47,8 @@ Colección para la Academia Jedi de Hardware.
       * Mux-2-1-flip
       * Mux-2-1
       * Mux-4-1
+    * *24-Bits*
+      * Mux-2-1
     * *3-Bits*
       * Mux-2-1
     * *4-Bits*
@@ -338,9 +350,17 @@ Colección para la Academia Jedi de Hardware.
   * *Accesorios*
     * Baliza-1
     * Baliza-2
+    * Init-tic
     * Sirena
+    * *CircuitScramble*
+      * Button-off
+      * and
   * *Biestables*
+    * Cambio
+    * Dato
     * Set-Reset
+    * *system*
+      * Dato
   * *Bombeo*
     * Corazon_Hz
     * Corazon_Seg
@@ -359,8 +379,14 @@ Colección para la Academia Jedi de Hardware.
       * Corazon_RE4
     * *Tics*
       * Heart-Hz
+      * Heart-Sec-ena
       * Heart-Sec
+      * Heart-ms-ena
       * Heart-ms
+      * Heart-tics-ena
+      * Heart-tics-num
+      * Heart-tics
+      * Heart-us-ena
       * Heart-us
       * *Fijos*
         * Heart-1Hz
@@ -368,8 +394,12 @@ Colección para la Academia Jedi de Hardware.
     * *02_bits*
       * Agregador
       * Separador
+    * *03_bits*
+      * Agregador
+      * Separador
     * *04_bits*
       * Agregador
+      * Agregador4
       * Separador
       * Separador4
     * *08_bits*
@@ -377,10 +407,13 @@ Colección para la Academia Jedi de Hardware.
       * Separador
   * *Contadores*
     * *02-bits*
+      * cont-up-system
       * cont-up
     * *03-bits*
+      * cont-up-system
       * cont-up
     * *04-bits*
+      * cont-up-system
       * cont-up
     * *05-bits*
       * cont-up
@@ -390,6 +423,11 @@ Colección para la Academia Jedi de Hardware.
       * cont-up
     * *08-bits*
       * cont-up
+    * *09-bits*
+      * cont-up
+  * *Flancos*
+    * Bajada
+    * Subida
   * *IR*
     * IR-tic
   * *Motor*
@@ -428,6 +466,7 @@ Colección para la Academia Jedi de Hardware.
       * caca
       * like
   * *Pulsador*
+    * pulsador-cambio
     * pulsador-tic
   * *Recreo*
     * comecocos
@@ -446,6 +485,7 @@ Colección para la Academia Jedi de Hardware.
   * *Timers*
     * timer-msec
     * timer-sec
+    * timer-system
     * timer-usec
   * *icebot*
     * Icemove4
@@ -457,8 +497,27 @@ Colección para la Academia Jedi de Hardware.
   * Sol-27-2
   * Sol-27-3
 * *1-Ejemplos*
+  * 01-1-Pulsador-LED-on-off
+  * 01-2-Pulsador-LED-on-off-ini-1
+  * 01-3-Pulsador-cambio-LED
+  * 01-4-Pulsador-cambio-LED-INI-1
+  * 02-1-Circuit-Scramble-Nivel-1
+  * 02-2-Circuit-Scramble-Nivel-1
+  * 03-Divisor-frecuencia
+  * 04-Encadenamiento-biestables-cambio
+  * 05-1-Capturando-bit-1
+  * 05-2-Capturando-bit-0
+  * 06-Capturando-dato-generico
+  * 07-Capturando-dat-3-bits
+  * 08-Desplazamiento-3-bits
+  * 09-Desplazamiento-en-anillo-3bits
+  * 10-Multiplicacion-por-dos
+  * 11-conversor-serie-paralelo
+  * 12-conversor-paralelo-serie
 * *2-Ejercicios*
-  * Ejercicio-27-1
+  * Ejercicio-28-1
+  * Ejercicio-28-2
+  * Ejercicio-28-3
 
 
 ## Authors
