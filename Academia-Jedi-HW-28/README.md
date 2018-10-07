@@ -7,7 +7,7 @@ Colección para la Academia Jedi de Hardware.
 
 ## Install
 
-* Download the collection: [stable](https://github.com/Obijuan/Academia-Jedi-Hw/archive/v0.1.0.zip) or [development](https://github.com/Obijuan/Academia-Jedi-Hw/archive/master.zip)
+* Download the collection: [Academia-Jedi-HW-28.zip](https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/blob/master/wiki/Tutorial-28/Collections/Academia-Jedi-HW-28.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
