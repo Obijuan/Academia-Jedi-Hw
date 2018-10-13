@@ -54,7 +54,7 @@
           "id": "f75168f4-b82a-43ba-a50a-fdbaf41f5626",
           "type": "basic.output",
           "data": {
-            "name": "i1",
+            "name": "i0",
             "pins": [
               {
                 "index": "0",
