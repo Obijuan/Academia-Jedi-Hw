@@ -47,32 +47,32 @@
           "id": "d627d8c5-a3bd-48ee-9745-8ec1ca0dd0be",
           "type": "basic.info",
           "data": {
-            "info": "\nEn este [Vídeo de Youtube](https://www.youtube.com/watch?v=GNUIOgodDQY) se muestra un ejemplo de funcionamiento. Primero  \nse envía el número 3, y el receptor muestra el dato recibido en el display de 7 segmentos. Luego se quita el cable de  \ntranmisión y se vuelve a enviar. Se recibe 0. Se coloca otra vez el cable de transmisión y se envía el número 5\n\n\n[![Click to see the youtube video](http://img.youtube.com/vi/GNUIOgodDQY/0.jpg)](https://www.youtube.com/watch?v=GNUIOgodDQY)",
+            "info": "\nEn este [Vídeo de Youtube](https://www.youtube.com/watch?v=uGArKWjpHUk) se muestra un ejemplo de funcionamiento.\n\n[![Click to see the youtube video](http://img.youtube.com/vi/uGArKWjpHUk/0.jpg)](https://www.youtube.com/watch?v=uGArKWjpHUk)",
             "readonly": true
           },
           "position": {
-            "x": 848,
-            "y": 96
+            "x": 888,
+            "y": 32
           },
           "size": {
-            "width": 968,
-            "height": 152
+            "width": 984,
+            "height": 104
           }
         },
         {
           "id": "a3acc970-4be9-4e4c-9728-d4aab415fc73",
           "type": "basic.info",
           "data": {
-            "info": "# Ejercicio 28.3: (5 Bitpoints). Transmisión y recepción de un dato de 3 bits en serie\n\nDiseeñar un circuito que simula un sistema de transmisión entre un circuito emisor y uno receptor.  El envío de datos del tranmisor al receptor se hace en serie, bit a bit, a través de un  \ncable externo. Este cable sale por un pin de la FPGA, y vuelve a entrar por otro pin para llegar al receptor. Lo hacemos así para enfatizar el hecho de que los datos se transmiten bit a bit, por  \nun cable.\n\nLos datos que se envían son de 3 bits. Este dato se introduce en el transmisor a través de 3 interruptores externos, y al pulsar el botón de load se captura y se muestra en 3 LEDs. A continuación, \nse desplazan para su envío serie. Cada vez que se aprieta el botón 2 se desplaza un bit.\n\nEl receptor recibe el dato en serie y cuando se aprieta el botón de cargar se guarda el dato en otros 3 Biestables, cuyo contenido se visualiza en el display de 7 segmentos\n\nAsí, para transmitir el número 3, por ejemplo, los pasos serían los siguientes:\n\n* **Paso 1**: Introducir el número 3 en binario en los Switches\n* **Paso 2**: Apretar el botón de load. El número cargado se muestra en binario en los LEDs\n* **Paso 3**: Apretar 3 veces el pulsador de desplazamiento\n* **Paso 4**: Apretar de nuevo el botón de load para mostrar el dato recibido en el Display",
+            "info": "# Ejercicio 29.3: (5 Bitpoints). Puerto de entrada y salida en Arduino\n\nImplementar un **puerto de entrada** y de** salida** adicionales para **Arduin**o, mediante **comunicaciones serie síncronas**  \nEl puerto de **entrada** debe estar conectado a un** contador de 8 bits** que cuenta las pasadas que da un **spiner**  \n(las veces que se interrumpe el haz de infrarrojos). Este spiner está simulando un encoder  \nCada vez que el Arduino realice una lectura de este puerto, se le devolverá el valor de este contador  \nEl **puerto de salida** está conectado al **display de 7 segmentos**. Sólo se usarán los **4 bits de menor peso**  \nEl **programa principal de Arduino** deberá leer el **valor del encoder** y mostrar su valor en la **consola serie**.  \nAdemás, deberá sacar por el display de 7 segmentos el dígito decimal (0-9) correspoindinete a la lectura  \ndel enconder. Así, si la cuenta del encoder va por 157, en el display se muestra el dígito 7  \n(Esto hay que hacerlo mediante código en Arduino. Es fácil de hacer con la instrucción sprintf y formato %03d  \n(que almacena un número rellenando con 0s los digitos no usados de mayor peso. Así el dígito de menor peso  \nesta siempre en la posicion 2 del array: cad[2])",
             "readonly": true
           },
           "position": {
-            "x": 48,
-            "y": -176
+            "x": 40,
+            "y": -104
           },
           "size": {
-            "width": 1432,
-            "height": 272
+            "width": 1288,
+            "height": 208
           }
         }
       ],
