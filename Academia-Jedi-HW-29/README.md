@@ -15,9 +15,11 @@ Colección para la Academia Jedi de Hardware.
 * *Comb*
   * *Codificadores*
     * cod-2-1
-    * cod-4-1
+    * cod-4-2-bus
+    * cod-4-2
   * *Decodificadores*
     * decod-1-2
+    * decod-2-4-bus
     * decod-2-4
     * decod-3-8
     * *7Seg*
@@ -50,8 +52,11 @@ Colección para la Academia Jedi de Hardware.
     * *24-Bits*
       * Mux-2-1
     * *3-Bits*
+      * Mux-2-1-flip
       * Mux-2-1
+      * Mux-4-1
     * *4-Bits*
+      * Mux-2-1-flip
       * Mux-2-1
       * Mux-4-1
     * *5-Bits*
@@ -69,8 +74,12 @@ Colección para la Academia Jedi de Hardware.
     * nor
     * not
     * or
+    * or4
     * xnor
     * xor
+    * *04-bits*
+      * not
+    * *Bus*
   * *Tablas*
     * *tablas_bin*
       * *1bit_entrada*
@@ -350,7 +359,9 @@ Colección para la Academia Jedi de Hardware.
   * *Accesorios*
     * Baliza-1
     * Baliza-2
+    * Beep
     * Init-tic
+    * KITT
     * Sirena
     * *CircuitScramble*
       * Button-off
@@ -395,6 +406,7 @@ Colección para la Academia Jedi de Hardware.
       * Agregador
       * Separador
     * *03_bits*
+      * Acoplador-3-8
       * Agregador
       * Separador
     * *04_bits*
@@ -405,6 +417,32 @@ Colección para la Academia Jedi de Hardware.
     * *08_bits*
       * Agregador
       * Separador
+  * *Comparadores*
+    * *1-bit*
+      * Comp-1
+      * Comp-2
+      * Menor-1
+      * Menor-2
+    * *2-bits*
+      * Comp-1
+      * Comp-2
+      * Menor-1
+      * Menor-2
+    * *3-bits*
+      * Comp-1
+      * Comp-2
+      * Menor-1
+      * Menor-2
+    * *4-bits*
+      * Comp-1
+      * Comp-2
+      * Menor-1
+      * Menor-2
+    * *8-bits*
+      * Comp-1
+      * Comp-2
+      * Menor-1
+      * Menor-2
   * *Contadores*
     * *02-bits*
       * cont-up-system
@@ -425,11 +463,23 @@ Colección para la Academia Jedi de Hardware.
       * cont-up
     * *09-bits*
       * cont-up
+    * *10-bits*
+      * cont-up
+    * *11-bits*
+      * cont-up
+    * *12-bits*
+      * cont-up
+    * *13-bits*
+      * cont-up
   * *Flancos*
     * Bajada
     * Subida
   * *IR*
     * IR-tic
+  * *Input*
+    * Debouncer
+    * Tri-state
+    * sync
   * *Motor*
     * *SM-S4303R*
       * MotorBit
@@ -470,6 +520,29 @@ Colección para la Academia Jedi de Hardware.
     * pulsador-tic
   * *Recreo*
     * comecocos
+  * *Registros*
+    * *02-bits*
+      * reg
+      * sreg-load
+    * *03-bits*
+      * reg
+      * sreg-load
+    * *04-bits*
+      * reg
+      * sreg-load
+    * *05-bits*
+      * reg
+      * sreg-load
+    * *06-bits*
+      * reg
+      * sreg-load
+    * *07-bits*
+      * reg
+      * sreg-load
+    * *08-bits*
+      * reg
+      * sreg-load
+      * sreg
   * *Retardo*
     * Tortuga-2
   * *Servos*
@@ -497,27 +570,19 @@ Colección para la Academia Jedi de Hardware.
   * Sol-28-2
   * Sol-28-3
 * *1-Ejemplos*
-  * 01-1-Pulsador-LED-on-off
-  * 01-2-Pulsador-LED-on-off-ini-1
-  * 01-3-Pulsador-cambio-LED
-  * 01-4-Pulsador-cambio-LED-INI-1
-  * 02-1-Circuit-Scramble-Nivel-1
-  * 02-2-Circuit-Scramble-Nivel-1
-  * 03-Divisor-frecuencia
-  * 04-Encadenamiento-biestables-cambio
-  * 05-1-Capturando-bit-1
-  * 05-2-Capturando-bit-0
-  * 06-Capturando-dato-generico
-  * 07-Capturando-dat-3-bits
-  * 08-Desplazamiento-3-bits
-  * 09-Desplazamiento-en-anillo-3bits
-  * 10-Multiplicacion-por-dos
-  * 11-conversor-serie-paralelo
-  * 12-conversor-paralelo-serie
+  * 01-Reg-dato-3bits
+  * 02-Shift-Reg-3bits
+  * 03-Shift-reg-arcade
+  * 04-Comparacion-3bits
+  * 05-Codigo-caja-fuerte
+  * 06-Ruleta
+  * 07-Control-comandos
+  * 08-Arduino-puerto-salida
+  * 09-Arduino-puerto-entrada
 * *2-Ejercicios*
-  * Ejercicio-28-1
-  * Ejercicio-28-2
-  * Ejercicio-28-3
+  * Ejercicio-29-1
+  * Ejercicio-29-2
+  * Ejercicio-29-3
 
 
 ## Authors
