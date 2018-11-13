@@ -28,7 +28,7 @@
           },
           "position": {
             "x": 264,
-            "y": 176
+            "y": 184
           }
         },
         {
@@ -63,7 +63,7 @@
           },
           "position": {
             "x": 800,
-            "y": 200
+            "y": 208
           }
         },
         {
@@ -83,7 +83,7 @@
           },
           "position": {
             "x": 264,
-            "y": 280
+            "y": 288
           }
         },
         {
@@ -102,7 +102,7 @@
           },
           "position": {
             "x": 800,
-            "y": 352
+            "y": 368
           }
         },
         {
@@ -122,7 +122,7 @@
           },
           "position": {
             "x": 264,
-            "y": 376
+            "y": 392
           }
         },
         {
@@ -134,8 +134,8 @@
             "local": false
           },
           "position": {
-            "x": 528,
-            "y": 48
+            "x": 536,
+            "y": 64
           }
         },
         {
@@ -158,7 +158,7 @@
           "id": "e5d5eb54-41fb-40de-908c-b1fe9b2ec085",
           "type": "basic.code",
           "data": {
-            "code": "//-- Numero de bits del contador\nlocalparam N = 4; \n\n//-- En contadores de N bits:\n//-- M = 2 ** N\n\n//-- Internamente usamos un bit mas\n//-- (N+1) bits\nreg [N:0] qi = 0;\n\nalways @(posedge clk)\n  if (rst | ov)\n    qi <= 2'b00;\n  else\n    if (cnt)\n      qi <= qi + 1;\n      \nassign q = qi;\n\n//-- Comprobar overflow\nassign ov = (qi == M);\n    ",
+            "code": "//-- Numero de bits del contador\nlocalparam N = 4; \n\n//-- En contadores de N bits:\n//-- M = 2 ** N\n\n//-- Internamente usamos un bit mas\n//-- (N+1) bits\nreg [N:0] qi = 0;\n\nalways @(posedge clk)\n  if (rst | ov)\n    qi <= 0;\n  else\n    if (cnt)\n      qi <= qi + 1;\n\n//-- Comprobar overflow\nassign ov = (qi == M);\n\n//-- En cuanto haya overflow\n//-- se saca 0 por la salida\nassign q = ov ? 0 : qi;\n\n\n    ",
             "params": [
               {
                 "name": "M"
@@ -193,8 +193,8 @@
             "y": 160
           },
           "size": {
-            "width": 336,
-            "height": 296
+            "width": 344,
+            "height": 320
           }
         }
       ],
