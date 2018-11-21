@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "package": {
     "name": "",
     "version": "",
@@ -76,7 +76,8 @@
           "data": {
             "name": "",
             "list": "0\n1\n1\n0",
-            "local": false
+            "local": false,
+            "format": 10
           },
           "position": {
             "x": 392,

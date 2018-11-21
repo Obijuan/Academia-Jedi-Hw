@@ -116,7 +116,8 @@
           "data": {
             "name": "Comparador",
             "list": "1\n0\n0\n0\n0\n1\n0\n0\n0\n0\n1\n0\n0\n0\n0\n1",
-            "local": false
+            "local": false,
+            "format": 10
           },
           "position": {
             "x": 384,

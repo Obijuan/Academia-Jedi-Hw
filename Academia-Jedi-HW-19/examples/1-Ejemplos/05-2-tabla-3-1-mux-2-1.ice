@@ -56,7 +56,8 @@
           "data": {
             "name": "Mux 2:1",
             "list": "0\n0\n1\n0\n0\n1\n1\n1",
-            "local": false
+            "local": false,
+            "format": 10
           },
           "position": {
             "x": 392,
