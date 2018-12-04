@@ -941,6 +941,8 @@ gettext('00-Pre');
 gettext('01-Primero');
 gettext('02-Segundo');
 gettext('03-Tercero');
+gettext('22-Caballero-Jedi');
+gettext('Rango de Caballero Jedi. Tutorial I completado con máximos honores');
 gettext('00-Observador');
 gettext('Rango de Observador. Pre-academia Jedi');
 gettext('01-Aspirante-a-Cadete');

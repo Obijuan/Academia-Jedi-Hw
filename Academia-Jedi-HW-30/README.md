@@ -517,6 +517,7 @@ Colección para la Academia Jedi de Hardware.
       * MotorBit
   * *Pegatinas*
     * *Academia-Jedi*
+      * 22-Caballero-Jedi
       * *00-Pre*
         * 00-Observador
         * 01-Aspirante-a-Cadete
