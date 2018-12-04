@@ -7,7 +7,7 @@ Colección para la Academia Jedi de Hardware.
 
 ## Install
 
-* Download the collection: [Academia-Jedi-HW-29.zip](https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/raw/master/wiki/Tutorial-29/Collections/Academia-Jedi-HW-29.zip)
+* Download the collection: [Academia-Jedi-HW-30.zip](https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/raw/master/wiki/Tutorial-30/Collection/Academia-Jedi-HW-30.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
@@ -18,9 +18,11 @@ Colección para la Academia Jedi de Hardware.
     * cod-4-2-bus
     * cod-4-2
   * *Decodificadores*
+    * BCD-ASCII
     * decod-1-2
     * decod-2-4-bus
     * decod-2-4
+    * decod-3-8-bus
     * decod-3-8
     * *7Seg*
       * *Anodo-comun*
@@ -45,6 +47,8 @@ Colección para la Academia Jedi de Hardware.
       * Mux-2-1
       * Mux-4-1-flip
       * Mux-4-1
+    * *16-bits*
+      * Mux-2-1
     * *2-Bits*
       * Mux-2-1-flip
       * Mux-2-1
@@ -74,6 +78,7 @@ Colección para la Academia Jedi de Hardware.
     * nor
     * not
     * or
+    * or3
     * or4
     * xnor
     * xor
@@ -339,6 +344,8 @@ Colección para la Academia Jedi de Hardware.
       * Valor_1
       * Valor_2
       * Valor_3
+    * *03_bits*
+      * Generico
     * *04_bits*
       * Generico
       * Valor_00
@@ -355,6 +362,15 @@ Colección para la Academia Jedi de Hardware.
       * Valor_085
       * Valor_170
       * Valor_255
+      * *ASCII*
+        * Char-A
+        * Char-J
+        * Char-L
+        * Char-LF
+    * *10_bits*
+      * Generico
+    * *16_bits*
+      * Generico
 * *Varios*
   * *Accesorios*
     * Baliza-1
@@ -363,6 +379,8 @@ Colección para la Academia Jedi de Hardware.
     * Init-tic
     * KITT
     * Sirena
+    * beep-flash
+    * flash
     * *CircuitScramble*
       * Button-off
       * and
@@ -392,6 +410,8 @@ Colección para la Academia Jedi de Hardware.
       * Heart-Hz
       * Heart-Sec-ena
       * Heart-Sec
+      * Heart-baud-rx
+      * Heart-baud
       * Heart-ms-ena
       * Heart-ms
       * Heart-tics-ena
@@ -415,6 +435,14 @@ Colección para la Academia Jedi de Hardware.
       * Separador
       * Separador4
     * *08_bits*
+      * Agregador
+      * Separador
+    * *09_bits*
+      * Join-8-1
+      * split-1-8
+    * *10_bits*
+      * Join-8-2
+    * *16_bits*
       * Agregador
       * Separador
   * *Comparadores*
@@ -456,6 +484,7 @@ Colección para la Academia Jedi de Hardware.
     * *05-bits*
       * cont-up
     * *06-bits*
+      * cont-up-system
       * cont-up
     * *07-bits*
       * cont-up
@@ -474,7 +503,10 @@ Colección para la Academia Jedi de Hardware.
   * *Flancos*
     * Bajada
     * Subida
+    * *blocks*
+      * Subida
   * *IR*
+    * IR-tic-sound
     * IR-tic
   * *Input*
     * Debouncer
@@ -517,6 +549,7 @@ Colección para la Academia Jedi de Hardware.
       * like
   * *Pulsador*
     * pulsador-cambio
+    * pulsador-tic-sound
     * pulsador-tic
   * *Recreo*
     * comecocos
@@ -542,10 +575,27 @@ Colección para la Academia Jedi de Hardware.
     * *08-bits*
       * reg
       * sreg-load
+      * sreg-r-load
       * sreg
+    * *09-bits*
+      * sreg-r-load
+    * *10-bits*
+      * sreg-load
+      * sreg-r-load
   * *Retardo*
     * Tortuga-2
+  * *Serial*
+    * Serial-rx
+    * Serial-tx
+    * Serial-tx16
+    * serial-tx-str
+    * *blocks*
+      * Serial-tx
+      * Serial-tx16
+      * serial-rx
+      * serial-tx-srt32
   * *Servos*
+    * ServoPWM-8bits
     * *Emax-ES08A*
       * ServoBit-90
       * ServoBit
@@ -555,34 +605,54 @@ Colección para la Academia Jedi de Hardware.
     * *TowerPro-SG90*
       * Servobit-90
       * Servobit
+    * *blocks*
+      * ServoPWM-8bits
   * *Timers*
+    * timer-10usec
     * timer-msec
     * timer-sec
     * timer-system
     * timer-usec
+    * *blocks*
+      * timer-10usec
   * *icebot*
     * Icemove4
     * Icemove9
 
 ## Examples
-* *0-Soluciones-Tutorial-28*
-  * Sol-28-1
-  * Sol-28-2
-  * Sol-28-3
+* *0-Soluciones-Tutorial-29*
+  * Sol-29-1
+  * Sol-29-2
+  * Sol-29-3
 * *1-Ejemplos*
-  * 01-Reg-dato-3bits
-  * 02-Shift-Reg-3bits
-  * 03-Shift-reg-arcade
-  * 04-Comparacion-3bits
-  * 05-Codigo-caja-fuerte
-  * 06-Ruleta
-  * 07-Control-comandos
-  * 08-Arduino-puerto-salida
-  * 09-Arduino-puerto-entrada
+  * *01-transmisor*
+    * 01-Comprobacion-senales
+    * 02-tx-char
+    * 03-tx-number
+    * 04-TX-BCD-ASCII
+    * 05-1-Transmisor-16bits
+    * 05-2-Transmisor-16bits
+    * 06-1-Tx-string
+    * 06-2-Tx-string-bloque
+    * 06-3-Tx-string-fichero
+    * 07-tx-medicion
+  * *02-receptor*
+    * 08-rx-leds-7seg
+    * 09-rx-contador
+    * 10-rx-servobit
+    * 11-rx-servo
+    * 12-rx-medicion
+    * 13-rx-tx-eco
+    * 14-rx-tx-mini-cifrador
+  * *03-Aplicaciones*
+    * 15-FPGA-Arduino
+    * 18-bluetooth-eco
+    * 19-bluetooth-servo-blueterm
+    * 20-bluetooth-servobit-app
 * *2-Ejercicios*
-  * Ejercicio-29-1
-  * Ejercicio-29-2
-  * Ejercicio-29-3
+  * Ejercicio-30-1
+  * Ejercicio-30-2
+  * Ejercicio-30-3
 
 
 ## Authors
